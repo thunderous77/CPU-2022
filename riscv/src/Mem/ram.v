@@ -2,7 +2,7 @@
 
 module ram
 #(
-  parameter ADDR_WIDTH = 17
+  parameter ADDR_WIDTH = 17 // 128KB
 )
 (
   input  wire                   clk_in,   // system clock

@@ -1,0 +1,2997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SVCompilerDirectivesDefines">
+    <option name="defines">
+      <map>
+        <entry key="/Fetcher.v">
+          <value>
+            <map>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="265" />
+                      <option name="replacementList" value="256" />
+                      <option name="source" value="/Fetcher.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="replacementList" value="2" />
+                      <option name="source" value="/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="289" />
+                      <option name="replacementList" value="9:2" />
+                      <option name="source" value="/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="NIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="235" />
+                      <option name="source" value="/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="TAG_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="313" />
+                      <option name="replacementList" value="31:10" />
+                      <option name="source" value="/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="/ICache.v">
+          <value>
+            <map>
+              <entry key="ICACHE_BIIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_BITLEN">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="replacementList" value="9" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="replacementList" value="5" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="replacementList" value="512" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="replacementList" value="1" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="replacementList" value="10:2" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="/parameter.v">
+          <value>
+            <map>
+              <entry key="ADDR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")T" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")TYPE 3" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")TYPE 31:0" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADDRIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADDR_IntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value="TYPE 31:" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="AIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="replacementList" value="3" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="iIntellijIdeaRulezzz">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/riscv/src/IF/Fetcher.v">
+          <value>
+            <map>
+              <entry key="I">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICA">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICAC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_S">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZ">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="252" />
+                      <option name="replacementList" value="256" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="replacementList" value="2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="211" />
+                      <option name="replacementList" value="25" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="276" />
+                      <option name="replacementList" value="9:2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="N">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="235" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="TAG_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="300" />
+                      <option name="replacementList" value="31:10" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/riscv/src/IF/ICache.v">
+          <value>
+            <map>
+              <entry key="I">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICA">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICAC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_B">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_BI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_BIT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_BITL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_BITLE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_BITLEN">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="replacementList" value="9" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_Bi">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_Bit">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_Bitl">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_Bitle">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_S">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZ">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="89" />
+                      <option name="replacementList" value="512" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICAH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICAHC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICAHCE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="113" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IN">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IND">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_R">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RA">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RAN">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANG">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="replacementList" value="1" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="replacementList" value="10" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="replacementList" value="10:" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="replacementList" value="10:2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANHG">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANHGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="137" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/riscv/src/defines.v">
+          <value>
+            <map>
+              <entry key="ADDR_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="39" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="DATA_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="86" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FALSE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="544" />
+                      <option name="replacementList" value="1'b0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_ADD">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2866" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_ADDI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2622" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_AND">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="3091" />
+                      <option name="replacementList" value="3'b111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_ANDI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2757" />
+                      <option name="replacementList" value="3'b111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_BEQ">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2269" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_BGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2347" />
+                      <option name="replacementList" value="3'b101" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_BGEU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2399" />
+                      <option name="replacementList" value="3'b111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_BLT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2321" />
+                      <option name="replacementList" value="3'b100" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_BLTU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2373" />
+                      <option name="replacementList" value="3'b110" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_BNE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2295" />
+                      <option name="replacementList" value="3'b001" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_JALR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2242" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_LB">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2426" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_LBU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2498" />
+                      <option name="replacementList" value="3'b100" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_LH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2450" />
+                      <option name="replacementList" value="3'b001" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_LHU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2523" />
+                      <option name="replacementList" value="3'b101" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_LW">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2474" />
+                      <option name="replacementList" value="3'b010" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_OR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="3067" />
+                      <option name="replacementList" value="3'b110" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_ORI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2730" />
+                      <option name="replacementList" value="3'b110" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1826" />
+                      <option name="replacementList" value="14:12" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SB">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2549" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2573" />
+                      <option name="replacementList" value="3'b001" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SLL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2916" />
+                      <option name="replacementList" value="3'b001" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SLLI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2784" />
+                      <option name="replacementList" value="3'b001" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SLT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2941" />
+                      <option name="replacementList" value="3'b010" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SLTI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2649" />
+                      <option name="replacementList" value="3'b010" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SLTIU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2676" />
+                      <option name="replacementList" value="3'b011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SLTU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2966" />
+                      <option name="replacementList" value="3'b011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SRA">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="3042" />
+                      <option name="replacementList" value="3'b101" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SRAI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2838" />
+                      <option name="replacementList" value="3'b101" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SRL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="3017" />
+                      <option name="replacementList" value="3'b101" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SRLI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2811" />
+                      <option name="replacementList" value="3'b101" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SUB">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2891" />
+                      <option name="replacementList" value="3'b000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_SW">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2597" />
+                      <option name="replacementList" value="3'b010" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_XOR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2992" />
+                      <option name="replacementList" value="3'b100" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC3_XORI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2703" />
+                      <option name="replacementList" value="3'b100" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC7_NORM">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="3127" />
+                      <option name="replacementList" value="7'b0000000" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC7_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1852" />
+                      <option name="replacementList" value="31:25" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="FUNC7_SPEC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="3157" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="204" />
+                      <option name="replacementList" value="9:2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="180" />
+                      <option name="replacementList" value="256" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_TAG_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="235" />
+                      <option name="replacementList" value="31:10" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="16" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INT_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="134" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="MEMDATA_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="109" />
+                      <option name="replacementList" value="7:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="NULL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="581" />
+                      <option name="replacementList" value="32'h0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_ARITH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2200" />
+                      <option name="replacementList" value="7'b0110011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_ARITHI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2167" />
+                      <option name="replacementList" value="7'b0010011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_AUIPC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1989" />
+                      <option name="replacementList" value="7'b0010111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_BR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2082" />
+                      <option name="replacementList" value="7'b1100011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_JAL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2021" />
+                      <option name="replacementList" value="7'b1101111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_JALR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2051" />
+                      <option name="replacementList" value="7'b1100111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_L">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2111" />
+                      <option name="replacementList" value="7'b0000011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_LUI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1959" />
+                      <option name="replacementList" value="7'b0110111" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1801" />
+                      <option name="replacementList" value="6:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPCODE_S">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="2139" />
+                      <option name="replacementList" value="7'b0100011" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_ADD">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1231" />
+                      <option name="replacementList" value="6'd19" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_ADDI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1530" />
+                      <option name="replacementList" value="6'd29" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_AND">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1500" />
+                      <option name="replacementList" value="6'd28" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_ANDI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1675" />
+                      <option name="replacementList" value="6'd34" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_AUIPC">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="731" />
+                      <option name="replacementList" value="6'd2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_BEQ">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="817" />
+                      <option name="replacementList" value="6'd5" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_BGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="902" />
+                      <option name="replacementList" value="6'd8" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_BGEU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="959" />
+                      <option name="replacementList" value="6'd10" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_BLT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="873" />
+                      <option name="replacementList" value="6'd7" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_BLTU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="930" />
+                      <option name="replacementList" value="6'd9" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_BNE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="845" />
+                      <option name="replacementList" value="6'd6" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_JAL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="760" />
+                      <option name="replacementList" value="6'd3" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_JALR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="788" />
+                      <option name="replacementList" value="6'd4" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_LB">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="990" />
+                      <option name="replacementList" value="6'd11" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_LBU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1080" />
+                      <option name="replacementList" value="6'd14" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_LH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1020" />
+                      <option name="replacementList" value="6'd12" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_LHU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1110" />
+                      <option name="replacementList" value="6'd15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_LUI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="703" />
+                      <option name="replacementList" value="6'd1" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_LW">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1050" />
+                      <option name="replacementList" value="6'd13" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_NOP">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="674" />
+                      <option name="replacementList" value="6'd0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_OR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1470" />
+                      <option name="replacementList" value="6'd27" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_ORI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1646" />
+                      <option name="replacementList" value="6'd33" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SB">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1140" />
+                      <option name="replacementList" value="6'd16" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SH">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1170" />
+                      <option name="replacementList" value="6'd17" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SLL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1291" />
+                      <option name="replacementList" value="6'd21" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SLLI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1704" />
+                      <option name="replacementList" value="6'd35" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SLT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1321" />
+                      <option name="replacementList" value="6'd22" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SLTI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1559" />
+                      <option name="replacementList" value="6'd30" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SLTIU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1588" />
+                      <option name="replacementList" value="6'd31" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SLTU">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1351" />
+                      <option name="replacementList" value="6'd23" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SRA">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1441" />
+                      <option name="replacementList" value="6'd26" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SRAI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1762" />
+                      <option name="replacementList" value="6'd37" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SRL">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1411" />
+                      <option name="replacementList" value="6'd25" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SRLI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1733" />
+                      <option name="replacementList" value="6'd36" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SUB">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1261" />
+                      <option name="replacementList" value="6'd20" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_SW">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1200" />
+                      <option name="replacementList" value="6'd18" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_XOR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1381" />
+                      <option name="replacementList" value="6'd24" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="OPENUM_XORI">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1617" />
+                      <option name="replacementList" value="6'd32" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="PC_BIT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="600" />
+                      <option name="replacementList" value="32'h4" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="PREDICTOR_ADDR_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="331" />
+                      <option name="replacementList" value="9:2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="PREDICTOR_BIT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="280" />
+                      <option name="replacementList" value="2" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="PREDICTOR_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="304" />
+                      <option name="replacementList" value="256" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RAM_PC_BIT">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="621" />
+                      <option name="replacementList" value="32'h1" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RAM_READ">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="485" />
+                      <option name="replacementList" value="1'b0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RAM_WRITE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="507" />
+                      <option name="replacementList" value="1'b1" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RD_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1878" />
+                      <option name="replacementList" value="11:7" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RS1_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1900" />
+                      <option name="replacementList" value="19:15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RS2_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1924" />
+                      <option name="replacementList" value="24:20" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="STATUS_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="62" />
+                      <option name="replacementList" value="2:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="STRONG_JUMP">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="447" />
+                      <option name="replacementList" value="2'b11" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="STRONG_NOT_JUMP">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="364" />
+                      <option name="replacementList" value="2'b00" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="TRUE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="563" />
+                      <option name="replacementList" value="1'b1" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="WEAK_JUMP">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="423" />
+                      <option name="replacementList" value="2'b10" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="WEAK_NOT_JUMP">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="395" />
+                      <option name="replacementList" value="2'b01" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/riscv/src/parameter.v">
+          <value>
+            <map>
+              <entry key="A">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="AD">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADD">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADDE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADDR">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")TYPE" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")TYPE 31" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")TYPE 31:" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value=")=TYPE 31:" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADDRTYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value="31:" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ADDR_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value="31:" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="AS">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="38" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="I">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="IN">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INS">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_T">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_TY">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_TYP">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INST_TYPE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="replacementList" value="31" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="replacementList" value="31:" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="replacementList" value="31:0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="i">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="15" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/parameter.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v">
+          <value>
+            <map>
+              <entry key="ICACHE_BITLEN">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="109" />
+                      <option name="replacementList" value="9" />
+                      <option name="source" value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="85" />
+                      <option name="replacementList" value="512" />
+                      <option name="source" value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="133" />
+                      <option name="replacementList" value="10:2" />
+                      <option name="source" value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v">
+          <value>
+            <map>
+              <entry key="ICACHE_SIZE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1159" />
+                      <option name="replacementList" value="256" />
+                      <option name="source" value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="INDEX_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1183" />
+                      <option name="replacementList" value="9:2" />
+                      <option name="source" value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="TAG_RANGE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="1207" />
+                      <option name="replacementList" value="31:10" />
+                      <option name="source" value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="dependencies">
+      <map>
+        <entry key="A">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AD">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADD">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADDR">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADDR_">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADDR_T">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADDR_TY">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADDR_TYP">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ADDR_TYPE">
+          <value>
+            <set>
+              <option value="/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Ad">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Add">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DATA_TYPE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FALSE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="I">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ICACHE_BITLEN">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ICACHE_INDEX_RANGE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ICACHE_SIZE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ICACHE_TAG_RANGE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="IIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="IN">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="INDEX_RANGE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="INS">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="INST_TYPE">
+          <value>
+            <set>
+              <option value="/Fetcher.v" />
+              <option value="/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="INS_TYPE">
+          <value>
+            <set>
+              <option value="/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="INT_TYPE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MEMDATA_TYPE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NEXT_PC">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NULL">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OPCODE_BR">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OPCODE_JAL">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OPCODE_RANGE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PC_BIT">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PREDICTOR_ADDR_RANGE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PREDICTOR_BIT">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PREDICTOR_SIZE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RAM_PC_BIT">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RAM_READ">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RAM_WRITE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="STATUS_TYPE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TAG_RANGE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TRUE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ZERO_ADDR">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ZERO_WORD">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
+              <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="d">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="dIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/Fetcher.v" />
+              <option value="/ICache.v" />
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="de">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="deIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/Fetcher.v" />
+              <option value="/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="def">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defi">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defin">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defind">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="definde">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defineIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/ICache.v" />
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="deg">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/ICache.v" />
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degf">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degfIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/ICache.v" />
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degfi">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degfii">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degfin">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degfind">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degfinde">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degi">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degin">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="degiu">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="dei">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="dein">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="deu">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="e">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="eIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ed">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="f">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="fIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="fe">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="i">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="iIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="in">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/parameter.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="inIntellijIdeaRulezzz">
+          <value>
+            <set>
+              <option value="/parameter.v" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="status" value="NORMAL" />
+    <option name="version" value="798" />
+  </component>
+</project>
