@@ -1,3 +1,3 @@
 # CPU-2022
 
-ACM班2022Archetecture大作业
+ACM班2022Architecture大作业
