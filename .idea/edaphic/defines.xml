@@ -1931,6 +1931,17 @@
                   </list>
                 </value>
               </entry>
+              <entry key="RAM_LOAD">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="485" />
+                      <option name="replacementList" value="1'b0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
               <entry key="RAM_PC_BIT">
                 <value>
                   <list>
@@ -1948,6 +1959,17 @@
                     <Body>
                       <option name="offset" value="485" />
                       <option name="replacementList" value="1'b0" />
+                      <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
+                    </Body>
+                  </list>
+                </value>
+              </entry>
+              <entry key="RAM_STORE">
+                <value>
+                  <list>
+                    <Body>
+                      <option name="offset" value="507" />
+                      <option name="replacementList" value="1'b1" />
                       <option name="source" value="$PROJECT_DIR$/riscv/src/defines.v" />
                     </Body>
                   </list>
@@ -2441,6 +2463,7 @@
           <value>
             <set>
               <option value="/ICache.v" />
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
@@ -2474,6 +2497,7 @@
         <entry key="DATA_TYPE">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
             </set>
           </value>
@@ -2481,8 +2505,10 @@
         <entry key="FALSE">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
               <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
             </set>
           </value>
@@ -2558,9 +2584,11 @@
             <set>
               <option value="/Fetcher.v" />
               <option value="/ICache.v" />
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/ICache.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
             </set>
           </value>
         </entry>
@@ -2578,6 +2606,7 @@
         <entry key="INT_TYPE">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
             </set>
           </value>
@@ -2585,6 +2614,7 @@
         <entry key="MEMDATA_TYPE">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
             </set>
           </value>
@@ -2599,6 +2629,7 @@
         <entry key="NULL">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
             </set>
@@ -2653,9 +2684,18 @@
             </set>
           </value>
         </entry>
+        <entry key="RAM_LOAD">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+              <option value="/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
         <entry key="RAM_PC_BIT">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
             </set>
           </value>
@@ -2664,6 +2704,14 @@
           <value>
             <set>
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RAM_STORE">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
+              <option value="/MemCtrl.v" />
             </set>
           </value>
         </entry>
@@ -2677,9 +2725,24 @@
         <entry key="STATUS_TYPE">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
               <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
               <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="STRONG_JUMP">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="STRONG_NOT_JUMP">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
             </set>
           </value>
         </entry>
@@ -2693,10 +2756,19 @@
         <entry key="TRUE">
           <value>
             <set>
+              <option value="/MemCtrl.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Fetcher.v" />
               <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
+              <option value="$PROJECT_DIR$/riscv/src/Mem/MemCtrl.v" />
               <option value="$PROJECT_DIR$/../NightWizard/backup/src/if_unit/ICache.v" />
               <option value="$PROJECT_DIR$/../NightWizard/cpu/src/if_unit/Fetcher.v" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WEAK_NOT_JUMP">
+          <value>
+            <set>
+              <option value="$PROJECT_DIR$/riscv/src/IF/Predictor.v" />
             </set>
           </value>
         </entry>

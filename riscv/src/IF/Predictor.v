@@ -9,23 +9,23 @@ module Predictor (
     input wire[`INST_TYPE] predict_inst_from_fch,
 
     // to fetcher
-    output wire jump_sign_to_fch,
+    output wire predicted_jump_sign_to_fch,
     output wire [`ADDR_TYPE] jump_pc_to_fch,
 
-    // update (from ROB)
+    // update (from rob)
     input wire hit_from_rob,
-    input wire start_sign_from_ROB,
-    input wire [`ADDR_TYPE] pc_from_ROB
+    input wire enable_sign_from_rob,
+    input wire [`ADDR_TYPE] pc_from_rob
 );
 
     // record history of branch
     reg [`PREDICTOR_BIT-1:0] branch_history [`PREDICTOR_SIZE-1:0];
 
     // use 8bit segmant to represent the whole 32bit address
-    wire [`ADDR_TYPE] pc_segmant = pc_from_ROB[`PREDICTOR_ADDR_RANGE];
+    wire [`ADDR_TYPE] pc_segmant = pc_from_rob[`PREDICTOR_ADDR_RANGE];
 
     // return jump sign
-    assign jump_sign_to_fch = (predict_inst_from_fch[`OPCODE_RANGE] == `OPCODE_JAL) ? `TRUE :
+    assign predicted_jump_sign_to_fch = (predict_inst_from_fch[`OPCODE_RANGE] == `OPCODE_JAL) ? `TRUE :
                             (predict_inst_from_fch[`OPCODE_RANGE] == `OPCODE_BR ? 
                             (branch_history[predict_pc_from_fch[`PREDICTOR_ADDR_RANGE]][1]) : `FALSE);
     
@@ -41,7 +41,7 @@ module Predictor (
                 branch_history[i] <= `WEAK_NOT_JUMP;
             end
         end
-        else if (start_sign_from_ROB) begin
+        else if (enable_sign_from_rob) begin
             branch_history[pc_segmant] <= branch_history[pc_segmant] +
             ((hit_from_rob) ? (branch_history[pc_segmant] == `STRONG_JUMP ? 0 : 1) : (branch_history[pc_segmant] ==`STRONG_NOT_JUMP ? 0 : -1));
         end

@@ -1,4 +1,5 @@
-// type
+// basic type
+`define INST_SIZE 32
 `define INST_TYPE 31:0
 `define ADDR_TYPE 31:0
 `define STATUS_TYPE 2:0
@@ -9,8 +10,14 @@
 // parameter
 // ICache
 `define ICACHE_SIZE 256
+`define ICACHE_INST_BLOCK_SIZE 128
+`define ICACHE_FIRST_INST_RANGE 31:0
+`define ICACHE_SECOND_INST_RANGE 63:32
+`define ICACHE_THIRD_INST_RANGE 95:64
+`define ICACHE_FOURTH_INST_RANGE 127:96
 `define ICACHE_INDEX_RANGE 9:2
 `define ICACHE_TAG_RANGE 31:10
+`define ICACHE_OFFSET_RANGE 1:0
 
 // Predictor
 `define PREDICTOR_BIT 2
@@ -22,64 +29,78 @@
 `define STRONG_JUMP 2'b11
 
 // MemCtrl
-`define RAM_READ 1'b0
-`define RAM_WRITE 1'b1
+`define RAM_LOAD 1'b0
+`define RAM_STORE 1'b1
+`define INST_SIZE 32'h4
+`define PC_TAG_AND_INDEX_RANGE 31:2
 
+// register
+`define ZERO_REG 5'h0
+`define REG_SIZE 32
+`define REG_POS_TYPE 4:0
+
+// Reorder Buffer(ROB)
+// ZERO_ROB -> INVALID 
+// VALID ROB ID -> 5'd1 - 5d'16
+`define ZERO_ROB 4'h0
+`define ROB_SIZE 16
+`define ROB_ID_TYPE 4:0
+`define ROB_POS_TYPE 3: 0
 
 // constant
 `define FALSE 1'b0
 `define TRUE 1'b1
 `define NULL 32'h0
+`define NULLBLOCK 127'h0
 `define PC_BIT 32'h4
 `define RAM_PC_BIT 32'h1
 
 // Decode 
+`define OPNUM_TYPE 5:0
+`define OPNUM_NULL    6'd0
 
-// 2^6 op enum
-`define OPENUM_NOP     6'd0
+`define OPNUM_LUI     6'd1
+`define OPNUM_AUIPC   6'd2
 
-`define OPENUM_LUI     6'd1
-`define OPENUM_AUIPC   6'd2
+`define OPNUM_JAL     6'd3
+`define OPNUM_JALR    6'd4
 
-`define OPENUM_JAL     6'd3
-`define OPENUM_JALR    6'd4
+`define OPNUM_BEQ     6'd5
+`define OPNUM_BNE     6'd6
+`define OPNUM_BLT     6'd7 
+`define OPNUM_BGE     6'd8
+`define OPNUM_BLTU    6'd9 
+`define OPNUM_BGEU    6'd10 
 
-`define OPENUM_BEQ     6'd5
-`define OPENUM_BNE     6'd6
-`define OPENUM_BLT     6'd7 
-`define OPENUM_BGE     6'd8
-`define OPENUM_BLTU    6'd9 
-`define OPENUM_BGEU    6'd10 
+`define OPNUM_LB      6'd11 
+`define OPNUM_LH      6'd12 
+`define OPNUM_LW      6'd13 
+`define OPNUM_LBU     6'd14 
+`define OPNUM_LHU     6'd15 
+`define OPNUM_SB      6'd16 
+`define OPNUM_SH      6'd17 
+`define OPNUM_SW      6'd18 
 
-`define OPENUM_LB      6'd11 
-`define OPENUM_LH      6'd12 
-`define OPENUM_LW      6'd13 
-`define OPENUM_LBU     6'd14 
-`define OPENUM_LHU     6'd15 
-`define OPENUM_SB      6'd16 
-`define OPENUM_SH      6'd17 
-`define OPENUM_SW      6'd18 
+`define OPNUM_ADD     6'd19 
+`define OPNUM_SUB     6'd20 
+`define OPNUM_SLL     6'd21 
+`define OPNUM_SLT     6'd22 
+`define OPNUM_SLTU    6'd23 
+`define OPNUM_XOR     6'd24 
+`define OPNUM_SRL     6'd25 
+`define OPNUM_SRA     6'd26
+`define OPNUM_OR      6'd27 
+`define OPNUM_AND     6'd28
 
-`define OPENUM_ADD     6'd19 
-`define OPENUM_SUB     6'd20 
-`define OPENUM_SLL     6'd21 
-`define OPENUM_SLT     6'd22 
-`define OPENUM_SLTU    6'd23 
-`define OPENUM_XOR     6'd24 
-`define OPENUM_SRL     6'd25 
-`define OPENUM_SRA     6'd26
-`define OPENUM_OR      6'd27 
-`define OPENUM_AND     6'd28
-
-`define OPENUM_ADDI    6'd29
-`define OPENUM_SLTI    6'd30
-`define OPENUM_SLTIU   6'd31
-`define OPENUM_XORI    6'd32
-`define OPENUM_ORI     6'd33
-`define OPENUM_ANDI    6'd34
-`define OPENUM_SLLI    6'd35
-`define OPENUM_SRLI    6'd36
-`define OPENUM_SRAI    6'd37
+`define OPNUM_ADDI    6'd29
+`define OPNUM_SLTI    6'd30
+`define OPNUM_SLTIU   6'd31
+`define OPNUM_XORI    6'd32
+`define OPNUM_ORI     6'd33
+`define OPNUM_ANDI    6'd34
+`define OPNUM_SLLI    6'd35
+`define OPNUM_SRLI    6'd36
+`define OPNUM_SRAI    6'd37
 
 // range
 `define OPCODE_RANGE 6:0
@@ -89,7 +110,7 @@
 `define RS1_RANGE 19:15
 `define RS2_RANGE 24:20
 
-// opcode
+// OPCODE
 `define OPCODE_LUI 7'b0110111
 `define OPCODE_AUIPC 7'b0010111
 `define OPCODE_JAL 7'b1101111
