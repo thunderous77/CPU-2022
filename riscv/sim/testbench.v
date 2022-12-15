@@ -1,6 +1,8 @@
 // testbench top module file
 // for simulation only
 
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/riscv_top.v"
+
 `timescale 1ns/1ps
 module testbench;
 
@@ -25,10 +27,11 @@ initial begin
   $finish;
 end
 
-endmodule
 
 initial begin
-    // $dumpfile("test.vcd");
-    // $dumpvars(0, testbench);
-    // #300000000 $finish;
+    $dumpfile("test.vcd");
+    $dumpvars(0, testbench);
+    #3000 $finish;
 end
+
+endmodule

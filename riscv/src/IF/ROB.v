@@ -1,4 +1,6 @@
-`include "riscv\src\defines.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+
+// `include "riscv\src\defines.v"
 
 module ROB(
     input wire clk,
@@ -36,18 +38,20 @@ module ROB(
     output reg jump_sign_to_pdt,
     output reg [`ADDR_TYPE] jump_target_pc_to_pdt,
 
-    // from reservation station
-    input wire valid_sign_from_rs,
-    input wire [`ROB_ID_TYPE] rob_id_from_rs,
-    input wire [`DATA_TYPE] data_from_rs,
-    input wire [`ADDR_TYPE] jump_target_pc_from_rs,
-    input wire jump_sign_from_rs,
+    // to LS
+    output reg [`ROB_ID_TYPE] commit_rob_id_to_ls,
 
-    // from load store buffer
-    input wire valid_sign_from_ls,
-    input wire [`ROB_ID_TYPE] rob_id_from_ls,
-    input wire [`DATA_TYPE] data_from_ls,
-    input wire [`ROB_ID_TYPE] io_rob_id_from_ls,
+    // from rs_ex
+    input wire [`ROB_ID_TYPE] rob_id_from_rs_ex,
+    input wire valid_sign_from_rs_ex,
+    input wire [`DATA_TYPE] data_from_rs_ex,
+    input wire [`ADDR_TYPE] jump_target_pc_from_rs_ex,
+    input wire jump_sign_from_rs_ex,
+
+    // from ls_ex
+    input wire valid_sign_from_ls_ex,
+    input wire [`ROB_ID_TYPE] rob_id_from_ls_ex,
+    input wire [`DATA_TYPE] data_from_ls_ex,
 
     // global output
     output reg rollback_sign,
@@ -58,7 +62,7 @@ module ROB(
     wire [`ROB_POS_TYPE] next_head = (head == `ROB_SIZE - 1) ? 0 : head + 1,
                          next_tail = (tail == `ROB_SIZE - 1) ? 0 : tail + 1;
     
-    reg [`ROB_ID_TYPE] busy, ready, predicted_jump_sign, is_jump_inst, jump_sign;
+    reg [`ROB_SIZE-1:0] busy, ready, predicted_jump_sign, is_jump_inst, jump_sign;
     reg [`ADDR_TYPE] pc [`ROB_SIZE-1:0];
     reg [`ADDR_TYPE] jump_target_pc [`ROB_SIZE-1:0];
     reg [`ADDR_TYPE] rollback_pc [`ROB_SIZE-1:0];
@@ -71,10 +75,10 @@ module ROB(
     wire is_commit_rob = busy[head] && ready[head] ? 1 : 0;
 
     assign full_sign_to_fch = (rob_element_cnt >= `ROB_SIZE - 5);
-    assign Q1_ready_sign_to_cmd = (Q1_from_cmd == `ZERO_ROB) ? `FALSE : ready[Q1_from_cmd - 1];
-    assign Q2_ready_sign_to_cmd = (Q2_from_cmd == `ZERO_ROB) ? `FALSE : ready[Q2_from_cmd - 1];
-    assign V1_to_cmd = (Q1_from_cmd == `ZERO_ROB) ? `NULL : data[Q1_from_cmd - 1];
-    assign V2_to_cmd = (Q2_from_cmd == `ZERO_ROB) ? `NULL : data[Q2_from_cmd - 1];
+    assign Q1_ready_sign_to_cmd = (Q1_from_cmd == `INVALID_ROB) ? `FALSE : ready[Q1_from_cmd - 1];
+    assign Q2_ready_sign_to_cmd = (Q2_from_cmd == `INVALID_ROB) ? `FALSE : ready[Q2_from_cmd - 1];
+    assign V1_to_cmd = (Q1_from_cmd == `INVALID_ROB) ? `NULL : data[Q1_from_cmd - 1];
+    assign V2_to_cmd = (Q2_from_cmd == `INVALID_ROB) ? `NULL : data[Q2_from_cmd - 1];
     assign rob_id_to_cmd = tail + 1;
 
     // test predictor
@@ -82,9 +86,9 @@ module ROB(
 
     always @(posedge clk) begin
         if (rst || rollback_sign) begin
-            rob_element_cnt = `ZERO_ROB;
-            head <= `ZERO_ROB;
-            tail <= `ZERO_ROB;
+            rob_element_cnt = `INVALID_ROB;
+            head <= `INVALID_ROB;
+            tail <= `INVALID_ROB;
             for (integer i = 0; i < `ROB_SIZE; i = i + 1) begin
                 busy[i] <= `FALSE;
                 ready[i] <= `FALSE;
@@ -117,6 +121,7 @@ module ROB(
                     rd_to_reg <= rd[head];
                     Q_to_reg <= head + 1;
                     V_to_reg <= data[head];
+                    commit_rob_id_to_ls <= head + 1;
                 end
 
                 if (is_jump_inst[head]) begin
@@ -138,15 +143,15 @@ module ROB(
             end
 
             // update
-            if (busy[rob_id_from_ls - 1] && valid_sign_from_ls) begin
-                ready[rob_id_from_ls - 1] <= `TRUE;
-                data[rob_id_from_ls - 1] <= data_from_ls;
+            if (busy[rob_id_from_ls_ex - 1] && valid_sign_from_ls_ex) begin
+                ready[rob_id_from_ls_ex - 1] <= `TRUE;
+                data[rob_id_from_ls_ex - 1] <= data_from_ls_ex;
             end
-            if (busy[rob_id_from_rs - 1] && valid_sign_from_rs) begin
-                ready[rob_id_from_rs - 1] <= `TRUE;
-                data[rob_id_from_rs - 1] <= data_from_rs;
-                jump_target_pc[rob_id_from_rs - 1] <= jump_target_pc_from_rs;
-                jump_sign[rob_id_from_rs - 1] <= jump_sign_from_rs;
+            if (busy[rob_id_from_rs_ex - 1] && valid_sign_from_rs_ex) begin
+                ready[rob_id_from_rs_ex - 1] <= `TRUE;
+                data[rob_id_from_rs_ex - 1] <= data_from_rs_ex;
+                jump_target_pc[rob_id_from_rs_ex - 1] <= jump_target_pc_from_rs_ex;
+                jump_sign[rob_id_from_rs_ex - 1] <= jump_sign_from_rs_ex;
             end
 
             // add

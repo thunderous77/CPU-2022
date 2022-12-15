@@ -1,4 +1,6 @@
-`include "riscv\src\defines.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+
+// `include "riscv\src\defines.v"
 
 module Register (
     input wire clk,
@@ -30,21 +32,21 @@ module Register (
 
     wire commit_data_valid_sign = (enable_sign_from_cmd && rd_from_rob == rd_from_cmd) ? `FALSE : (Q[rd_from_rob] == Q_from_rob ? `TRUE : `FALSE);
 
-    assign Q1_to_cmd = (rd_from_rob == rs1_from_cmd && commit_data_valid_sign) ? `ZERO_ROB : (rd_from_cmd == rs1_from_cmd ? rd_rob_id_from_cmd : (rollback_sign_from_rob ? `ZERO_ROB : Q[rs1_from_cmd]));
-    assign Q2_to_cmd = (rd_from_rob == rs2_from_cmd && commit_data_valid_sign) ? `ZERO_ROB : (rd_from_cmd == rs2_from_cmd ? rd_rob_id_from_cmd : (rollback_sign_from_rob ? `ZERO_ROB : Q[rs2_from_cmd]));
+    assign Q1_to_cmd = (rd_from_rob == rs1_from_cmd && commit_data_valid_sign) ? `INVALID_ROB : (rd_from_cmd == rs1_from_cmd ? rd_rob_id_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs1_from_cmd]));
+    assign Q2_to_cmd = (rd_from_rob == rs2_from_cmd && commit_data_valid_sign) ? `INVALID_ROB : (rd_from_cmd == rs2_from_cmd ? rd_rob_id_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs2_from_cmd]));
     assign V1_to_cmd = (rd_from_rob == rs1_from_cmd) ? V_from_rob : V[rs1_from_cmd];
     assign V2_to_cmd = (rd_from_rob == rs2_from_cmd) ? V_from_rob : V[rs2_from_cmd];
 
     always @(posedge clk) begin
         if (rst) begin
             for (integer i = 0; i < `REG_SIZE; i = i + 1) begin
-                Q[i] <= `ZERO_ROB;
+                Q[i] <= `INVALID_ROB;
                 V[i] <= `NULL;
             end
         end
         else begin
             if (rollback_sign_from_rob) begin
-                for (integer i = 0; i < `REG_SIZE; i = i + 1) Q[i] <= `ZERO_ROB;
+                for (integer i = 0; i < `REG_SIZE; i = i + 1) Q[i] <= `INVALID_ROB;
             end
             // reorder
             else if (enable_sign_from_cmd && rd_from_cmd != `ZERO_REG) begin
@@ -54,7 +56,7 @@ module Register (
             if (commit_sign_from_rob) begin
                 if (rd_from_rob != `ZERO_REG) begin
                     V[rd_from_rob] <= V_from_rob;
-                    if (commit_data_valid_sign) Q[rd_from_rob] <= `ZERO_ROB;
+                    if (commit_data_valid_sign) Q[rd_from_rob] <= `INVALID_ROB;
                 end
             end
         end

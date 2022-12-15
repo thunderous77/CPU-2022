@@ -1,5 +1,11 @@
 // implements 128KB of on-board RAM
 
+
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/block_ram/block_ram.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/fifo/fifo.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart.v"
+
+
 module ram
 #(
   parameter ADDR_WIDTH = 17 // 128KB

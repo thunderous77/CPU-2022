@@ -1,4 +1,6 @@
-`include "riscv\src\defines.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+
+// `include "riscv\src\defines.v"
 
 module MemCtrl(
     input wire clk,
@@ -31,7 +33,7 @@ module MemCtrl(
     // memctrl status
     parameter
         IDLE = 0, FETCH = 1, LOAD = 2, STORE = 3;
-    reg[`STATUS_TYPE] status;
+    reg[1:0] status;
 
     // ram data
     reg[`ADDR_TYPE] ram_access_pc;
@@ -130,7 +132,7 @@ module MemCtrl(
                 end
                 else if (enable_sign_from_fch) begin
                     ram_current_access <= `NULL;
-                    ram_access_end <= `ICACHE_INST_BLOCK_SIZE;
+                    ram_access_end <= `ICACHE_INST_BLOCK_SIZE / 8;
                     addr_to_ram <= pc_from_fch;
                     ram_access_pc <= pc_from_fch + `RAM_PC_BIT;
                     load_store_sign_to_ram <= `RAM_LOAD;
@@ -138,7 +140,7 @@ module MemCtrl(
                 end
                 else if (inst_fetch_is_buffered) begin
                     ram_current_access <= `NULL;
-                    ram_access_end <= `ICACHE_INST_BLOCK_SIZE;
+                    ram_access_end <= `ICACHE_INST_BLOCK_SIZE / 8;
                     addr_to_ram <= buffered_pc;
                     ram_access_pc <= buffered_pc + `RAM_PC_BIT;
                     load_store_sign_to_ram <= `RAM_LOAD;
@@ -153,26 +155,27 @@ module MemCtrl(
                     load_store_sign_to_ram <= `RAM_LOAD;
                     // ram_current_access = 0 at the beginning -> wait for a cycle to load the data from ram(compulsory)
                     case (ram_current_access)
-                        32'h1: inst_block_to_fch[7:0] <= data_from_ram;
-                        32'h2: inst_block_to_fch[15:8] <= data_from_ram;
-                        32'h3: inst_block_to_fch[23:16] <= data_from_ram;
-                        32'h4: inst_block_to_fch[31:24] <= data_from_ram;
-                        32'h5: inst_block_to_fch[39:32] <= data_from_ram;
-                        32'h6: inst_block_to_fch[47:40] <= data_from_ram;
-                        32'h7: inst_block_to_fch[55:48] <= data_from_ram;
-                        32'h8: inst_block_to_fch[63:56] <= data_from_ram;
-                        32'h9: inst_block_to_fch[71:64] <= data_from_ram;
-                        32'h10: inst_block_to_fch[79:72] <= data_from_ram;
-                        32'h11: inst_block_to_fch[87:80] <= data_from_ram;
-                        32'h12: inst_block_to_fch[95:88] <= data_from_ram;
-                        32'h13: inst_block_to_fch[103:96] <= data_from_ram;
-                        32'h14: inst_block_to_fch[111:104] <= data_from_ram;
-                        32'h15: inst_block_to_fch[119:112] <= data_from_ram;
-                        32'h16: inst_block_to_fch[127:120] <= data_from_ram;
+                        32'd1: inst_block_to_fch[7:0] <= data_from_ram;
+                        32'd2: inst_block_to_fch[15:8] <= data_from_ram;
+                        32'd3: inst_block_to_fch[23:16] <= data_from_ram;
+                        32'd4: inst_block_to_fch[31:24] <= data_from_ram;
+                        32'd5: inst_block_to_fch[39:32] <= data_from_ram;
+                        32'd6: inst_block_to_fch[47:40] <= data_from_ram;
+                        32'd7: inst_block_to_fch[55:48] <= data_from_ram;
+                        32'd8: inst_block_to_fch[63:56] <= data_from_ram;
+                        32'd9: inst_block_to_fch[71:64] <= data_from_ram;
+                        32'd10: inst_block_to_fch[79:72] <= data_from_ram;
+                        32'd11: inst_block_to_fch[87:80] <= data_from_ram;
+                        32'd12: inst_block_to_fch[95:88] <= data_from_ram;
+                        32'd13: inst_block_to_fch[103:96] <= data_from_ram;
+                        32'd14: inst_block_to_fch[111:104] <= data_from_ram;
+                        32'd15: inst_block_to_fch[119:112] <= data_from_ram;
+                        32'd16: inst_block_to_fch[127:120] <= data_from_ram;
                     endcase
                     ram_access_pc <= (ram_current_access >= ram_access_end-`RAM_PC_BIT) ? `NULL :ram_access_pc + `RAM_PC_BIT;
                     // stop
                     if (ram_current_access == ram_access_end) begin
+                        finish_sign_to_fch <= `TRUE;
                         status <= IDLE;
                         ram_access_pc <= `NULL;
                         ram_current_access <= `NULL;
@@ -186,14 +189,15 @@ module MemCtrl(
                     addr_to_ram <= ram_access_pc;
                     load_store_sign_to_ram <= `RAM_LOAD;
                     case (ram_current_access)
-                        32'h1: load_data_to_ls_ex[7:0] <= data_from_ram;
-                        32'h2: load_data_to_ls_ex[15:8] <= data_from_ram;
-                        32'h3: load_data_to_ls_ex[23:16] <= data_from_ram;
-                        32'h4: load_data_to_ls_ex[31:24] <= data_from_ram;
+                        32'd1: load_data_to_ls_ex[7:0] <= data_from_ram;
+                        32'd2: load_data_to_ls_ex[15:8] <= data_from_ram;
+                        32'd3: load_data_to_ls_ex[23:16] <= data_from_ram;
+                        32'd4: load_data_to_ls_ex[31:24] <= data_from_ram;
                     endcase
                     ram_access_pc <= (ram_current_access >= ram_access_end-`RAM_PC_BIT) ? `NULL :ram_access_pc+`RAM_PC_BIT;
                     // stop
                     if (ram_current_access == ram_access_end) begin
+                        finish_sign_to_ls_ex <= `TRUE;
                         status <= IDLE;
                         ram_access_pc <= `NULL;
                         ram_current_access <= `NULL;
@@ -208,14 +212,15 @@ module MemCtrl(
                     load_store_sign_to_ram <= `RAM_STORE;
                     // exit when ram_current_access == size -> wait the last data to store in ram
                     case (ram_current_access)
-                        32'h0: data_to_ram <= store_data_from_ls_ex[7:0];
-                        32'h1: data_to_ram <= store_data_from_ls_ex[15:8];
-                        32'h2: data_to_ram <= store_data_from_ls_ex[23:16];
-                        32'h3: data_to_ram <= store_data_from_ls_ex[31:24];
+                        32'd0: data_to_ram <= store_data_from_ls_ex[7:0];
+                        32'd1: data_to_ram <= store_data_from_ls_ex[15:8];
+                        32'd2: data_to_ram <= store_data_from_ls_ex[23:16];
+                        32'd3: data_to_ram <= store_data_from_ls_ex[31:24];
                     endcase
                     ram_access_pc <= (ram_current_access >= ram_access_end-`RAM_PC_BIT) ? `NULL :ram_access_pc+`RAM_PC_BIT;
                     // stop
                     if (ram_current_access == ram_access_end) begin
+                        finish_sign_to_ls_ex <= `TRUE;
                         status <= IDLE;
                         ram_access_pc <= `NULL;
                         ram_current_access <= `NULL;

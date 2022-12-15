@@ -15,9 +15,9 @@
 `define ICACHE_SECOND_INST_RANGE 63:32
 `define ICACHE_THIRD_INST_RANGE 95:64
 `define ICACHE_FOURTH_INST_RANGE 127:96
-`define ICACHE_INDEX_RANGE 9:2
-`define ICACHE_TAG_RANGE 31:10
-`define ICACHE_OFFSET_RANGE 1:0
+`define ICACHE_INDEX_RANGE 11:4
+`define ICACHE_TAG_RANGE 31:12
+`define ICACHE_OFFSET_RANGE 3:2
 
 // Predictor
 `define PREDICTOR_BIT 2
@@ -28,24 +28,39 @@
 `define WEAK_JUMP 2'b10
 `define STRONG_JUMP 2'b11
 
-// MemCtrl
+// Ram
 `define RAM_LOAD 1'b0
 `define RAM_STORE 1'b1
-`define INST_SIZE 32'h4
-`define PC_TAG_AND_INDEX_RANGE 31:2
+`define RAM_IO_ADDR 32'h30000
 
-// register
+// Fetcher
+`define INST_SIZE 32'h4
+`define PC_TAG_AND_INDEX_RANGE 31:4
+
+// Register
 `define ZERO_REG 5'h0
 `define REG_SIZE 32
 `define REG_POS_TYPE 4:0
 
 // Reorder Buffer(ROB)
-// ZERO_ROB -> INVALID 
+// INVALID_ROB -> INVALID 
 // VALID ROB ID -> 5'd1 - 5d'16
-`define ZERO_ROB 4'h0
+`define INVALID_ROB 4'h0
 `define ROB_SIZE 16
 `define ROB_ID_TYPE 4:0
 `define ROB_POS_TYPE 3: 0
+
+// RS
+`define RS_SIZE 16
+`define RS_ID_TYPE 4:0
+`define ZERO_RS 5'h0
+`define INVALID_RS 5'h10
+
+// LS Buffer
+`define LS_SIZE 16
+`define LS_ID_TYPE 4:0
+`define ZERO_LS 5'h0
+`define INVALID_LS 5'h10
 
 // constant
 `define FALSE 1'b0

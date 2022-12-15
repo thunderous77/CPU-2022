@@ -1,4 +1,6 @@
-`include "riscv\src\defines.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+
+// `include "riscv\src\defines.v"
 
 module Predictor (
     input clk,
@@ -10,19 +12,19 @@ module Predictor (
 
     // to fetcher
     output wire predicted_jump_sign_to_fch,
-    output wire [`ADDR_TYPE] jump_pc_to_fch,
+    output wire [`ADDR_TYPE] predicted_jump_target_pc_to_fch,
 
     // update (from rob)
-    input wire hit_from_rob,
+    input wire jump_sign_from_rob,
     input wire enable_sign_from_rob,
-    input wire [`ADDR_TYPE] pc_from_rob
+    input wire [`ADDR_TYPE] jump_target_pc_from_rob
 );
 
     // record history of branch
     reg [`PREDICTOR_BIT-1:0] branch_history [`PREDICTOR_SIZE-1:0];
 
     // use 8bit segmant to represent the whole 32bit address
-    wire [`ADDR_TYPE] pc_segmant = pc_from_rob[`PREDICTOR_ADDR_RANGE];
+    wire [`ADDR_TYPE] pc_segmant = jump_target_pc_from_rob[`PREDICTOR_ADDR_RANGE];
 
     // return jump sign
     assign predicted_jump_sign_to_fch = (predict_inst_from_fch[`OPCODE_RANGE] == `OPCODE_JAL) ? `TRUE :
@@ -32,7 +34,7 @@ module Predictor (
     // return jump pc
     wire [`ADDR_TYPE] jal_pc = {{12{predict_inst_from_fch[31]}}, predict_inst_from_fch[19:12], predict_inst_from_fch[20], predict_inst_from_fch[30:21], 1'b0};
     wire [`ADDR_TYPE] br_pc = {{20{predict_inst_from_fch[31]}}, predict_inst_from_fch[7:7], predict_inst_from_fch[30:25], predict_inst_from_fch[11:8], 1'b0};
-    assign jump_pc_to_fch = (predict_inst_from_fch[`OPCODE_RANGE] == `OPCODE_JAL ? jal_pc : br_pc);
+    assign predicted_jump_target_pc_to_fch = (predict_inst_from_fch[`OPCODE_RANGE] == `OPCODE_JAL ? jal_pc : br_pc);
 
     // update
     always @(posedge clk) begin
@@ -43,7 +45,7 @@ module Predictor (
         end
         else if (enable_sign_from_rob) begin
             branch_history[pc_segmant] <= branch_history[pc_segmant] +
-            ((hit_from_rob) ? (branch_history[pc_segmant] == `STRONG_JUMP ? 0 : 1) : (branch_history[pc_segmant] ==`STRONG_NOT_JUMP ? 0 : -1));
+            ((jump_sign_from_rob) ? (branch_history[pc_segmant] == `STRONG_JUMP ? 0 : 1) : (branch_history[pc_segmant] ==`STRONG_NOT_JUMP ? 0 : -1));
         end
     end
 

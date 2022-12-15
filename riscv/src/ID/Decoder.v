@@ -1,4 +1,6 @@
-`include "riscv\src\defines.v"
+`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+
+// `include "riscv\src\defines.v"
 
 module Decoder(
     // from & to cmd
@@ -20,6 +22,7 @@ module Decoder(
         rs2 = inst[`RS2_RANGE];
         imm = `NULL;
         is_jump_inst = `FALSE;
+        is_ls_inst = `FALSE;
 
         case (inst[`OPCODE_RANGE])
         `OPCODE_ARITH: begin // R-Type
@@ -49,6 +52,7 @@ module Decoder(
                     is_jump_inst = `TRUE;
                 end
                 `OPCODE_L: begin
+                    is_ls_inst = `TRUE;
                     case (inst[`FUNC3_RANGE])
                         `FUNC3_LB: opnum = `OPNUM_LB;
                         `FUNC3_LH: opnum = `OPNUM_LH;
@@ -81,6 +85,7 @@ module Decoder(
         end
 
         `OPCODE_S: begin // S-Type
+            is_ls_inst = `TRUE;
             rd = `ZERO_REG; // no rd
             imm = {{21{inst[31]}}, inst[30:25], inst[`RD_RANGE]};
             case (inst[`FUNC3_RANGE])

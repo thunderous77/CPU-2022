@@ -1,0 +1,11604 @@
+clock=53
+clock=53
+SLB.size=0
+clock=55
+clock=55
+SLB.size=0
+clock=57
+clock=57
+SLB.size=0
+clock=59
+clock=59
+SLB.size=0
+clock=61
+clock=61
+SLB.size=0
+clock=63
+clock=63
+SLB.size=0
+clock=65
+clock=65
+pc=0
+clock=65
+20137
+0
+LUI
+2 4 0 20000
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=65
+SLB.size=0
+clock=67
+clock=67
+SLB.size=0
+clock=69
+clock=69
+SLB.size=0
+clock=71
+clock=71
+SLB.size=0
+clock=73
+clock=73
+SLB.size=0
+clock=75
+clock=75
+SLB.size=0
+clock=77
+clock=77
+SLB.size=0
+clock=79
+clock=79
+pc=4
+clock=79
+b0010ef
+1e
+JAL
+1 0 10 10b0
+0 0 20000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=79
+SLB.size=0
+clock=81
+clock=81
+SLB.size=0
+clock=83
+clock=83
+SLB.size=0
+clock=85
+clock=85
+SLB.size=0
+clock=87
+clock=87
+SLB.size=0
+clock=89
+clock=89
+SLB.size=0
+clock=91
+clock=91
+SLB.size=0
+clock=93
+clock=93
+pc=10b4
+clock=93
+fa010113
+12
+ADDI
+2 2 0 ffffffa0
+0 8 20000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=93
+SLB.size=0
+clock=95
+clock=95
+SLB.size=0
+clock=97
+clock=97
+SLB.size=0
+clock=99
+clock=99
+SLB.size=0
+clock=101
+clock=101
+SLB.size=0
+clock=103
+clock=103
+SLB.size=0
+clock=105
+clock=105
+SLB.size=0
+clock=107
+clock=107
+pc=10b8
+clock=107
+5612023
+1d
+SW
+0 2 16 40
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=107
+SLB.size=0
+clock=109
+clock=109
+SLB.size=0
+clock=111
+clock=111
+SLB.size=1
+clock=113
+clock=113
+SLB.size=1
+clock=115
+clock=115
+SLB.size=1
+clock=117
+clock=117
+SLB.size=1
+clock=119
+clock=119
+SLB.size=1
+clock=121
+clock=121
+pc=10bc
+clock=121
+100713
+12
+ADDI
+e 0 1 1
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=121
+SLB.size=1
+clock=123
+clock=123
+SLB.size=1
+clock=125
+clock=125
+SLB.size=1
+clock=127
+clock=127
+SLB.size=1
+clock=129
+clock=129
+SLB.size=1
+clock=131
+clock=131
+SLB.size=0
+clock=133
+clock=133
+SLB.size=0
+clock=135
+clock=135
+SLB.size=0
+clock=137
+clock=137
+SLB.size=0
+clock=139
+clock=139
+pc=10c0
+clock=139
+1b37
+0
+LUI
+16 0 0 1000
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=139
+SLB.size=0
+clock=141
+clock=141
+SLB.size=0
+clock=143
+clock=143
+SLB.size=0
+clock=145
+clock=145
+SLB.size=0
+clock=147
+clock=147
+SLB.size=0
+clock=149
+clock=149
+SLB.size=0
+clock=151
+clock=151
+SLB.size=0
+clock=153
+clock=153
+pc=10c4
+clock=153
+2c8b0793
+12
+ADDI
+f 16 8 2c8
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=153
+SLB.size=0
+clock=155
+clock=155
+SLB.size=0
+clock=157
+clock=157
+SLB.size=0
+clock=159
+clock=159
+SLB.size=0
+clock=161
+clock=161
+SLB.size=0
+clock=163
+clock=163
+SLB.size=0
+clock=165
+clock=165
+SLB.size=0
+clock=167
+clock=167
+pc=10c8
+clock=167
+4912a23
+1d
+SW
+14 2 9 54
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=167
+SLB.size=0
+clock=169
+clock=169
+SLB.size=0
+clock=171
+clock=171
+SLB.size=1
+clock=173
+clock=173
+SLB.size=1
+clock=175
+clock=175
+SLB.size=1
+clock=177
+clock=177
+SLB.size=1
+clock=179
+clock=179
+SLB.size=1
+clock=181
+clock=181
+pc=10cc
+clock=181
+5212823
+1d
+SW
+10 2 12 50
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=181
+SLB.size=1
+clock=183
+clock=183
+SLB.size=1
+clock=185
+clock=185
+SLB.size=2
+clock=187
+clock=187
+SLB.size=2
+clock=189
+clock=189
+SLB.size=2
+clock=191
+clock=191
+SLB.size=1
+clock=193
+clock=193
+SLB.size=1
+clock=195
+clock=195
+SLB.size=1
+clock=197
+clock=197
+SLB.size=1
+clock=199
+clock=199
+pc=10d0
+clock=199
+5412423
+1d
+SW
+8 2 14 48
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=199
+SLB.size=1
+clock=201
+clock=201
+SLB.size=1
+clock=203
+clock=203
+SLB.size=2
+clock=205
+clock=205
+SLB.size=2
+clock=207
+clock=207
+SLB.size=2
+clock=209
+clock=209
+SLB.size=1
+clock=211
+clock=211
+SLB.size=1
+clock=213
+clock=213
+SLB.size=1
+clock=215
+clock=215
+SLB.size=1
+clock=217
+clock=217
+pc=10d4
+clock=217
+5512223
+1d
+SW
+4 2 15 44
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=217
+SLB.size=1
+clock=219
+clock=219
+SLB.size=1
+clock=221
+clock=221
+SLB.size=2
+clock=223
+clock=223
+SLB.size=2
+clock=225
+clock=225
+SLB.size=2
+clock=227
+clock=227
+SLB.size=1
+clock=229
+clock=229
+SLB.size=1
+clock=231
+clock=231
+SLB.size=1
+clock=233
+clock=233
+SLB.size=1
+clock=235
+clock=235
+pc=10d8
+clock=235
+3712e23
+1d
+SW
+1c 2 17 3c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=235
+SLB.size=1
+clock=237
+clock=237
+SLB.size=1
+clock=239
+clock=239
+SLB.size=2
+clock=241
+clock=241
+SLB.size=2
+clock=243
+clock=243
+SLB.size=2
+clock=245
+clock=245
+SLB.size=1
+clock=247
+clock=247
+SLB.size=1
+clock=249
+clock=249
+SLB.size=1
+clock=251
+clock=251
+SLB.size=1
+clock=253
+clock=253
+pc=10dc
+clock=253
+3812c23
+1d
+SW
+18 2 18 38
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=253
+SLB.size=1
+clock=255
+clock=255
+SLB.size=1
+clock=257
+clock=257
+SLB.size=2
+clock=259
+clock=259
+SLB.size=2
+clock=261
+clock=261
+SLB.size=2
+clock=263
+clock=263
+SLB.size=1
+clock=265
+clock=265
+SLB.size=1
+clock=267
+clock=267
+SLB.size=1
+clock=269
+clock=269
+SLB.size=1
+clock=271
+clock=271
+pc=10e0
+clock=271
+3912a23
+1d
+SW
+14 2 19 34
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=271
+SLB.size=1
+clock=273
+clock=273
+SLB.size=1
+clock=275
+clock=275
+SLB.size=2
+clock=277
+clock=277
+SLB.size=2
+clock=279
+clock=279
+SLB.size=2
+clock=281
+clock=281
+SLB.size=1
+clock=283
+clock=283
+SLB.size=1
+clock=285
+clock=285
+SLB.size=1
+clock=287
+clock=287
+SLB.size=1
+clock=289
+clock=289
+pc=10e4
+clock=289
+4112e23
+1d
+SW
+1c 2 1 5c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=289
+SLB.size=1
+clock=291
+clock=291
+SLB.size=1
+clock=293
+clock=293
+SLB.size=2
+clock=295
+clock=295
+SLB.size=2
+clock=297
+clock=297
+SLB.size=2
+clock=299
+clock=299
+SLB.size=1
+clock=301
+clock=301
+SLB.size=1
+clock=303
+clock=303
+SLB.size=1
+clock=305
+clock=305
+SLB.size=1
+clock=307
+clock=307
+pc=10e8
+clock=307
+4812c23
+1d
+SW
+18 2 8 58
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=307
+SLB.size=1
+clock=309
+clock=309
+SLB.size=1
+clock=311
+clock=311
+SLB.size=2
+clock=313
+clock=313
+SLB.size=2
+clock=315
+clock=315
+SLB.size=2
+clock=317
+clock=317
+SLB.size=1
+clock=319
+clock=319
+SLB.size=1
+clock=321
+clock=321
+SLB.size=1
+clock=323
+clock=323
+SLB.size=1
+clock=325
+clock=325
+pc=10ec
+clock=325
+5312623
+1d
+SW
+c 2 13 4c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=325
+SLB.size=1
+clock=327
+clock=327
+SLB.size=1
+clock=329
+clock=329
+SLB.size=2
+clock=331
+clock=331
+SLB.size=2
+clock=333
+clock=333
+SLB.size=2
+clock=335
+clock=335
+SLB.size=1
+clock=337
+clock=337
+SLB.size=1
+clock=339
+clock=339
+SLB.size=1
+clock=341
+clock=341
+SLB.size=1
+clock=343
+clock=343
+pc=10f0
+clock=343
+3a12823
+1d
+SW
+10 2 1a 30
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=343
+SLB.size=1
+clock=345
+clock=345
+SLB.size=1
+clock=347
+clock=347
+SLB.size=2
+clock=349
+clock=349
+SLB.size=2
+clock=351
+clock=351
+SLB.size=2
+clock=353
+clock=353
+SLB.size=1
+clock=355
+clock=355
+SLB.size=1
+clock=357
+clock=357
+SLB.size=1
+clock=359
+clock=359
+SLB.size=1
+clock=361
+clock=361
+pc=10f4
+clock=361
+3b12623
+1d
+SW
+c 2 1b 2c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=361
+SLB.size=1
+clock=363
+clock=363
+SLB.size=1
+clock=365
+clock=365
+SLB.size=2
+clock=367
+clock=367
+SLB.size=2
+clock=369
+clock=369
+SLB.size=2
+clock=371
+clock=371
+SLB.size=1
+clock=373
+clock=373
+SLB.size=1
+clock=375
+clock=375
+SLB.size=1
+clock=377
+clock=377
+SLB.size=1
+clock=379
+clock=379
+pc=10f8
+clock=379
+e12823
+1d
+SW
+10 2 e 10
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=379
+SLB.size=1
+clock=381
+clock=381
+SLB.size=1
+clock=383
+clock=383
+SLB.size=2
+clock=385
+clock=385
+SLB.size=2
+clock=387
+clock=387
+SLB.size=2
+clock=389
+clock=389
+SLB.size=1
+clock=391
+clock=391
+SLB.size=1
+clock=393
+clock=393
+SLB.size=1
+clock=395
+clock=395
+SLB.size=1
+clock=397
+clock=397
+pc=10fc
+clock=397
+200713
+12
+ADDI
+e 0 2 2
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 1 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=397
+SLB.size=1
+clock=399
+clock=399
+SLB.size=1
+clock=401
+clock=401
+SLB.size=1
+clock=403
+clock=403
+SLB.size=1
+clock=405
+clock=405
+SLB.size=1
+clock=407
+clock=407
+SLB.size=0
+clock=409
+clock=409
+SLB.size=0
+clock=411
+clock=411
+SLB.size=0
+clock=413
+clock=413
+SLB.size=0
+clock=415
+clock=415
+pc=1100
+clock=415
+2c8b0b13
+12
+ADDI
+16 16 8 2c8
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 2 12c8 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0   reg
+clock=415
+SLB.size=0
+clock=417
+clock=417
+SLB.size=0
+clock=419
+clock=419
+SLB.size=0
+clock=421
+clock=421
+SLB.size=0
+clock=423
+clock=423
+SLB.size=0
+clock=425
+clock=425
+SLB.size=0
+clock=427
+clock=427
+SLB.size=0
+clock=429
+clock=429
+pc=1104
+clock=429
+7a023
+1d
+SW
+0 f 0 0
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 2 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=429
+SLB.size=0
+clock=431
+clock=431
+SLB.size=0
+clock=433
+clock=433
+SLB.size=1
+clock=435
+clock=435
+SLB.size=1
+clock=437
+clock=437
+SLB.size=1
+clock=439
+clock=439
+SLB.size=1
+clock=441
+clock=441
+SLB.size=1
+clock=443
+clock=443
+pc=1108
+clock=443
+7a223
+1d
+SW
+4 f 0 4
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 2 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=443
+SLB.size=1
+clock=445
+clock=445
+SLB.size=1
+clock=447
+clock=447
+SLB.size=2
+clock=449
+clock=449
+SLB.size=2
+clock=451
+clock=451
+SLB.size=2
+clock=453
+clock=453
+SLB.size=1
+clock=455
+clock=455
+SLB.size=1
+clock=457
+clock=457
+SLB.size=1
+clock=459
+clock=459
+SLB.size=1
+clock=461
+clock=461
+pc=110c
+clock=461
+e12a23
+1d
+SW
+14 2 e 14
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 2 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=461
+SLB.size=1
+clock=463
+clock=463
+SLB.size=1
+clock=465
+clock=465
+SLB.size=2
+clock=467
+clock=467
+SLB.size=2
+clock=469
+clock=469
+SLB.size=2
+clock=471
+clock=471
+SLB.size=1
+clock=473
+clock=473
+SLB.size=1
+clock=475
+clock=475
+SLB.size=1
+clock=477
+clock=477
+SLB.size=1
+clock=479
+clock=479
+pc=1110
+clock=479
+7a423
+1d
+SW
+8 f 0 8
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 2 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=479
+SLB.size=1
+clock=481
+clock=481
+SLB.size=1
+clock=483
+clock=483
+SLB.size=2
+clock=485
+clock=485
+SLB.size=2
+clock=487
+clock=487
+SLB.size=2
+clock=489
+clock=489
+SLB.size=1
+clock=491
+clock=491
+SLB.size=1
+clock=493
+clock=493
+SLB.size=1
+clock=495
+clock=495
+SLB.size=1
+clock=497
+clock=497
+pc=1114
+clock=497
+300713
+12
+ADDI
+e 0 3 3
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 2 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=497
+SLB.size=1
+clock=499
+clock=499
+SLB.size=1
+clock=501
+clock=501
+SLB.size=1
+clock=503
+clock=503
+SLB.size=1
+clock=505
+clock=505
+SLB.size=1
+clock=507
+clock=507
+SLB.size=0
+clock=509
+clock=509
+SLB.size=0
+clock=511
+clock=511
+SLB.size=0
+clock=513
+clock=513
+SLB.size=0
+clock=515
+clock=515
+pc=1118
+clock=515
+7a623
+1d
+SW
+c f 0 c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=515
+SLB.size=0
+clock=517
+clock=517
+SLB.size=0
+clock=519
+clock=519
+SLB.size=1
+clock=521
+clock=521
+SLB.size=1
+clock=523
+clock=523
+SLB.size=1
+clock=525
+clock=525
+SLB.size=1
+clock=527
+clock=527
+SLB.size=1
+clock=529
+clock=529
+pc=111c
+clock=529
+400793
+12
+ADDI
+f 0 4 4
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 12c8 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=529
+SLB.size=1
+clock=531
+clock=531
+SLB.size=1
+clock=533
+clock=533
+SLB.size=1
+clock=535
+clock=535
+SLB.size=1
+clock=537
+clock=537
+SLB.size=1
+clock=539
+clock=539
+SLB.size=0
+clock=541
+clock=541
+SLB.size=0
+clock=543
+clock=543
+SLB.size=0
+clock=545
+clock=545
+SLB.size=0
+clock=547
+clock=547
+pc=1120
+clock=547
+e12c23
+1d
+SW
+18 2 e 18
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=547
+SLB.size=0
+clock=549
+clock=549
+SLB.size=0
+clock=551
+clock=551
+SLB.size=1
+clock=553
+clock=553
+SLB.size=1
+clock=555
+clock=555
+SLB.size=1
+clock=557
+clock=557
+SLB.size=1
+clock=559
+clock=559
+SLB.size=1
+clock=561
+clock=561
+pc=1124
+clock=561
+f12e23
+1d
+SW
+1c 2 f 1c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=561
+SLB.size=1
+clock=563
+clock=563
+SLB.size=1
+clock=565
+clock=565
+SLB.size=2
+clock=567
+clock=567
+SLB.size=2
+clock=569
+clock=569
+SLB.size=2
+clock=571
+clock=571
+SLB.size=1
+clock=573
+clock=573
+SLB.size=1
+clock=575
+clock=575
+SLB.size=1
+clock=577
+clock=577
+SLB.size=1
+clock=579
+clock=579
+pc=1128
+clock=579
+cb0c13
+12
+ADDI
+18 16 c c
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 0 0 0 0 12c8 0 0 0 0 0 0 0 0 0   reg
+clock=579
+SLB.size=1
+clock=581
+clock=581
+SLB.size=1
+clock=583
+clock=583
+SLB.size=1
+clock=585
+clock=585
+SLB.size=1
+clock=587
+clock=587
+SLB.size=1
+clock=589
+clock=589
+SLB.size=0
+clock=591
+clock=591
+SLB.size=0
+clock=593
+clock=593
+SLB.size=0
+clock=595
+clock=595
+SLB.size=0
+clock=597
+clock=597
+pc=112c
+clock=597
+b93
+12
+ADDI
+17 0 0 0
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 0 0 0 0 12c8 0 12d4 0 0 0 0 0 0 0   reg
+clock=597
+SLB.size=0
+clock=599
+clock=599
+SLB.size=0
+clock=601
+clock=601
+SLB.size=0
+clock=603
+clock=603
+SLB.size=0
+clock=605
+clock=605
+SLB.size=0
+clock=607
+clock=607
+SLB.size=0
+clock=609
+clock=609
+SLB.size=0
+clock=611
+clock=611
+pc=1130
+clock=611
+493
+12
+ADDI
+9 0 0 0
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 0 0 0 0 12c8 0 12d4 0 0 0 0 0 0 0   reg
+clock=611
+SLB.size=0
+clock=613
+clock=613
+SLB.size=0
+clock=615
+clock=615
+SLB.size=0
+clock=617
+clock=617
+SLB.size=0
+clock=619
+clock=619
+SLB.size=0
+clock=621
+clock=621
+SLB.size=0
+clock=623
+clock=623
+SLB.size=0
+clock=625
+clock=625
+pc=1134
+clock=625
+410913
+12
+ADDI
+12 2 4 4
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 0 0 0 0 12c8 0 12d4 0 0 0 0 0 0 0   reg
+clock=625
+SLB.size=0
+clock=627
+clock=627
+SLB.size=0
+clock=629
+clock=629
+SLB.size=0
+clock=631
+clock=631
+SLB.size=0
+clock=633
+clock=633
+SLB.size=0
+clock=635
+clock=635
+SLB.size=0
+clock=637
+clock=637
+SLB.size=0
+clock=639
+clock=639
+pc=1138
+clock=639
+900a13
+12
+ADDI
+14 0 9 9
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 1ffa4 0 0 0 12c8 0 12d4 0 0 0 0 0 0 0   reg
+clock=639
+SLB.size=0
+clock=641
+clock=641
+SLB.size=0
+clock=643
+clock=643
+SLB.size=0
+clock=645
+clock=645
+SLB.size=0
+clock=647
+clock=647
+SLB.size=0
+clock=649
+clock=649
+SLB.size=0
+clock=651
+clock=651
+SLB.size=0
+clock=653
+clock=653
+pc=113c
+clock=653
+2d00c93
+12
+ADDI
+19 0 d 2d
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 1ffa4 0 9 0 12c8 0 12d4 0 0 0 0 0 0 0   reg
+clock=653
+SLB.size=0
+clock=655
+clock=655
+SLB.size=0
+clock=657
+clock=657
+SLB.size=0
+clock=659
+clock=659
+SLB.size=0
+clock=661
+clock=661
+SLB.size=0
+clock=663
+clock=663
+SLB.size=0
+clock=665
+clock=665
+SLB.size=0
+clock=667
+clock=667
+pc=1140
+clock=667
+30ab7
+0
+LUI
+15 6 0 30000
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 1ffa4 0 9 0 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=667
+SLB.size=0
+clock=669
+clock=669
+SLB.size=0
+clock=671
+clock=671
+SLB.size=0
+clock=673
+clock=673
+SLB.size=0
+clock=675
+clock=675
+SLB.size=0
+clock=677
+clock=677
+SLB.size=0
+clock=679
+clock=679
+SLB.size=0
+clock=681
+clock=681
+pc=1144
+clock=681
+993
+12
+ADDI
+13 0 0 0
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=681
+SLB.size=0
+clock=683
+clock=683
+SLB.size=0
+clock=685
+clock=685
+SLB.size=0
+clock=687
+clock=687
+SLB.size=0
+clock=689
+clock=689
+SLB.size=0
+clock=691
+clock=691
+SLB.size=0
+clock=693
+clock=693
+SLB.size=0
+clock=695
+clock=695
+pc=1148
+clock=695
+a00593
+12
+ADDI
+b 0 a a
+0 8 1ffa0 0 0 0 0 0 0 0 0 0 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=695
+SLB.size=0
+clock=697
+clock=697
+SLB.size=0
+clock=699
+clock=699
+SLB.size=0
+clock=701
+clock=701
+SLB.size=0
+clock=703
+clock=703
+SLB.size=0
+clock=705
+clock=705
+SLB.size=0
+clock=707
+clock=707
+SLB.size=0
+clock=709
+clock=709
+pc=114c
+clock=709
+48513
+12
+ADDI
+a 9 0 0
+0 8 1ffa0 0 0 0 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=709
+SLB.size=0
+clock=711
+clock=711
+SLB.size=0
+clock=713
+clock=713
+SLB.size=0
+clock=715
+clock=715
+SLB.size=0
+clock=717
+clock=717
+SLB.size=0
+clock=719
+clock=719
+SLB.size=0
+clock=721
+clock=721
+SLB.size=0
+clock=723
+clock=723
+pc=1150
+clock=723
+f35ff0ef
+1e
+JAL
+1 1f 15 ffffff34
+0 8 1ffa0 0 0 0 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=723
+SLB.size=0
+clock=725
+clock=725
+SLB.size=0
+clock=727
+clock=727
+SLB.size=0
+clock=729
+clock=729
+SLB.size=0
+clock=731
+clock=731
+SLB.size=0
+clock=733
+clock=733
+SLB.size=0
+clock=735
+clock=735
+SLB.size=0
+clock=737
+clock=737
+pc=1084
+clock=737
+8293
+12
+ADDI
+5 1 0 0
+0 1154 1ffa0 0 0 0 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=737
+SLB.size=0
+clock=739
+clock=739
+SLB.size=0
+clock=741
+clock=741
+SLB.size=0
+clock=743
+clock=743
+SLB.size=0
+clock=745
+clock=745
+SLB.size=0
+clock=747
+clock=747
+SLB.size=0
+clock=749
+clock=749
+SLB.size=0
+clock=751
+clock=751
+pc=1088
+clock=751
+5ca63
+21
+BLT
+14 b 0 14
+0 1154 1ffa0 0 0 1154 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=751
+SLB.size=0
+clock=753
+clock=753
+SLB.size=0
+clock=755
+clock=755
+SLB.size=0
+clock=757
+clock=757
+SLB.size=0
+clock=759
+clock=759
+SLB.size=0
+clock=761
+clock=761
+SLB.size=0
+clock=763
+clock=763
+SLB.size=0
+clock=765
+clock=765
+pc=108c
+clock=765
+54c63
+21
+BLT
+18 a 0 18
+0 1154 1ffa0 0 0 1154 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=765
+SLB.size=0
+clock=767
+clock=767
+SLB.size=0
+clock=769
+clock=769
+SLB.size=0
+clock=771
+clock=771
+SLB.size=0
+clock=773
+clock=773
+SLB.size=0
+clock=775
+clock=775
+SLB.size=0
+clock=777
+clock=777
+SLB.size=0
+clock=779
+clock=779
+pc=1090
+clock=779
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1154 1ffa0 0 0 1154 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=779
+SLB.size=0
+clock=781
+clock=781
+SLB.size=0
+clock=783
+clock=783
+SLB.size=0
+clock=785
+clock=785
+SLB.size=0
+clock=787
+clock=787
+SLB.size=0
+clock=789
+clock=789
+SLB.size=0
+clock=791
+clock=791
+SLB.size=0
+clock=793
+clock=793
+pc=1008
+clock=793
+58613
+12
+ADDI
+c b 0 0
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 a 0 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=793
+SLB.size=0
+clock=795
+clock=795
+SLB.size=0
+clock=797
+clock=797
+SLB.size=0
+clock=799
+clock=799
+SLB.size=0
+clock=801
+clock=801
+SLB.size=0
+clock=803
+clock=803
+SLB.size=0
+clock=805
+clock=805
+SLB.size=0
+clock=807
+clock=807
+pc=100c
+clock=807
+50593
+12
+ADDI
+b a 0 0
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 a a 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=807
+SLB.size=0
+clock=809
+clock=809
+SLB.size=0
+clock=811
+clock=811
+SLB.size=0
+clock=813
+clock=813
+SLB.size=0
+clock=815
+clock=815
+SLB.size=0
+clock=817
+clock=817
+SLB.size=0
+clock=819
+clock=819
+SLB.size=0
+clock=821
+clock=821
+pc=1010
+clock=821
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 a 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=821
+SLB.size=0
+clock=823
+clock=823
+SLB.size=0
+clock=825
+clock=825
+SLB.size=0
+clock=827
+clock=827
+SLB.size=0
+clock=829
+clock=829
+SLB.size=0
+clock=831
+clock=831
+SLB.size=0
+clock=833
+clock=833
+SLB.size=0
+clock=835
+clock=835
+pc=1014
+clock=835
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1154 0 0 0 0 ffffffff 0 a 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=835
+SLB.size=0
+clock=837
+clock=837
+SLB.size=0
+clock=839
+clock=839
+SLB.size=0
+clock=841
+clock=841
+SLB.size=0
+clock=843
+clock=843
+SLB.size=0
+clock=845
+clock=845
+SLB.size=0
+clock=847
+clock=847
+SLB.size=0
+clock=849
+clock=849
+pc=1018
+clock=849
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1154 0 0 0 0 ffffffff 0 a 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=849
+SLB.size=0
+clock=851
+clock=851
+SLB.size=0
+clock=853
+clock=853
+SLB.size=0
+clock=855
+clock=855
+SLB.size=0
+clock=857
+clock=857
+SLB.size=0
+clock=859
+clock=859
+SLB.size=0
+clock=861
+clock=861
+SLB.size=0
+clock=863
+clock=863
+pc=101c
+clock=863
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1154 0 0 0 0 ffffffff 0 a 1 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=863
+SLB.size=0
+clock=865
+clock=865
+SLB.size=0
+clock=867
+clock=867
+SLB.size=0
+clock=869
+clock=869
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=869
+SLB.size=0
+clock=871
+clock=871
+SLB.size=0
+clock=873
+clock=873
+SLB.size=0
+clock=875
+clock=875
+SLB.size=0
+clock=877
+clock=877
+SLB.size=0
+clock=879
+clock=879
+SLB.size=0
+clock=881
+clock=881
+SLB.size=0
+clock=883
+clock=883
+pc=1030
+clock=883
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1154 0 0 0 0 ffffffff 0 a 1 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=883
+SLB.size=0
+clock=885
+clock=885
+SLB.size=0
+clock=887
+clock=887
+SLB.size=0
+clock=889
+clock=889
+SLB.size=0
+clock=891
+clock=891
+SLB.size=0
+clock=893
+clock=893
+SLB.size=0
+clock=895
+clock=895
+SLB.size=0
+clock=897
+clock=897
+pc=1034
+clock=897
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 a 1 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=897
+SLB.size=0
+clock=899
+clock=899
+SLB.size=0
+clock=901
+clock=901
+SLB.size=0
+clock=903
+clock=903
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=903
+SLB.size=0
+clock=905
+clock=905
+SLB.size=0
+clock=907
+clock=907
+SLB.size=0
+clock=909
+clock=909
+SLB.size=0
+clock=911
+clock=911
+SLB.size=0
+clock=913
+clock=913
+SLB.size=0
+clock=915
+clock=915
+SLB.size=0
+clock=917
+clock=917
+pc=1040
+clock=917
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 a 1 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=917
+SLB.size=0
+clock=919
+clock=919
+SLB.size=0
+clock=921
+clock=921
+SLB.size=0
+clock=923
+clock=923
+SLB.size=0
+clock=925
+clock=925
+SLB.size=0
+clock=927
+clock=927
+SLB.size=0
+clock=929
+clock=929
+SLB.size=0
+clock=931
+clock=931
+pc=1044
+clock=931
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 a 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=931
+SLB.size=0
+clock=933
+clock=933
+SLB.size=0
+clock=935
+clock=935
+SLB.size=0
+clock=937
+clock=937
+SLB.size=0
+clock=939
+clock=939
+SLB.size=0
+clock=941
+clock=941
+SLB.size=0
+clock=943
+clock=943
+SLB.size=0
+clock=945
+clock=945
+pc=1048
+clock=945
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=945
+SLB.size=0
+clock=947
+clock=947
+SLB.size=0
+clock=949
+clock=949
+SLB.size=0
+clock=951
+clock=951
+SLB.size=0
+clock=953
+clock=953
+SLB.size=0
+clock=955
+clock=955
+SLB.size=0
+clock=957
+clock=957
+SLB.size=0
+clock=959
+clock=959
+pc=104c
+clock=959
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=959
+SLB.size=0
+clock=961
+clock=961
+SLB.size=0
+clock=963
+clock=963
+SLB.size=0
+clock=965
+clock=965
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=965
+SLB.size=0
+clock=967
+clock=967
+SLB.size=0
+clock=969
+clock=969
+SLB.size=0
+clock=971
+clock=971
+SLB.size=0
+clock=973
+clock=973
+SLB.size=0
+clock=975
+clock=975
+SLB.size=0
+clock=977
+clock=977
+SLB.size=0
+clock=979
+clock=979
+pc=1094
+clock=979
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=979
+SLB.size=0
+clock=981
+clock=981
+SLB.size=0
+clock=983
+clock=983
+SLB.size=0
+clock=985
+clock=985
+SLB.size=0
+clock=987
+clock=987
+SLB.size=0
+clock=989
+clock=989
+SLB.size=0
+clock=991
+clock=991
+SLB.size=0
+clock=993
+clock=993
+pc=1098
+clock=993
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=993
+SLB.size=0
+clock=995
+clock=995
+SLB.size=0
+clock=997
+clock=997
+SLB.size=0
+clock=999
+clock=999
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=999
+SLB.size=0
+clock=1001
+clock=1001
+SLB.size=0
+clock=1003
+clock=1003
+SLB.size=0
+clock=1005
+clock=1005
+SLB.size=0
+clock=1007
+clock=1007
+SLB.size=0
+clock=1009
+clock=1009
+SLB.size=0
+clock=1011
+clock=1011
+SLB.size=0
+clock=1013
+clock=1013
+pc=1154
+clock=1013
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1154 0 0 0 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1013
+SLB.size=0
+clock=1015
+clock=1015
+SLB.size=0
+clock=1017
+clock=1017
+SLB.size=0
+clock=1019
+clock=1019
+SLB.size=0
+clock=1021
+clock=1021
+SLB.size=0
+clock=1023
+clock=1023
+SLB.size=0
+clock=1025
+clock=1025
+SLB.size=0
+clock=1027
+clock=1027
+pc=1158
+clock=1027
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1027
+SLB.size=0
+clock=1029
+clock=1029
+SLB.size=0
+clock=1031
+clock=1031
+SLB.size=0
+clock=1033
+clock=1033
+SLB.size=0
+clock=1035
+clock=1035
+SLB.size=0
+clock=1037
+clock=1037
+SLB.size=0
+clock=1039
+clock=1039
+SLB.size=0
+clock=1041
+clock=1041
+pc=115c
+clock=1041
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 4 0 0 1ffa4 0 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1041
+SLB.size=0
+clock=1043
+clock=1043
+SLB.size=0
+clock=1045
+clock=1045
+SLB.size=0
+clock=1047
+clock=1047
+SLB.size=0
+clock=1049
+clock=1049
+SLB.size=0
+clock=1051
+clock=1051
+SLB.size=0
+clock=1053
+clock=1053
+SLB.size=0
+clock=1055
+clock=1055
+pc=1160
+clock=1055
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1055
+SLB.size=0
+clock=1057
+clock=1057
+SLB.size=0
+clock=1059
+clock=1059
+SLB.size=0
+clock=1061
+clock=1061
+SLB.size=0
+clock=1063
+clock=1063
+SLB.size=0
+clock=1065
+clock=1065
+SLB.size=0
+clock=1067
+clock=1067
+SLB.size=0
+clock=1069
+clock=1069
+pc=1164
+clock=1069
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1069
+SLB.size=0
+clock=1071
+clock=1071
+SLB.size=0
+clock=1073
+clock=1073
+SLB.size=0
+clock=1075
+clock=1075
+SLB.size=0
+clock=1077
+clock=1077
+SLB.size=0
+clock=1079
+clock=1079
+SLB.size=0
+clock=1081
+clock=1081
+SLB.size=0
+clock=1083
+clock=1083
+pc=1168
+clock=1083
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1083
+SLB.size=0
+clock=1085
+clock=1085
+SLB.size=0
+clock=1087
+clock=1087
+SLB.size=0
+clock=1089
+clock=1089
+SLB.size=0
+clock=1091
+clock=1091
+SLB.size=0
+clock=1093
+clock=1093
+SLB.size=0
+clock=1095
+clock=1095
+SLB.size=0
+clock=1097
+clock=1097
+pc=116c
+clock=1097
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1097
+SLB.size=0
+clock=1099
+clock=1099
+SLB.size=0
+clock=1101
+clock=1101
+SLB.size=0
+clock=1103
+clock=1103
+SLB.size=0
+clock=1105
+clock=1105
+SLB.size=0
+clock=1107
+clock=1107
+SLB.size=0
+clock=1109
+clock=1109
+SLB.size=0
+clock=1111
+clock=1111
+pc=1170
+clock=1111
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1111
+SLB.size=0
+clock=1113
+clock=1113
+SLB.size=0
+clock=1115
+clock=1115
+SLB.size=1
+clock=1117
+clock=1117
+SLB.size=1
+clock=1119
+clock=1119
+SLB.size=1
+clock=1121
+clock=1121
+SLB.size=1
+clock=1123
+clock=1123
+SLB.size=1
+clock=1125
+clock=1125
+pc=1174
+clock=1125
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1125
+SLB.size=1
+clock=1127
+clock=1127
+SLB.size=1
+clock=1129
+clock=1129
+SLB.size=0
+clock=1131
+clock=1131
+SLB.size=0
+clock=1133
+clock=1133
+SLB.size=0
+clock=1135
+clock=1135
+SLB.size=0
+clock=1137
+clock=1137
+SLB.size=0
+clock=1139
+clock=1139
+pc=1178
+clock=1139
+e89ff0ef
+1e
+JAL
+1 1f 9 fffffe88
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1139
+SLB.size=0
+clock=1141
+clock=1141
+SLB.size=0
+clock=1143
+clock=1143
+SLB.size=0
+clock=1145
+clock=1145
+SLB.size=0
+clock=1147
+clock=1147
+SLB.size=0
+clock=1149
+clock=1149
+SLB.size=0
+clock=1151
+clock=1151
+SLB.size=0
+clock=1153
+clock=1153
+pc=1000
+clock=1153
+6054063
+21
+BLT
+0 a 0 60
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1153
+SLB.size=0
+clock=1155
+clock=1155
+SLB.size=0
+clock=1157
+clock=1157
+SLB.size=0
+clock=1159
+clock=1159
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=1159
+SLB.size=0
+clock=1161
+clock=1161
+SLB.size=0
+clock=1163
+clock=1163
+SLB.size=0
+clock=1165
+clock=1165
+SLB.size=0
+clock=1167
+clock=1167
+SLB.size=0
+clock=1169
+clock=1169
+SLB.size=0
+clock=1171
+clock=1171
+SLB.size=0
+clock=1173
+clock=1173
+pc=1004
+clock=1173
+605c663
+21
+BLT
+c b 0 6c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1173
+SLB.size=0
+clock=1175
+clock=1175
+pc=1008
+clock=1175
+58613
+12
+ADDI
+c b 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1175
+SLB.size=0
+clock=1177
+clock=1177
+pc=100c
+clock=1177
+50593
+12
+ADDI
+b a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1177
+SLB.size=0
+clock=1179
+clock=1179
+pc=1010
+clock=1179
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1179
+SLB.size=0
+clock=1181
+clock=1181
+pc=1014
+clock=1181
+2060c63
+1f
+BEQ
+18 c 0 38
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1181
+SLB.size=0
+clock=1183
+clock=1183
+pc=1018
+clock=1183
+100693
+12
+ADDI
+d 0 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a a 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1183
+SLB.size=0
+clock=1185
+clock=1185
+pc=101c
+clock=1185
+b67a63
+24
+BGEU
+14 c b 14
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1185
+SLB.size=0
+clock=1187
+clock=1187
+SLB.size=0
+clock=1189
+clock=1189
+SLB.size=0
+clock=1191
+clock=1191
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=1191
+SLB.size=0
+clock=1193
+clock=1193
+pc=1030
+clock=1193
+513
+12
+ADDI
+a 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1193
+SLB.size=0
+clock=1195
+clock=1195
+pc=1034
+clock=1195
+c5e663
+23
+BLTU
+c b c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1195
+SLB.size=0
+clock=1197
+clock=1197
+SLB.size=0
+clock=1199
+clock=1199
+SLB.size=0
+clock=1201
+clock=1201
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=1201
+SLB.size=0
+clock=1203
+clock=1203
+pc=1040
+clock=1203
+16d693
+19
+SRLI
+d d 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1203
+SLB.size=0
+clock=1205
+clock=1205
+pc=1044
+clock=1205
+165613
+19
+SRLI
+c c 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1205
+SLB.size=0
+clock=1207
+clock=1207
+pc=1048
+clock=1207
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1207
+SLB.size=0
+clock=1209
+clock=1209
+pc=104c
+clock=1209
+8067
+c
+JALR
+0 1 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1209
+SLB.size=0
+clock=1211
+clock=1211
+SLB.size=0
+clock=1213
+clock=1213
+SLB.size=0
+clock=1215
+clock=1215
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=1215
+SLB.size=0
+clock=1217
+clock=1217
+SLB.size=0
+clock=1219
+clock=1219
+SLB.size=0
+clock=1221
+clock=1221
+SLB.size=0
+clock=1223
+clock=1223
+SLB.size=0
+clock=1225
+clock=1225
+SLB.size=0
+clock=1227
+clock=1227
+SLB.size=0
+clock=1229
+clock=1229
+pc=117c
+clock=1229
+50493
+12
+ADDI
+9 a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1229
+SLB.size=0
+clock=1231
+clock=1231
+SLB.size=0
+clock=1233
+clock=1233
+SLB.size=0
+clock=1235
+clock=1235
+SLB.size=0
+clock=1237
+clock=1237
+SLB.size=0
+clock=1239
+clock=1239
+SLB.size=0
+clock=1241
+clock=1241
+SLB.size=0
+clock=1243
+clock=1243
+pc=1180
+clock=1243
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1243
+SLB.size=0
+clock=1245
+clock=1245
+SLB.size=0
+clock=1247
+clock=1247
+SLB.size=0
+clock=1249
+clock=1249
+SLB.size=0
+clock=1251
+clock=1251
+SLB.size=0
+clock=1253
+clock=1253
+SLB.size=0
+clock=1255
+clock=1255
+SLB.size=0
+clock=1257
+clock=1257
+pc=1184
+clock=1257
+b8c63
+1f
+BEQ
+18 17 0 18
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1257
+SLB.size=0
+clock=1259
+clock=1259
+SLB.size=0
+clock=1261
+clock=1261
+SLB.size=0
+clock=1263
+clock=1263
+ClearAll, ROB_pc=1184, ROB_value=1
+clock=1263
+SLB.size=0
+clock=1265
+clock=1265
+SLB.size=0
+clock=1267
+clock=1267
+SLB.size=0
+clock=1269
+clock=1269
+SLB.size=0
+clock=1271
+clock=1271
+SLB.size=0
+clock=1273
+clock=1273
+SLB.size=0
+clock=1275
+clock=1275
+SLB.size=0
+clock=1277
+clock=1277
+pc=119c
+clock=1277
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa5 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1277
+SLB.size=0
+clock=1279
+clock=1279
+SLB.size=0
+clock=1281
+clock=1281
+SLB.size=0
+clock=1283
+clock=1283
+SLB.size=0
+clock=1285
+clock=1285
+SLB.size=0
+clock=1287
+clock=1287
+SLB.size=0
+clock=1289
+clock=1289
+SLB.size=0
+clock=1291
+clock=1291
+pc=11a0
+clock=1291
+c0006f
+1e
+JAL
+0 0 c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1291
+SLB.size=0
+clock=1293
+clock=1293
+SLB.size=0
+clock=1295
+clock=1295
+SLB.size=0
+clock=1297
+clock=1297
+SLB.size=0
+clock=1299
+clock=1299
+SLB.size=0
+clock=1301
+clock=1301
+SLB.size=0
+clock=1303
+clock=1303
+SLB.size=0
+clock=1305
+clock=1305
+pc=11ac
+clock=1305
+8a8023
+1b
+SB
+0 15 8 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1305
+SLB.size=0
+clock=1307
+clock=1307
+SLB.size=0
+clock=1309
+clock=1309
+SLB.size=1
+clock=1311
+clock=1311
+SLB.size=1
+clock=1313
+clock=1313
+SLB.size=1
+clock=1315
+clock=1315
+SLB.size=1
+clock=1317
+clock=1317
+SLB.size=1
+clock=1319
+Clock=1319
+0
+!!!!!!!!!!!! store data[30000]=30
+clock=1319
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0 clock=1319
+pc=11b0
+clock=1319
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1319
+SLB.size=1
+clock=1321
+clock=1321
+SLB.size=1
+clock=1323
+clock=1323
+SLB.size=0
+clock=1325
+clock=1325
+SLB.size=0
+clock=1327
+clock=1327
+SLB.size=0
+clock=1329
+clock=1329
+SLB.size=0
+clock=1331
+clock=1331
+SLB.size=0
+clock=1333
+clock=1333
+pc=11b4
+clock=1333
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1333
+SLB.size=0
+clock=1335
+clock=1335
+SLB.size=0
+clock=1337
+clock=1337
+SLB.size=0
+clock=1339
+clock=1339
+SLB.size=0
+clock=1341
+clock=1341
+SLB.size=0
+clock=1343
+clock=1343
+SLB.size=0
+clock=1345
+clock=1345
+SLB.size=0
+clock=1347
+clock=1347
+pc=11b8
+clock=1347
+36c0063
+1f
+BEQ
+0 18 16 20
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1347
+SLB.size=0
+clock=1349
+clock=1349
+SLB.size=0
+clock=1351
+clock=1351
+SLB.size=0
+clock=1353
+clock=1353
+SLB.size=0
+clock=1355
+clock=1355
+SLB.size=0
+clock=1357
+clock=1357
+SLB.size=0
+clock=1359
+clock=1359
+SLB.size=0
+clock=1361
+clock=1361
+pc=11bc
+clock=1361
+4b2483
+f
+LW
+9 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1361
+SLB.size=0
+clock=1363
+clock=1363
+SLB.size=0
+clock=1365
+clock=1365
+SLB.size=1
+clock=1367
+clock=1367
+SLB.size=1
+clock=1369
+clock=1369
+SLB.size=1
+clock=1371
+clock=1371
+SLB.size=1
+clock=1373
+clock=1373
+SLB.size=1
+clock=1375
+clock=1375
+pc=11c0
+clock=1375
+b93
+12
+ADDI
+17 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1375
+SLB.size=1
+clock=1377
+clock=1377
+SLB.size=1
+clock=1379
+clock=1379
+SLB.size=1
+clock=1381
+clock=1381
+SLB.size=1
+clock=1383
+clock=1383
+SLB.size=1
+clock=1385
+clock=1385
+SLB.size=1
+clock=1387
+clock=1387
+SLB.size=0
+clock=1389
+clock=1389
+SLB.size=0
+clock=1391
+clock=1391
+SLB.size=0
+clock=1393
+clock=1393
+SLB.size=0
+clock=1395
+clock=1395
+pc=11c4
+clock=1395
+4d663
+22
+BGE
+c 9 0 c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1395
+SLB.size=0
+clock=1397
+clock=1397
+SLB.size=0
+clock=1399
+clock=1399
+SLB.size=0
+clock=1401
+clock=1401
+ClearAll, ROB_pc=11c4, ROB_value=1
+clock=1401
+SLB.size=0
+clock=1403
+clock=1403
+SLB.size=0
+clock=1405
+clock=1405
+SLB.size=0
+clock=1407
+clock=1407
+SLB.size=0
+clock=1409
+clock=1409
+SLB.size=0
+clock=1411
+clock=1411
+SLB.size=0
+clock=1413
+clock=1413
+SLB.size=0
+clock=1415
+clock=1415
+pc=11d0
+clock=1415
+4b0b13
+12
+ADDI
+16 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12c8 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1415
+SLB.size=0
+clock=1417
+clock=1417
+SLB.size=0
+clock=1419
+clock=1419
+SLB.size=0
+clock=1421
+clock=1421
+SLB.size=0
+clock=1423
+clock=1423
+SLB.size=0
+clock=1425
+clock=1425
+SLB.size=0
+clock=1427
+clock=1427
+SLB.size=0
+clock=1429
+clock=1429
+pc=11d4
+clock=1429
+f71ff06f
+1e
+JAL
+0 1f 11 ffffff70
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1429
+SLB.size=0
+clock=1431
+clock=1431
+SLB.size=0
+clock=1433
+clock=1433
+SLB.size=0
+clock=1435
+clock=1435
+SLB.size=0
+clock=1437
+clock=1437
+SLB.size=0
+clock=1439
+clock=1439
+SLB.size=0
+clock=1441
+clock=1441
+SLB.size=0
+clock=1443
+clock=1443
+pc=1144
+clock=1443
+993
+12
+ADDI
+13 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1443
+SLB.size=0
+clock=1445
+clock=1445
+SLB.size=0
+clock=1447
+clock=1447
+SLB.size=0
+clock=1449
+clock=1449
+SLB.size=0
+clock=1451
+clock=1451
+SLB.size=0
+clock=1453
+clock=1453
+SLB.size=0
+clock=1455
+clock=1455
+SLB.size=0
+clock=1457
+clock=1457
+pc=1148
+clock=1457
+a00593
+12
+ADDI
+b 0 a a
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1457
+SLB.size=0
+clock=1459
+clock=1459
+SLB.size=0
+clock=1461
+clock=1461
+SLB.size=0
+clock=1463
+clock=1463
+SLB.size=0
+clock=1465
+clock=1465
+SLB.size=0
+clock=1467
+clock=1467
+SLB.size=0
+clock=1469
+clock=1469
+SLB.size=0
+clock=1471
+clock=1471
+pc=114c
+clock=1471
+48513
+12
+ADDI
+a 9 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1471
+SLB.size=0
+clock=1473
+clock=1473
+pc=1150
+clock=1473
+f35ff0ef
+1e
+JAL
+1 1f 15 ffffff34
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1473
+SLB.size=0
+clock=1475
+clock=1475
+SLB.size=0
+clock=1477
+clock=1477
+SLB.size=0
+clock=1479
+clock=1479
+SLB.size=0
+clock=1481
+clock=1481
+SLB.size=0
+clock=1483
+clock=1483
+SLB.size=0
+clock=1485
+clock=1485
+SLB.size=0
+clock=1487
+clock=1487
+pc=1084
+clock=1487
+8293
+12
+ADDI
+5 1 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1487
+SLB.size=0
+clock=1489
+clock=1489
+pc=1088
+clock=1489
+5ca63
+21
+BLT
+14 b 0 14
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1489
+SLB.size=0
+clock=1491
+clock=1491
+pc=108c
+clock=1491
+54c63
+21
+BLT
+18 a 0 18
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1491
+SLB.size=0
+clock=1493
+clock=1493
+pc=1090
+clock=1493
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1493
+SLB.size=0
+clock=1495
+clock=1495
+pc=1008
+clock=1495
+58613
+12
+ADDI
+c b 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1495
+SLB.size=0
+clock=1497
+clock=1497
+pc=100c
+clock=1497
+50593
+12
+ADDI
+b a 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1497
+SLB.size=0
+clock=1499
+clock=1499
+pc=1010
+clock=1499
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1499
+SLB.size=0
+clock=1501
+clock=1501
+pc=1014
+clock=1501
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1501
+SLB.size=0
+clock=1503
+clock=1503
+pc=1018
+clock=1503
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1503
+SLB.size=0
+clock=1505
+clock=1505
+pc=101c
+clock=1505
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1505
+SLB.size=0
+clock=1507
+clock=1507
+SLB.size=0
+clock=1509
+clock=1509
+SLB.size=0
+clock=1511
+clock=1511
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=1511
+SLB.size=0
+clock=1513
+clock=1513
+pc=1030
+clock=1513
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1513
+SLB.size=0
+clock=1515
+clock=1515
+pc=1034
+clock=1515
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1515
+SLB.size=0
+clock=1517
+clock=1517
+SLB.size=0
+clock=1519
+clock=1519
+SLB.size=0
+clock=1521
+clock=1521
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=1521
+SLB.size=0
+clock=1523
+clock=1523
+pc=1040
+clock=1523
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1523
+SLB.size=0
+clock=1525
+clock=1525
+SLB.size=0
+clock=1527
+clock=1527
+SLB.size=0
+clock=1529
+clock=1529
+SLB.size=0
+clock=1531
+clock=1531
+SLB.size=0
+clock=1533
+clock=1533
+SLB.size=0
+clock=1535
+clock=1535
+SLB.size=0
+clock=1537
+clock=1537
+pc=1044
+clock=1537
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1537
+SLB.size=0
+clock=1539
+clock=1539
+SLB.size=0
+clock=1541
+clock=1541
+SLB.size=0
+clock=1543
+clock=1543
+SLB.size=0
+clock=1545
+clock=1545
+SLB.size=0
+clock=1547
+clock=1547
+SLB.size=0
+clock=1549
+clock=1549
+SLB.size=0
+clock=1551
+clock=1551
+pc=1048
+clock=1551
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1551
+SLB.size=0
+clock=1553
+clock=1553
+SLB.size=0
+clock=1555
+clock=1555
+SLB.size=0
+clock=1557
+clock=1557
+SLB.size=0
+clock=1559
+clock=1559
+SLB.size=0
+clock=1561
+clock=1561
+SLB.size=0
+clock=1563
+clock=1563
+SLB.size=0
+clock=1565
+clock=1565
+pc=104c
+clock=1565
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1565
+SLB.size=0
+clock=1567
+clock=1567
+SLB.size=0
+clock=1569
+clock=1569
+SLB.size=0
+clock=1571
+clock=1571
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=1571
+SLB.size=0
+clock=1573
+clock=1573
+pc=1094
+clock=1573
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1573
+SLB.size=0
+clock=1575
+clock=1575
+pc=1098
+clock=1575
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1575
+SLB.size=0
+clock=1577
+clock=1577
+SLB.size=0
+clock=1579
+clock=1579
+SLB.size=0
+clock=1581
+clock=1581
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=1581
+SLB.size=0
+clock=1583
+clock=1583
+pc=1154
+clock=1583
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1583
+SLB.size=0
+clock=1585
+clock=1585
+pc=1158
+clock=1585
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1585
+SLB.size=0
+clock=1587
+clock=1587
+pc=115c
+clock=1587
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1587
+SLB.size=0
+clock=1589
+clock=1589
+pc=1160
+clock=1589
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1589
+SLB.size=0
+clock=1591
+clock=1591
+pc=1164
+clock=1591
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1591
+SLB.size=0
+clock=1593
+clock=1593
+pc=1168
+clock=1593
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1593
+SLB.size=0
+clock=1595
+clock=1595
+pc=116c
+clock=1595
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1595
+SLB.size=0
+clock=1597
+clock=1597
+pc=1170
+clock=1597
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1597
+SLB.size=0
+clock=1599
+clock=1599
+pc=1174
+clock=1599
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1599
+SLB.size=0
+clock=1601
+clock=1601
+pc=1178
+clock=1601
+e89ff0ef
+1e
+JAL
+1 1f 9 fffffe88
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1601
+SLB.size=1
+clock=1603
+clock=1603
+pc=1000
+clock=1603
+6054063
+21
+BLT
+0 a 0 60
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1603
+SLB.size=1
+clock=1605
+clock=1605
+SLB.size=1
+clock=1607
+clock=1607
+SLB.size=1
+clock=1609
+clock=1609
+SLB.size=1
+clock=1611
+clock=1611
+SLB.size=1
+clock=1613
+clock=1613
+SLB.size=1
+clock=1615
+clock=1615
+SLB.size=1
+clock=1617
+clock=1617
+pc=1060
+clock=1617
+40a00533
+3
+SUB
+a 0 a b09194a0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1617
+SLB.size=1
+clock=1619
+clock=1619
+SLB.size=1
+clock=1621
+clock=1621
+SLB.size=0
+clock=1623
+clock=1623
+SLB.size=0
+clock=1625
+clock=1625
+SLB.size=0
+clock=1627
+clock=1627
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=1627
+SLB.size=0
+clock=1629
+clock=1629
+pc=1004
+clock=1629
+605c663
+21
+BLT
+c b 0 6c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1629
+SLB.size=0
+clock=1631
+clock=1631
+pc=1008
+clock=1631
+58613
+12
+ADDI
+c b 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1631
+SLB.size=0
+clock=1633
+clock=1633
+pc=100c
+clock=1633
+50593
+12
+ADDI
+b a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1633
+SLB.size=0
+clock=1635
+clock=1635
+pc=1010
+clock=1635
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1635
+SLB.size=0
+clock=1637
+clock=1637
+pc=1014
+clock=1637
+2060c63
+1f
+BEQ
+18 c 0 38
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1637
+SLB.size=0
+clock=1639
+clock=1639
+pc=1018
+clock=1639
+100693
+12
+ADDI
+d 0 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1639
+SLB.size=0
+clock=1641
+clock=1641
+pc=101c
+clock=1641
+b67a63
+24
+BGEU
+14 c b 14
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1641
+SLB.size=0
+clock=1643
+clock=1643
+SLB.size=0
+clock=1645
+clock=1645
+SLB.size=0
+clock=1647
+clock=1647
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=1647
+SLB.size=0
+clock=1649
+clock=1649
+pc=1030
+clock=1649
+513
+12
+ADDI
+a 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1649
+SLB.size=0
+clock=1651
+clock=1651
+pc=1034
+clock=1651
+c5e663
+23
+BLTU
+c b c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1651
+SLB.size=0
+clock=1653
+clock=1653
+SLB.size=0
+clock=1655
+clock=1655
+SLB.size=0
+clock=1657
+clock=1657
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=1657
+SLB.size=0
+clock=1659
+clock=1659
+pc=1040
+clock=1659
+16d693
+19
+SRLI
+d d 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1659
+SLB.size=0
+clock=1661
+clock=1661
+pc=1044
+clock=1661
+165613
+19
+SRLI
+c c 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1661
+SLB.size=0
+clock=1663
+clock=1663
+pc=1048
+clock=1663
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1663
+SLB.size=0
+clock=1665
+clock=1665
+pc=104c
+clock=1665
+8067
+c
+JALR
+0 1 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1665
+SLB.size=0
+clock=1667
+clock=1667
+SLB.size=0
+clock=1669
+clock=1669
+SLB.size=0
+clock=1671
+clock=1671
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=1671
+SLB.size=0
+clock=1673
+clock=1673
+pc=117c
+clock=1673
+50493
+12
+ADDI
+9 a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1673
+SLB.size=0
+clock=1675
+clock=1675
+pc=1180
+clock=1675
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1675
+SLB.size=0
+clock=1677
+clock=1677
+SLB.size=0
+clock=1679
+clock=1679
+SLB.size=0
+clock=1681
+clock=1681
+SLB.size=0
+clock=1683
+clock=1683
+SLB.size=0
+clock=1685
+clock=1685
+SLB.size=0
+clock=1687
+clock=1687
+SLB.size=0
+clock=1689
+clock=1689
+pc=1184
+clock=1689
+b8c63
+1f
+BEQ
+18 17 0 18
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1689
+SLB.size=0
+clock=1691
+clock=1691
+SLB.size=0
+clock=1693
+clock=1693
+SLB.size=0
+clock=1695
+clock=1695
+ClearAll, ROB_pc=1184, ROB_value=1
+clock=1695
+SLB.size=0
+clock=1697
+clock=1697
+pc=119c
+clock=1697
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1697
+SLB.size=0
+clock=1699
+clock=1699
+pc=11a0
+clock=1699
+c0006f
+1e
+JAL
+0 0 c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1699
+SLB.size=0
+clock=1701
+clock=1701
+pc=11ac
+clock=1701
+8a8023
+1b
+SB
+0 15 8 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1701
+SLB.size=0
+clock=1703
+clock=1703
+pc=11b0
+clock=1703
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1703
+SLB.size=0
+clock=1705
+clock=1705
+pc=11b4
+clock=1705
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1705
+SLB.size=1
+clock=1707
+clock=1707
+pc=11b8
+clock=1707
+36c0063
+1f
+BEQ
+0 18 16 20
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1707
+SLB.size=1
+clock=1709
+clock=1709
+pc=11bc
+clock=1709
+4b2483
+f
+LW
+9 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1709
+SLB.size=1
+clock=1711
+Clock=1711
+0
+!!!!!!!!!!!! store data[30000]=30
+clock=1711
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0 clock=1711
+pc=11c0
+clock=1711
+b93
+12
+ADDI
+17 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1711
+SLB.size=1
+clock=1713
+clock=1713
+pc=11c4
+clock=1713
+4d663
+22
+BGE
+c 9 0 c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1713
+SLB.size=2
+clock=1715
+clock=1715
+SLB.size=1
+clock=1717
+clock=1717
+SLB.size=1
+clock=1719
+clock=1719
+SLB.size=1
+clock=1721
+clock=1721
+SLB.size=1
+clock=1723
+clock=1723
+SLB.size=1
+clock=1725
+clock=1725
+SLB.size=1
+clock=1727
+clock=1727
+SLB.size=1
+clock=1729
+clock=1729
+SLB.size=0
+clock=1731
+clock=1731
+SLB.size=0
+clock=1733
+clock=1733
+ClearAll, ROB_pc=11c4, ROB_value=1
+clock=1733
+SLB.size=0
+clock=1735
+clock=1735
+pc=11d0
+clock=1735
+4b0b13
+12
+ADDI
+16 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1735
+SLB.size=0
+clock=1737
+clock=1737
+pc=11d4
+clock=1737
+f71ff06f
+1e
+JAL
+0 1f 11 ffffff70
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12cc 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1737
+SLB.size=0
+clock=1739
+clock=1739
+SLB.size=0
+clock=1741
+clock=1741
+SLB.size=0
+clock=1743
+clock=1743
+SLB.size=0
+clock=1745
+clock=1745
+SLB.size=0
+clock=1747
+clock=1747
+SLB.size=0
+clock=1749
+clock=1749
+SLB.size=0
+clock=1751
+clock=1751
+pc=1144
+clock=1751
+993
+12
+ADDI
+13 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1751
+SLB.size=0
+clock=1753
+clock=1753
+SLB.size=0
+clock=1755
+clock=1755
+SLB.size=0
+clock=1757
+clock=1757
+SLB.size=0
+clock=1759
+clock=1759
+SLB.size=0
+clock=1761
+clock=1761
+SLB.size=0
+clock=1763
+clock=1763
+SLB.size=0
+clock=1765
+clock=1765
+pc=1148
+clock=1765
+a00593
+12
+ADDI
+b 0 a a
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1765
+SLB.size=0
+clock=1767
+clock=1767
+SLB.size=0
+clock=1769
+clock=1769
+SLB.size=0
+clock=1771
+clock=1771
+SLB.size=0
+clock=1773
+clock=1773
+SLB.size=0
+clock=1775
+clock=1775
+SLB.size=0
+clock=1777
+clock=1777
+SLB.size=0
+clock=1779
+clock=1779
+pc=114c
+clock=1779
+48513
+12
+ADDI
+a 9 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1779
+SLB.size=0
+clock=1781
+clock=1781
+pc=1150
+clock=1781
+f35ff0ef
+1e
+JAL
+1 1f 15 ffffff34
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1781
+SLB.size=0
+clock=1783
+clock=1783
+SLB.size=0
+clock=1785
+clock=1785
+SLB.size=0
+clock=1787
+clock=1787
+SLB.size=0
+clock=1789
+clock=1789
+SLB.size=0
+clock=1791
+clock=1791
+SLB.size=0
+clock=1793
+clock=1793
+SLB.size=0
+clock=1795
+clock=1795
+pc=1084
+clock=1795
+8293
+12
+ADDI
+5 1 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1795
+SLB.size=0
+clock=1797
+clock=1797
+pc=1088
+clock=1797
+5ca63
+21
+BLT
+14 b 0 14
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1797
+SLB.size=0
+clock=1799
+clock=1799
+pc=108c
+clock=1799
+54c63
+21
+BLT
+18 a 0 18
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1799
+SLB.size=0
+clock=1801
+clock=1801
+pc=1090
+clock=1801
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1801
+SLB.size=0
+clock=1803
+clock=1803
+pc=1008
+clock=1803
+58613
+12
+ADDI
+c b 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1803
+SLB.size=0
+clock=1805
+clock=1805
+pc=100c
+clock=1805
+50593
+12
+ADDI
+b a 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1805
+SLB.size=0
+clock=1807
+clock=1807
+pc=1010
+clock=1807
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1807
+SLB.size=0
+clock=1809
+clock=1809
+pc=1014
+clock=1809
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1809
+SLB.size=0
+clock=1811
+clock=1811
+pc=1018
+clock=1811
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1811
+SLB.size=0
+clock=1813
+clock=1813
+pc=101c
+clock=1813
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1813
+SLB.size=0
+clock=1815
+clock=1815
+SLB.size=0
+clock=1817
+clock=1817
+SLB.size=0
+clock=1819
+clock=1819
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=1819
+SLB.size=0
+clock=1821
+clock=1821
+pc=1030
+clock=1821
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1821
+SLB.size=0
+clock=1823
+clock=1823
+pc=1034
+clock=1823
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1823
+SLB.size=0
+clock=1825
+clock=1825
+SLB.size=0
+clock=1827
+clock=1827
+SLB.size=0
+clock=1829
+clock=1829
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=1829
+SLB.size=0
+clock=1831
+clock=1831
+pc=1040
+clock=1831
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1831
+SLB.size=0
+clock=1833
+clock=1833
+SLB.size=0
+clock=1835
+clock=1835
+SLB.size=0
+clock=1837
+clock=1837
+SLB.size=0
+clock=1839
+clock=1839
+SLB.size=0
+clock=1841
+clock=1841
+SLB.size=0
+clock=1843
+clock=1843
+SLB.size=0
+clock=1845
+clock=1845
+pc=1044
+clock=1845
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1845
+SLB.size=0
+clock=1847
+clock=1847
+SLB.size=0
+clock=1849
+clock=1849
+SLB.size=0
+clock=1851
+clock=1851
+SLB.size=0
+clock=1853
+clock=1853
+SLB.size=0
+clock=1855
+clock=1855
+SLB.size=0
+clock=1857
+clock=1857
+SLB.size=0
+clock=1859
+clock=1859
+pc=1048
+clock=1859
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1859
+SLB.size=0
+clock=1861
+clock=1861
+SLB.size=0
+clock=1863
+clock=1863
+SLB.size=0
+clock=1865
+clock=1865
+SLB.size=0
+clock=1867
+clock=1867
+SLB.size=0
+clock=1869
+clock=1869
+SLB.size=0
+clock=1871
+clock=1871
+SLB.size=0
+clock=1873
+clock=1873
+pc=104c
+clock=1873
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1873
+SLB.size=0
+clock=1875
+clock=1875
+SLB.size=0
+clock=1877
+clock=1877
+SLB.size=0
+clock=1879
+clock=1879
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=1879
+SLB.size=0
+clock=1881
+clock=1881
+pc=1094
+clock=1881
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1881
+SLB.size=0
+clock=1883
+clock=1883
+pc=1098
+clock=1883
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1883
+SLB.size=0
+clock=1885
+clock=1885
+SLB.size=0
+clock=1887
+clock=1887
+SLB.size=0
+clock=1889
+clock=1889
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=1889
+SLB.size=0
+clock=1891
+clock=1891
+pc=1154
+clock=1891
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1891
+SLB.size=0
+clock=1893
+clock=1893
+pc=1158
+clock=1893
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1893
+SLB.size=0
+clock=1895
+clock=1895
+pc=115c
+clock=1895
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1895
+SLB.size=0
+clock=1897
+clock=1897
+SLB.size=0
+clock=1899
+clock=1899
+SLB.size=0
+clock=1901
+clock=1901
+SLB.size=0
+clock=1903
+clock=1903
+SLB.size=0
+clock=1905
+clock=1905
+SLB.size=0
+clock=1907
+clock=1907
+SLB.size=0
+clock=1909
+clock=1909
+pc=1160
+clock=1909
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1909
+SLB.size=0
+clock=1911
+clock=1911
+pc=1164
+clock=1911
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1911
+SLB.size=0
+clock=1913
+clock=1913
+pc=1168
+clock=1913
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1913
+SLB.size=0
+clock=1915
+clock=1915
+pc=116c
+clock=1915
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1915
+SLB.size=0
+clock=1917
+clock=1917
+pc=1170
+clock=1917
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1917
+SLB.size=0
+clock=1919
+clock=1919
+pc=1174
+clock=1919
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1919
+SLB.size=0
+clock=1921
+clock=1921
+pc=1178
+clock=1921
+e89ff0ef
+1e
+JAL
+1 1f 9 fffffe88
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1921
+SLB.size=1
+clock=1923
+clock=1923
+pc=1000
+clock=1923
+6054063
+21
+BLT
+0 a 0 60
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1923
+SLB.size=1
+clock=1925
+clock=1925
+SLB.size=1
+clock=1927
+clock=1927
+SLB.size=1
+clock=1929
+clock=1929
+SLB.size=1
+clock=1931
+clock=1931
+SLB.size=0
+clock=1933
+clock=1933
+SLB.size=0
+clock=1935
+clock=1935
+SLB.size=0
+clock=1937
+clock=1937
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=1937
+SLB.size=0
+clock=1939
+clock=1939
+pc=1004
+clock=1939
+605c663
+21
+BLT
+c b 0 6c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1939
+SLB.size=0
+clock=1941
+clock=1941
+pc=1008
+clock=1941
+58613
+12
+ADDI
+c b 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1941
+SLB.size=0
+clock=1943
+clock=1943
+pc=100c
+clock=1943
+50593
+12
+ADDI
+b a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1943
+SLB.size=0
+clock=1945
+clock=1945
+pc=1010
+clock=1945
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1945
+SLB.size=0
+clock=1947
+clock=1947
+pc=1014
+clock=1947
+2060c63
+1f
+BEQ
+18 c 0 38
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1947
+SLB.size=0
+clock=1949
+clock=1949
+pc=1018
+clock=1949
+100693
+12
+ADDI
+d 0 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1949
+SLB.size=0
+clock=1951
+clock=1951
+pc=101c
+clock=1951
+b67a63
+24
+BGEU
+14 c b 14
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1951
+SLB.size=0
+clock=1953
+clock=1953
+SLB.size=0
+clock=1955
+clock=1955
+SLB.size=0
+clock=1957
+clock=1957
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=1957
+SLB.size=0
+clock=1959
+clock=1959
+pc=1030
+clock=1959
+513
+12
+ADDI
+a 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1959
+SLB.size=0
+clock=1961
+clock=1961
+pc=1034
+clock=1961
+c5e663
+23
+BLTU
+c b c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1961
+SLB.size=0
+clock=1963
+clock=1963
+SLB.size=0
+clock=1965
+clock=1965
+SLB.size=0
+clock=1967
+clock=1967
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=1967
+SLB.size=0
+clock=1969
+clock=1969
+pc=1040
+clock=1969
+16d693
+19
+SRLI
+d d 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1969
+SLB.size=0
+clock=1971
+clock=1971
+pc=1044
+clock=1971
+165613
+19
+SRLI
+c c 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1971
+SLB.size=0
+clock=1973
+clock=1973
+pc=1048
+clock=1973
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1973
+SLB.size=0
+clock=1975
+clock=1975
+pc=104c
+clock=1975
+8067
+c
+JALR
+0 1 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1975
+SLB.size=0
+clock=1977
+clock=1977
+SLB.size=0
+clock=1979
+clock=1979
+SLB.size=0
+clock=1981
+clock=1981
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=1981
+SLB.size=0
+clock=1983
+clock=1983
+pc=117c
+clock=1983
+50493
+12
+ADDI
+9 a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1983
+SLB.size=0
+clock=1985
+clock=1985
+pc=1180
+clock=1985
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1985
+SLB.size=0
+clock=1987
+clock=1987
+SLB.size=0
+clock=1989
+clock=1989
+SLB.size=0
+clock=1991
+clock=1991
+SLB.size=0
+clock=1993
+clock=1993
+SLB.size=0
+clock=1995
+clock=1995
+SLB.size=0
+clock=1997
+clock=1997
+SLB.size=0
+clock=1999
+clock=1999
+pc=1184
+clock=1999
+b8c63
+1f
+BEQ
+18 17 0 18
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=1999
+SLB.size=0
+clock=2001
+clock=2001
+SLB.size=0
+clock=2003
+clock=2003
+SLB.size=0
+clock=2005
+clock=2005
+ClearAll, ROB_pc=1184, ROB_value=1
+clock=2005
+SLB.size=0
+clock=2007
+clock=2007
+pc=119c
+clock=2007
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2007
+SLB.size=0
+clock=2009
+clock=2009
+pc=11a0
+clock=2009
+c0006f
+1e
+JAL
+0 0 c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2009
+SLB.size=0
+clock=2011
+clock=2011
+pc=11ac
+clock=2011
+8a8023
+1b
+SB
+0 15 8 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2011
+SLB.size=0
+clock=2013
+clock=2013
+pc=11b0
+clock=2013
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2013
+SLB.size=0
+clock=2015
+clock=2015
+pc=11b4
+clock=2015
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2015
+SLB.size=1
+clock=2017
+clock=2017
+pc=11b8
+clock=2017
+36c0063
+1f
+BEQ
+0 18 16 20
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2017
+SLB.size=1
+clock=2019
+clock=2019
+pc=11bc
+clock=2019
+4b2483
+f
+LW
+9 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2019
+SLB.size=1
+clock=2021
+Clock=2021
+0
+!!!!!!!!!!!! store data[30000]=30
+clock=2021
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0 clock=2021
+pc=11c0
+clock=2021
+b93
+12
+ADDI
+17 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2021
+SLB.size=1
+clock=2023
+clock=2023
+pc=11c4
+clock=2023
+4d663
+22
+BGE
+c 9 0 c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2023
+SLB.size=2
+clock=2025
+clock=2025
+SLB.size=1
+clock=2027
+clock=2027
+SLB.size=1
+clock=2029
+clock=2029
+SLB.size=1
+clock=2031
+clock=2031
+SLB.size=1
+clock=2033
+clock=2033
+SLB.size=1
+clock=2035
+clock=2035
+SLB.size=1
+clock=2037
+clock=2037
+SLB.size=1
+clock=2039
+clock=2039
+SLB.size=0
+clock=2041
+clock=2041
+SLB.size=0
+clock=2043
+clock=2043
+ClearAll, ROB_pc=11c4, ROB_value=1
+clock=2043
+SLB.size=0
+clock=2045
+clock=2045
+pc=11d0
+clock=2045
+4b0b13
+12
+ADDI
+16 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2045
+SLB.size=0
+clock=2047
+clock=2047
+pc=11d4
+clock=2047
+f71ff06f
+1e
+JAL
+0 1f 11 ffffff70
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2047
+SLB.size=0
+clock=2049
+clock=2049
+SLB.size=0
+clock=2051
+clock=2051
+SLB.size=0
+clock=2053
+clock=2053
+SLB.size=0
+clock=2055
+clock=2055
+SLB.size=0
+clock=2057
+clock=2057
+SLB.size=0
+clock=2059
+clock=2059
+SLB.size=0
+clock=2061
+clock=2061
+pc=1144
+clock=2061
+993
+12
+ADDI
+13 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2061
+SLB.size=0
+clock=2063
+clock=2063
+SLB.size=0
+clock=2065
+clock=2065
+SLB.size=0
+clock=2067
+clock=2067
+SLB.size=0
+clock=2069
+clock=2069
+SLB.size=0
+clock=2071
+clock=2071
+SLB.size=0
+clock=2073
+clock=2073
+SLB.size=0
+clock=2075
+clock=2075
+pc=1148
+clock=2075
+a00593
+12
+ADDI
+b 0 a a
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2075
+SLB.size=0
+clock=2077
+clock=2077
+SLB.size=0
+clock=2079
+clock=2079
+SLB.size=0
+clock=2081
+clock=2081
+SLB.size=0
+clock=2083
+clock=2083
+SLB.size=0
+clock=2085
+clock=2085
+SLB.size=0
+clock=2087
+clock=2087
+SLB.size=0
+clock=2089
+clock=2089
+pc=114c
+clock=2089
+48513
+12
+ADDI
+a 9 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2089
+SLB.size=0
+clock=2091
+clock=2091
+pc=1150
+clock=2091
+f35ff0ef
+1e
+JAL
+1 1f 15 ffffff34
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2091
+SLB.size=0
+clock=2093
+clock=2093
+SLB.size=0
+clock=2095
+clock=2095
+SLB.size=0
+clock=2097
+clock=2097
+SLB.size=0
+clock=2099
+clock=2099
+SLB.size=0
+clock=2101
+clock=2101
+SLB.size=0
+clock=2103
+clock=2103
+SLB.size=0
+clock=2105
+clock=2105
+pc=1084
+clock=2105
+8293
+12
+ADDI
+5 1 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2105
+SLB.size=0
+clock=2107
+clock=2107
+pc=1088
+clock=2107
+5ca63
+21
+BLT
+14 b 0 14
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2107
+SLB.size=0
+clock=2109
+clock=2109
+pc=108c
+clock=2109
+54c63
+21
+BLT
+18 a 0 18
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2109
+SLB.size=0
+clock=2111
+clock=2111
+pc=1090
+clock=2111
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2111
+SLB.size=0
+clock=2113
+clock=2113
+pc=1008
+clock=2113
+58613
+12
+ADDI
+c b 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2113
+SLB.size=0
+clock=2115
+clock=2115
+pc=100c
+clock=2115
+50593
+12
+ADDI
+b a 0 0
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2115
+SLB.size=0
+clock=2117
+clock=2117
+pc=1010
+clock=2117
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1154 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2117
+SLB.size=0
+clock=2119
+clock=2119
+pc=1014
+clock=2119
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2119
+SLB.size=0
+clock=2121
+clock=2121
+pc=1018
+clock=2121
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2121
+SLB.size=0
+clock=2123
+clock=2123
+pc=101c
+clock=2123
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2123
+SLB.size=0
+clock=2125
+clock=2125
+SLB.size=0
+clock=2127
+clock=2127
+SLB.size=0
+clock=2129
+clock=2129
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=2129
+SLB.size=0
+clock=2131
+clock=2131
+pc=1030
+clock=2131
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2131
+SLB.size=0
+clock=2133
+clock=2133
+pc=1034
+clock=2133
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2133
+SLB.size=0
+clock=2135
+clock=2135
+SLB.size=0
+clock=2137
+clock=2137
+SLB.size=0
+clock=2139
+clock=2139
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=2139
+SLB.size=0
+clock=2141
+clock=2141
+pc=1040
+clock=2141
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2141
+SLB.size=0
+clock=2143
+clock=2143
+SLB.size=0
+clock=2145
+clock=2145
+SLB.size=0
+clock=2147
+clock=2147
+SLB.size=0
+clock=2149
+clock=2149
+SLB.size=0
+clock=2151
+clock=2151
+SLB.size=0
+clock=2153
+clock=2153
+SLB.size=0
+clock=2155
+clock=2155
+pc=1044
+clock=2155
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2155
+SLB.size=0
+clock=2157
+clock=2157
+SLB.size=0
+clock=2159
+clock=2159
+SLB.size=0
+clock=2161
+clock=2161
+SLB.size=0
+clock=2163
+clock=2163
+SLB.size=0
+clock=2165
+clock=2165
+SLB.size=0
+clock=2167
+clock=2167
+SLB.size=0
+clock=2169
+clock=2169
+pc=1048
+clock=2169
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2169
+SLB.size=0
+clock=2171
+clock=2171
+SLB.size=0
+clock=2173
+clock=2173
+SLB.size=0
+clock=2175
+clock=2175
+SLB.size=0
+clock=2177
+clock=2177
+SLB.size=0
+clock=2179
+clock=2179
+SLB.size=0
+clock=2181
+clock=2181
+SLB.size=0
+clock=2183
+clock=2183
+pc=104c
+clock=2183
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2183
+SLB.size=0
+clock=2185
+clock=2185
+SLB.size=0
+clock=2187
+clock=2187
+SLB.size=0
+clock=2189
+clock=2189
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=2189
+SLB.size=0
+clock=2191
+clock=2191
+pc=1094
+clock=2191
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2191
+SLB.size=0
+clock=2193
+clock=2193
+pc=1098
+clock=2193
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2193
+SLB.size=0
+clock=2195
+clock=2195
+SLB.size=0
+clock=2197
+clock=2197
+SLB.size=0
+clock=2199
+clock=2199
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=2199
+SLB.size=0
+clock=2201
+clock=2201
+pc=1154
+clock=2201
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2201
+SLB.size=0
+clock=2203
+clock=2203
+pc=1158
+clock=2203
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2203
+SLB.size=0
+clock=2205
+clock=2205
+pc=115c
+clock=2205
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2205
+SLB.size=0
+clock=2207
+clock=2207
+pc=1160
+clock=2207
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2207
+SLB.size=0
+clock=2209
+clock=2209
+pc=1164
+clock=2209
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2209
+SLB.size=0
+clock=2211
+clock=2211
+pc=1168
+clock=2211
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2211
+SLB.size=0
+clock=2213
+clock=2213
+pc=116c
+clock=2213
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2213
+SLB.size=0
+clock=2215
+clock=2215
+pc=1170
+clock=2215
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2215
+SLB.size=0
+clock=2217
+clock=2217
+pc=1174
+clock=2217
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2217
+SLB.size=0
+clock=2219
+clock=2219
+pc=1178
+clock=2219
+e89ff0ef
+1e
+JAL
+1 1f 9 fffffe88
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2219
+SLB.size=1
+clock=2221
+clock=2221
+pc=1000
+clock=2221
+6054063
+21
+BLT
+0 a 0 60
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2221
+SLB.size=1
+clock=2223
+clock=2223
+SLB.size=1
+clock=2225
+clock=2225
+SLB.size=1
+clock=2227
+clock=2227
+SLB.size=1
+clock=2229
+clock=2229
+SLB.size=1
+clock=2231
+clock=2231
+SLB.size=1
+clock=2233
+clock=2233
+SLB.size=1
+clock=2235
+clock=2235
+pc=1060
+clock=2235
+40a00533
+3
+SUB
+a 0 a b09194a0
+0 1094 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2235
+SLB.size=1
+clock=2237
+clock=2237
+SLB.size=1
+clock=2239
+clock=2239
+SLB.size=0
+clock=2241
+clock=2241
+SLB.size=0
+clock=2243
+clock=2243
+SLB.size=0
+clock=2245
+clock=2245
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=2245
+SLB.size=0
+clock=2247
+clock=2247
+pc=1004
+clock=2247
+605c663
+21
+BLT
+c b 0 6c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2247
+SLB.size=0
+clock=2249
+clock=2249
+pc=1008
+clock=2249
+58613
+12
+ADDI
+c b 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2249
+SLB.size=0
+clock=2251
+clock=2251
+pc=100c
+clock=2251
+50593
+12
+ADDI
+b a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2251
+SLB.size=0
+clock=2253
+clock=2253
+pc=1010
+clock=2253
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2253
+SLB.size=0
+clock=2255
+clock=2255
+pc=1014
+clock=2255
+2060c63
+1f
+BEQ
+18 c 0 38
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2255
+SLB.size=0
+clock=2257
+clock=2257
+pc=1018
+clock=2257
+100693
+12
+ADDI
+d 0 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 a a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2257
+SLB.size=0
+clock=2259
+clock=2259
+pc=101c
+clock=2259
+b67a63
+24
+BGEU
+14 c b 14
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2259
+SLB.size=0
+clock=2261
+clock=2261
+SLB.size=0
+clock=2263
+clock=2263
+SLB.size=0
+clock=2265
+clock=2265
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=2265
+SLB.size=0
+clock=2267
+clock=2267
+pc=1030
+clock=2267
+513
+12
+ADDI
+a 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2267
+SLB.size=0
+clock=2269
+clock=2269
+pc=1034
+clock=2269
+c5e663
+23
+BLTU
+c b c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 ffffffff 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2269
+SLB.size=0
+clock=2271
+clock=2271
+SLB.size=0
+clock=2273
+clock=2273
+SLB.size=0
+clock=2275
+clock=2275
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=2275
+SLB.size=0
+clock=2277
+clock=2277
+pc=1040
+clock=2277
+16d693
+19
+SRLI
+d d 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2277
+SLB.size=0
+clock=2279
+clock=2279
+pc=1044
+clock=2279
+165613
+19
+SRLI
+c c 1 1
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2279
+SLB.size=0
+clock=2281
+clock=2281
+pc=1048
+clock=2281
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2281
+SLB.size=0
+clock=2283
+clock=2283
+pc=104c
+clock=2283
+8067
+c
+JALR
+0 1 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2283
+SLB.size=0
+clock=2285
+clock=2285
+SLB.size=0
+clock=2287
+clock=2287
+SLB.size=0
+clock=2289
+clock=2289
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=2289
+SLB.size=0
+clock=2291
+clock=2291
+pc=117c
+clock=2291
+50493
+12
+ADDI
+9 a 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2291
+SLB.size=0
+clock=2293
+clock=2293
+pc=1180
+clock=2293
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2293
+SLB.size=0
+clock=2295
+clock=2295
+SLB.size=0
+clock=2297
+clock=2297
+SLB.size=0
+clock=2299
+clock=2299
+SLB.size=0
+clock=2301
+clock=2301
+SLB.size=0
+clock=2303
+clock=2303
+SLB.size=0
+clock=2305
+clock=2305
+SLB.size=0
+clock=2307
+clock=2307
+pc=1184
+clock=2307
+b8c63
+1f
+BEQ
+18 17 0 18
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2307
+SLB.size=0
+clock=2309
+clock=2309
+SLB.size=0
+clock=2311
+clock=2311
+SLB.size=0
+clock=2313
+clock=2313
+ClearAll, ROB_pc=1184, ROB_value=1
+clock=2313
+SLB.size=0
+clock=2315
+clock=2315
+pc=119c
+clock=2315
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2315
+SLB.size=0
+clock=2317
+clock=2317
+pc=11a0
+clock=2317
+c0006f
+1e
+JAL
+0 0 c c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2317
+SLB.size=0
+clock=2319
+clock=2319
+pc=11ac
+clock=2319
+8a8023
+1b
+SB
+0 15 8 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2319
+SLB.size=0
+clock=2321
+clock=2321
+pc=11b0
+clock=2321
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2321
+SLB.size=0
+clock=2323
+clock=2323
+pc=11b4
+clock=2323
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2323
+SLB.size=1
+clock=2325
+clock=2325
+pc=11b8
+clock=2325
+36c0063
+1f
+BEQ
+0 18 16 20
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2325
+SLB.size=1
+clock=2327
+clock=2327
+pc=11bc
+clock=2327
+4b2483
+f
+LW
+9 16 4 4
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2327
+SLB.size=1
+clock=2329
+Clock=2329
+0
+!!!!!!!!!!!! store data[30000]=30
+clock=2329
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0 clock=2329
+pc=11c0
+clock=2329
+b93
+12
+ADDI
+17 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2329
+SLB.size=1
+clock=2331
+clock=2331
+pc=11c4
+clock=2331
+4d663
+22
+BGE
+c 9 0 c
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2331
+SLB.size=2
+clock=2333
+clock=2333
+SLB.size=1
+clock=2335
+clock=2335
+SLB.size=1
+clock=2337
+clock=2337
+SLB.size=1
+clock=2339
+clock=2339
+ClearAll, ROB_pc=11b8, ROB_value=1
+clock=2339
+SLB.size=1
+clock=2341
+clock=2341
+SLB.size=0
+clock=2343
+clock=2343
+SLB.size=0
+clock=2345
+clock=2345
+SLB.size=0
+clock=2347
+clock=2347
+SLB.size=0
+clock=2349
+clock=2349
+SLB.size=0
+clock=2351
+clock=2351
+SLB.size=0
+clock=2353
+clock=2353
+pc=11d8
+clock=2353
+a00793
+12
+ADDI
+f 0 a a
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2353
+SLB.size=0
+clock=2355
+clock=2355
+SLB.size=0
+clock=2357
+clock=2357
+SLB.size=0
+clock=2359
+clock=2359
+SLB.size=0
+clock=2361
+clock=2361
+SLB.size=0
+clock=2363
+clock=2363
+SLB.size=0
+clock=2365
+clock=2365
+SLB.size=0
+clock=2367
+clock=2367
+pc=11dc
+clock=2367
+fa8023
+1b
+SB
+0 15 f 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2367
+SLB.size=0
+clock=2369
+clock=2369
+SLB.size=0
+clock=2371
+clock=2371
+SLB.size=1
+clock=2373
+clock=2373
+SLB.size=1
+clock=2375
+clock=2375
+SLB.size=1
+clock=2377
+clock=2377
+SLB.size=1
+clock=2379
+clock=2379
+SLB.size=1
+clock=2381
+Clock=2381
+
+
+!!!!!!!!!!!! store data[30000]=a
+clock=2381
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0 clock=2381
+pc=11e0
+clock=2381
+1010b13
+12
+ADDI
+16 2 10 10
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 12d4 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2381
+SLB.size=1
+clock=2383
+clock=2383
+SLB.size=1
+clock=2385
+clock=2385
+SLB.size=0
+clock=2387
+clock=2387
+SLB.size=0
+clock=2389
+clock=2389
+SLB.size=0
+clock=2391
+clock=2391
+SLB.size=0
+clock=2393
+clock=2393
+SLB.size=0
+clock=2395
+clock=2395
+pc=11e4
+clock=2395
+2010c13
+12
+ADDI
+18 2 0 20
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 12d4 2d 0 0 0 0 0 0   reg
+clock=2395
+SLB.size=0
+clock=2397
+clock=2397
+SLB.size=0
+clock=2399
+clock=2399
+SLB.size=0
+clock=2401
+clock=2401
+SLB.size=0
+clock=2403
+clock=2403
+SLB.size=0
+clock=2405
+clock=2405
+SLB.size=0
+clock=2407
+clock=2407
+SLB.size=0
+clock=2409
+clock=2409
+pc=11e8
+clock=2409
+900a13
+12
+ADDI
+14 0 9 9
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2409
+SLB.size=0
+clock=2411
+clock=2411
+SLB.size=0
+clock=2413
+clock=2413
+SLB.size=0
+clock=2415
+clock=2415
+SLB.size=0
+clock=2417
+clock=2417
+SLB.size=0
+clock=2419
+clock=2419
+SLB.size=0
+clock=2421
+clock=2421
+SLB.size=0
+clock=2423
+clock=2423
+pc=11ec
+clock=2423
+2d00c93
+12
+ADDI
+19 0 d 2d
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2423
+SLB.size=0
+clock=2425
+clock=2425
+SLB.size=0
+clock=2427
+clock=2427
+SLB.size=0
+clock=2429
+clock=2429
+SLB.size=0
+clock=2431
+clock=2431
+SLB.size=0
+clock=2433
+clock=2433
+SLB.size=0
+clock=2435
+clock=2435
+SLB.size=0
+clock=2437
+clock=2437
+pc=11f0
+clock=2437
+30ab7
+0
+LUI
+15 6 0 30000
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2437
+SLB.size=0
+clock=2439
+clock=2439
+SLB.size=0
+clock=2441
+clock=2441
+SLB.size=0
+clock=2443
+clock=2443
+SLB.size=0
+clock=2445
+clock=2445
+SLB.size=0
+clock=2447
+clock=2447
+SLB.size=0
+clock=2449
+clock=2449
+SLB.size=0
+clock=2451
+clock=2451
+pc=11f4
+clock=2451
+b2483
+f
+LW
+9 16 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2451
+SLB.size=0
+clock=2453
+clock=2453
+SLB.size=0
+clock=2455
+clock=2455
+SLB.size=1
+clock=2457
+clock=2457
+SLB.size=1
+clock=2459
+clock=2459
+SLB.size=1
+clock=2461
+clock=2461
+SLB.size=1
+clock=2463
+clock=2463
+SLB.size=1
+clock=2465
+clock=2465
+pc=11f8
+clock=2465
+b93
+12
+ADDI
+17 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 0 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2465
+SLB.size=1
+clock=2467
+clock=2467
+SLB.size=1
+clock=2469
+clock=2469
+SLB.size=1
+clock=2471
+clock=2471
+SLB.size=1
+clock=2473
+clock=2473
+SLB.size=1
+clock=2475
+clock=2475
+SLB.size=1
+clock=2477
+clock=2477
+SLB.size=0
+clock=2479
+clock=2479
+SLB.size=0
+clock=2481
+clock=2481
+SLB.size=0
+clock=2483
+clock=2483
+SLB.size=0
+clock=2485
+clock=2485
+pc=11fc
+clock=2485
+c04c063
+21
+BLT
+0 9 0 c0
+0 117c 1ffa0 0 0 1154 0 0 30 1 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2485
+SLB.size=0
+clock=2487
+clock=2487
+SLB.size=0
+clock=2489
+clock=2489
+SLB.size=0
+clock=2491
+clock=2491
+ClearAll, ROB_pc=11fc, ROB_value=0
+clock=2491
+SLB.size=0
+clock=2493
+clock=2493
+SLB.size=0
+clock=2495
+clock=2495
+SLB.size=0
+clock=2497
+clock=2497
+SLB.size=0
+clock=2499
+clock=2499
+SLB.size=0
+clock=2501
+clock=2501
+SLB.size=0
+clock=2503
+clock=2503
+SLB.size=0
+clock=2505
+clock=2505
+pc=1200
+clock=2505
+993
+12
+ADDI
+13 0 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 1 0 0 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2505
+SLB.size=0
+clock=2507
+clock=2507
+SLB.size=0
+clock=2509
+clock=2509
+SLB.size=0
+clock=2511
+clock=2511
+SLB.size=0
+clock=2513
+clock=2513
+SLB.size=0
+clock=2515
+clock=2515
+SLB.size=0
+clock=2517
+clock=2517
+SLB.size=0
+clock=2519
+clock=2519
+pc=1204
+clock=2519
+a00593
+12
+ADDI
+b 0 a a
+0 117c 1ffa0 0 0 1154 0 0 30 1 0 0 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2519
+SLB.size=0
+clock=2521
+clock=2521
+SLB.size=0
+clock=2523
+clock=2523
+SLB.size=0
+clock=2525
+clock=2525
+SLB.size=0
+clock=2527
+clock=2527
+SLB.size=0
+clock=2529
+clock=2529
+SLB.size=0
+clock=2531
+clock=2531
+SLB.size=0
+clock=2533
+clock=2533
+pc=1208
+clock=2533
+48513
+12
+ADDI
+a 9 0 0
+0 117c 1ffa0 0 0 1154 0 0 30 1 0 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2533
+SLB.size=0
+clock=2535
+clock=2535
+SLB.size=0
+clock=2537
+clock=2537
+SLB.size=0
+clock=2539
+clock=2539
+SLB.size=0
+clock=2541
+clock=2541
+SLB.size=0
+clock=2543
+clock=2543
+SLB.size=0
+clock=2545
+clock=2545
+SLB.size=0
+clock=2547
+clock=2547
+pc=120c
+clock=2547
+e79ff0ef
+1e
+JAL
+1 1f 19 fffffe78
+0 117c 1ffa0 0 0 1154 0 0 30 1 1 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2547
+SLB.size=0
+clock=2549
+clock=2549
+SLB.size=0
+clock=2551
+clock=2551
+SLB.size=0
+clock=2553
+clock=2553
+SLB.size=0
+clock=2555
+clock=2555
+SLB.size=0
+clock=2557
+clock=2557
+SLB.size=0
+clock=2559
+clock=2559
+SLB.size=0
+clock=2561
+clock=2561
+pc=1084
+clock=2561
+8293
+12
+ADDI
+5 1 0 0
+0 1210 1ffa0 0 0 1154 0 0 30 1 1 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2561
+SLB.size=0
+clock=2563
+clock=2563
+pc=1088
+clock=2563
+5ca63
+21
+BLT
+14 b 0 14
+0 1210 1ffa0 0 0 1154 0 0 30 1 1 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2563
+SLB.size=0
+clock=2565
+clock=2565
+pc=108c
+clock=2565
+54c63
+21
+BLT
+18 a 0 18
+0 1210 1ffa0 0 0 1154 0 0 30 1 1 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2565
+SLB.size=0
+clock=2567
+clock=2567
+pc=1090
+clock=2567
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1210 1ffa0 0 0 1154 0 0 30 1 1 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2567
+SLB.size=0
+clock=2569
+clock=2569
+SLB.size=0
+clock=2571
+clock=2571
+SLB.size=0
+clock=2573
+clock=2573
+SLB.size=0
+clock=2575
+clock=2575
+SLB.size=0
+clock=2577
+clock=2577
+SLB.size=0
+clock=2579
+clock=2579
+SLB.size=0
+clock=2581
+clock=2581
+pc=1008
+clock=2581
+58613
+12
+ADDI
+c b 0 0
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 a 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2581
+SLB.size=0
+clock=2583
+clock=2583
+SLB.size=0
+clock=2585
+clock=2585
+SLB.size=0
+clock=2587
+clock=2587
+SLB.size=0
+clock=2589
+clock=2589
+SLB.size=0
+clock=2591
+clock=2591
+SLB.size=0
+clock=2593
+clock=2593
+SLB.size=0
+clock=2595
+clock=2595
+pc=100c
+clock=2595
+50593
+12
+ADDI
+b a 0 0
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 a a 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2595
+SLB.size=0
+clock=2597
+clock=2597
+pc=1010
+clock=2597
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 a a 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2597
+SLB.size=0
+clock=2599
+clock=2599
+pc=1014
+clock=2599
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 a a 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2599
+SLB.size=0
+clock=2601
+clock=2601
+pc=1018
+clock=2601
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 a a 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2601
+SLB.size=0
+clock=2603
+clock=2603
+pc=101c
+clock=2603
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 1 a 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2603
+SLB.size=0
+clock=2605
+clock=2605
+SLB.size=0
+clock=2607
+clock=2607
+SLB.size=0
+clock=2609
+clock=2609
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=2609
+SLB.size=0
+clock=2611
+clock=2611
+pc=1030
+clock=2611
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1210 0 0 30 1 ffffffff 1 a 1 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2611
+SLB.size=0
+clock=2613
+clock=2613
+pc=1034
+clock=2613
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1210 0 0 30 1 ffffffff 1 a 1 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2613
+SLB.size=0
+clock=2615
+clock=2615
+SLB.size=0
+clock=2617
+clock=2617
+SLB.size=0
+clock=2619
+clock=2619
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=2619
+SLB.size=0
+clock=2621
+clock=2621
+pc=1040
+clock=2621
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1210 0 0 30 1 0 1 a 1 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2621
+SLB.size=0
+clock=2623
+clock=2623
+pc=1044
+clock=2623
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1210 0 0 30 1 0 1 a 1 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2623
+SLB.size=0
+clock=2625
+clock=2625
+pc=1048
+clock=2625
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1210 0 0 30 1 0 1 a 1 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2625
+SLB.size=0
+clock=2627
+clock=2627
+pc=104c
+clock=2627
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1210 0 0 30 1 0 1 a 1 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2627
+SLB.size=0
+clock=2629
+clock=2629
+SLB.size=0
+clock=2631
+clock=2631
+SLB.size=0
+clock=2633
+clock=2633
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=2633
+SLB.size=0
+clock=2635
+clock=2635
+pc=1094
+clock=2635
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1210 0 0 30 1 0 1 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2635
+SLB.size=0
+clock=2637
+clock=2637
+pc=1098
+clock=2637
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1210 0 0 30 1 0 1 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2637
+SLB.size=0
+clock=2639
+clock=2639
+SLB.size=0
+clock=2641
+clock=2641
+SLB.size=0
+clock=2643
+clock=2643
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=2643
+SLB.size=0
+clock=2645
+clock=2645
+SLB.size=0
+clock=2647
+clock=2647
+SLB.size=0
+clock=2649
+clock=2649
+SLB.size=0
+clock=2651
+clock=2651
+SLB.size=0
+clock=2653
+clock=2653
+SLB.size=0
+clock=2655
+clock=2655
+SLB.size=0
+clock=2657
+clock=2657
+pc=1210
+clock=2657
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1210 0 0 30 1 1 1 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2657
+SLB.size=0
+clock=2659
+clock=2659
+SLB.size=0
+clock=2661
+clock=2661
+SLB.size=0
+clock=2663
+clock=2663
+SLB.size=0
+clock=2665
+clock=2665
+SLB.size=0
+clock=2667
+clock=2667
+SLB.size=0
+clock=2669
+clock=2669
+SLB.size=0
+clock=2671
+clock=2671
+pc=1214
+clock=2671
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 1 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2671
+SLB.size=0
+clock=2673
+clock=2673
+SLB.size=0
+clock=2675
+clock=2675
+SLB.size=0
+clock=2677
+clock=2677
+SLB.size=0
+clock=2679
+clock=2679
+SLB.size=0
+clock=2681
+clock=2681
+SLB.size=0
+clock=2683
+clock=2683
+SLB.size=0
+clock=2685
+clock=2685
+pc=1218
+clock=2685
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 1 5 0 1ffa3 a 0 0 1ffa4 0 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2685
+SLB.size=0
+clock=2687
+clock=2687
+SLB.size=0
+clock=2689
+clock=2689
+SLB.size=0
+clock=2691
+clock=2691
+SLB.size=0
+clock=2693
+clock=2693
+SLB.size=0
+clock=2695
+clock=2695
+SLB.size=0
+clock=2697
+clock=2697
+SLB.size=0
+clock=2699
+clock=2699
+pc=121c
+clock=2699
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 1 5 0 1ffa3 a 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2699
+SLB.size=0
+clock=2701
+clock=2701
+SLB.size=0
+clock=2703
+clock=2703
+SLB.size=0
+clock=2705
+clock=2705
+SLB.size=0
+clock=2707
+clock=2707
+SLB.size=0
+clock=2709
+clock=2709
+SLB.size=0
+clock=2711
+clock=2711
+SLB.size=0
+clock=2713
+clock=2713
+pc=1220
+clock=2713
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2713
+SLB.size=0
+clock=2715
+clock=2715
+SLB.size=0
+clock=2717
+clock=2717
+SLB.size=0
+clock=2719
+clock=2719
+SLB.size=0
+clock=2721
+clock=2721
+SLB.size=0
+clock=2723
+clock=2723
+SLB.size=0
+clock=2725
+clock=2725
+SLB.size=0
+clock=2727
+clock=2727
+pc=1224
+clock=2727
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2727
+SLB.size=0
+clock=2729
+clock=2729
+SLB.size=0
+clock=2731
+clock=2731
+SLB.size=0
+clock=2733
+clock=2733
+SLB.size=0
+clock=2735
+clock=2735
+SLB.size=0
+clock=2737
+clock=2737
+SLB.size=0
+clock=2739
+clock=2739
+SLB.size=0
+clock=2741
+clock=2741
+pc=1228
+clock=2741
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2741
+SLB.size=0
+clock=2743
+clock=2743
+SLB.size=0
+clock=2745
+clock=2745
+SLB.size=0
+clock=2747
+clock=2747
+SLB.size=0
+clock=2749
+clock=2749
+SLB.size=0
+clock=2751
+clock=2751
+SLB.size=0
+clock=2753
+clock=2753
+SLB.size=0
+clock=2755
+clock=2755
+pc=122c
+clock=2755
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2755
+SLB.size=0
+clock=2757
+clock=2757
+SLB.size=0
+clock=2759
+clock=2759
+SLB.size=1
+clock=2761
+clock=2761
+SLB.size=1
+clock=2763
+clock=2763
+SLB.size=1
+clock=2765
+clock=2765
+SLB.size=1
+clock=2767
+clock=2767
+SLB.size=1
+clock=2769
+clock=2769
+pc=1230
+clock=2769
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 0 0 0 0 0   reg
+clock=2769
+SLB.size=1
+clock=2771
+clock=2771
+SLB.size=1
+clock=2773
+clock=2773
+SLB.size=0
+clock=2775
+clock=2775
+SLB.size=0
+clock=2777
+clock=2777
+SLB.size=0
+clock=2779
+clock=2779
+SLB.size=0
+clock=2781
+clock=2781
+SLB.size=0
+clock=2783
+clock=2783
+pc=1234
+clock=2783
+dcdff0ef
+1e
+JAL
+1 1f d fffffdcc
+0 1094 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2783
+SLB.size=0
+clock=2785
+clock=2785
+SLB.size=0
+clock=2787
+clock=2787
+SLB.size=0
+clock=2789
+clock=2789
+SLB.size=0
+clock=2791
+clock=2791
+SLB.size=0
+clock=2793
+clock=2793
+SLB.size=0
+clock=2795
+clock=2795
+SLB.size=0
+clock=2797
+clock=2797
+pc=1000
+clock=2797
+6054063
+21
+BLT
+0 a 0 60
+0 1238 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2797
+SLB.size=0
+clock=2799
+clock=2799
+pc=1060
+clock=2799
+40a00533
+3
+SUB
+a 0 a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2799
+SLB.size=0
+clock=2801
+clock=2801
+SLB.size=0
+clock=2803
+clock=2803
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=2803
+SLB.size=0
+clock=2805
+clock=2805
+SLB.size=0
+clock=2807
+clock=2807
+SLB.size=0
+clock=2809
+clock=2809
+SLB.size=0
+clock=2811
+clock=2811
+SLB.size=0
+clock=2813
+clock=2813
+SLB.size=0
+clock=2815
+clock=2815
+SLB.size=0
+clock=2817
+clock=2817
+pc=1004
+clock=2817
+605c663
+21
+BLT
+c b 0 6c
+0 1238 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2817
+SLB.size=0
+clock=2819
+clock=2819
+pc=1008
+clock=2819
+58613
+12
+ADDI
+c b 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2819
+SLB.size=0
+clock=2821
+clock=2821
+pc=100c
+clock=2821
+50593
+12
+ADDI
+b a 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 1 1 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2821
+SLB.size=0
+clock=2823
+clock=2823
+SLB.size=0
+clock=2825
+clock=2825
+SLB.size=0
+clock=2827
+clock=2827
+SLB.size=0
+clock=2829
+clock=2829
+SLB.size=0
+clock=2831
+clock=2831
+SLB.size=0
+clock=2833
+clock=2833
+SLB.size=0
+clock=2835
+clock=2835
+pc=1010
+clock=2835
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 31 1 1 1 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2835
+SLB.size=0
+clock=2837
+clock=2837
+SLB.size=0
+clock=2839
+clock=2839
+SLB.size=0
+clock=2841
+clock=2841
+SLB.size=0
+clock=2843
+clock=2843
+SLB.size=0
+clock=2845
+clock=2845
+SLB.size=0
+clock=2847
+clock=2847
+SLB.size=0
+clock=2849
+clock=2849
+pc=1014
+clock=2849
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1238 1ffa0 0 0 1210 0 0 31 1 ffffffff 1 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2849
+SLB.size=0
+clock=2851
+clock=2851
+SLB.size=0
+clock=2853
+clock=2853
+SLB.size=0
+clock=2855
+clock=2855
+SLB.size=0
+clock=2857
+clock=2857
+SLB.size=0
+clock=2859
+clock=2859
+SLB.size=0
+clock=2861
+clock=2861
+SLB.size=0
+clock=2863
+clock=2863
+pc=1018
+clock=2863
+100693
+12
+ADDI
+d 0 1 1
+0 1238 1ffa0 0 0 1210 0 0 31 1 ffffffff 1 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2863
+SLB.size=0
+clock=2865
+clock=2865
+SLB.size=0
+clock=2867
+clock=2867
+SLB.size=0
+clock=2869
+clock=2869
+SLB.size=0
+clock=2871
+clock=2871
+SLB.size=0
+clock=2873
+clock=2873
+SLB.size=0
+clock=2875
+clock=2875
+SLB.size=0
+clock=2877
+clock=2877
+pc=101c
+clock=2877
+b67a63
+24
+BGEU
+14 c b 14
+0 1238 1ffa0 0 0 1210 0 0 31 1 ffffffff 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2877
+SLB.size=0
+clock=2879
+clock=2879
+SLB.size=0
+clock=2881
+clock=2881
+SLB.size=0
+clock=2883
+clock=2883
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=2883
+SLB.size=0
+clock=2885
+clock=2885
+SLB.size=0
+clock=2887
+clock=2887
+SLB.size=0
+clock=2889
+clock=2889
+SLB.size=0
+clock=2891
+clock=2891
+SLB.size=0
+clock=2893
+clock=2893
+SLB.size=0
+clock=2895
+clock=2895
+SLB.size=0
+clock=2897
+clock=2897
+pc=1030
+clock=2897
+513
+12
+ADDI
+a 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 1 ffffffff 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2897
+SLB.size=0
+clock=2899
+clock=2899
+SLB.size=0
+clock=2901
+clock=2901
+SLB.size=0
+clock=2903
+clock=2903
+SLB.size=0
+clock=2905
+clock=2905
+SLB.size=0
+clock=2907
+clock=2907
+SLB.size=0
+clock=2909
+clock=2909
+SLB.size=0
+clock=2911
+clock=2911
+pc=1034
+clock=2911
+c5e663
+23
+BLTU
+c b c c
+0 1238 1ffa0 0 0 1210 0 0 31 1 0 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2911
+SLB.size=0
+clock=2913
+clock=2913
+SLB.size=0
+clock=2915
+clock=2915
+SLB.size=0
+clock=2917
+clock=2917
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=2917
+SLB.size=0
+clock=2919
+clock=2919
+pc=1040
+clock=2919
+16d693
+19
+SRLI
+d d 1 1
+0 1238 1ffa0 0 0 1210 0 0 31 1 0 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2919
+SLB.size=0
+clock=2921
+clock=2921
+pc=1044
+clock=2921
+165613
+19
+SRLI
+c c 1 1
+0 1238 1ffa0 0 0 1210 0 0 31 1 0 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2921
+SLB.size=0
+clock=2923
+clock=2923
+pc=1048
+clock=2923
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1238 1ffa0 0 0 1210 0 0 31 1 0 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2923
+SLB.size=0
+clock=2925
+clock=2925
+pc=104c
+clock=2925
+8067
+c
+JALR
+0 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 1 0 1 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2925
+SLB.size=0
+clock=2927
+clock=2927
+SLB.size=0
+clock=2929
+clock=2929
+SLB.size=0
+clock=2931
+clock=2931
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=2931
+SLB.size=0
+clock=2933
+clock=2933
+SLB.size=0
+clock=2935
+clock=2935
+SLB.size=0
+clock=2937
+clock=2937
+SLB.size=0
+clock=2939
+clock=2939
+SLB.size=0
+clock=2941
+clock=2941
+SLB.size=0
+clock=2943
+clock=2943
+SLB.size=0
+clock=2945
+clock=2945
+pc=1238
+clock=2945
+50493
+12
+ADDI
+9 a 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 1 0 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2945
+SLB.size=0
+clock=2947
+clock=2947
+SLB.size=0
+clock=2949
+clock=2949
+SLB.size=0
+clock=2951
+clock=2951
+SLB.size=0
+clock=2953
+clock=2953
+SLB.size=0
+clock=2955
+clock=2955
+SLB.size=0
+clock=2957
+clock=2957
+SLB.size=0
+clock=2959
+clock=2959
+pc=123c
+clock=2959
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2959
+SLB.size=0
+clock=2961
+clock=2961
+SLB.size=0
+clock=2963
+clock=2963
+SLB.size=0
+clock=2965
+clock=2965
+SLB.size=0
+clock=2967
+clock=2967
+SLB.size=0
+clock=2969
+clock=2969
+SLB.size=0
+clock=2971
+clock=2971
+SLB.size=0
+clock=2973
+clock=2973
+pc=1240
+clock=2973
+b8c63
+1f
+BEQ
+18 17 0 18
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2973
+SLB.size=0
+clock=2975
+clock=2975
+SLB.size=0
+clock=2977
+clock=2977
+SLB.size=0
+clock=2979
+clock=2979
+ClearAll, ROB_pc=1240, ROB_value=1
+clock=2979
+SLB.size=0
+clock=2981
+clock=2981
+SLB.size=0
+clock=2983
+clock=2983
+SLB.size=0
+clock=2985
+clock=2985
+SLB.size=0
+clock=2987
+clock=2987
+SLB.size=0
+clock=2989
+clock=2989
+SLB.size=0
+clock=2991
+clock=2991
+SLB.size=0
+clock=2993
+clock=2993
+pc=1258
+clock=2993
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=2993
+SLB.size=0
+clock=2995
+clock=2995
+SLB.size=0
+clock=2997
+clock=2997
+SLB.size=0
+clock=2999
+clock=2999
+SLB.size=0
+clock=3001
+clock=3001
+SLB.size=0
+clock=3003
+clock=3003
+SLB.size=0
+clock=3005
+clock=3005
+SLB.size=0
+clock=3007
+clock=3007
+pc=125c
+clock=3007
+c0006f
+1e
+JAL
+0 0 c c
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3007
+SLB.size=0
+clock=3009
+clock=3009
+SLB.size=0
+clock=3011
+clock=3011
+SLB.size=0
+clock=3013
+clock=3013
+SLB.size=0
+clock=3015
+clock=3015
+SLB.size=0
+clock=3017
+clock=3017
+SLB.size=0
+clock=3019
+clock=3019
+SLB.size=0
+clock=3021
+clock=3021
+pc=1268
+clock=3021
+8a8023
+1b
+SB
+0 15 8 0
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3021
+SLB.size=0
+clock=3023
+clock=3023
+SLB.size=0
+clock=3025
+clock=3025
+SLB.size=1
+clock=3027
+clock=3027
+SLB.size=1
+clock=3029
+clock=3029
+SLB.size=1
+clock=3031
+clock=3031
+SLB.size=1
+clock=3033
+clock=3033
+SLB.size=1
+clock=3035
+Clock=3035
+1
+!!!!!!!!!!!! store data[30000]=31
+clock=3035
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0 clock=3035
+pc=126c
+clock=3035
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3035
+SLB.size=1
+clock=3037
+clock=3037
+SLB.size=1
+clock=3039
+clock=3039
+SLB.size=0
+clock=3041
+clock=3041
+SLB.size=0
+clock=3043
+clock=3043
+SLB.size=0
+clock=3045
+clock=3045
+SLB.size=0
+clock=3047
+clock=3047
+SLB.size=0
+clock=3049
+clock=3049
+pc=1270
+clock=3049
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3049
+SLB.size=0
+clock=3051
+clock=3051
+SLB.size=0
+clock=3053
+clock=3053
+SLB.size=0
+clock=3055
+clock=3055
+SLB.size=0
+clock=3057
+clock=3057
+SLB.size=0
+clock=3059
+clock=3059
+SLB.size=0
+clock=3061
+clock=3061
+SLB.size=0
+clock=3063
+clock=3063
+pc=1274
+clock=3063
+4b0b13
+12
+ADDI
+16 16 4 4
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb0 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3063
+SLB.size=0
+clock=3065
+clock=3065
+SLB.size=0
+clock=3067
+clock=3067
+SLB.size=0
+clock=3069
+clock=3069
+SLB.size=0
+clock=3071
+clock=3071
+SLB.size=0
+clock=3073
+clock=3073
+SLB.size=0
+clock=3075
+clock=3075
+SLB.size=0
+clock=3077
+clock=3077
+pc=1278
+clock=3077
+f78b1ee3
+20
+BNE
+1d 16 18 ffffff7c
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3077
+SLB.size=0
+clock=3079
+clock=3079
+SLB.size=0
+clock=3081
+clock=3081
+SLB.size=0
+clock=3083
+clock=3083
+ClearAll, ROB_pc=1278, ROB_value=1
+clock=3083
+SLB.size=0
+clock=3085
+clock=3085
+pc=11f4
+clock=3085
+b2483
+f
+LW
+9 16 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3085
+SLB.size=0
+clock=3087
+clock=3087
+pc=11f8
+clock=3087
+b93
+12
+ADDI
+17 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3087
+SLB.size=0
+clock=3089
+clock=3089
+pc=11fc
+clock=3089
+c04c063
+21
+BLT
+0 9 0 c0
+0 1238 1ffa0 0 0 1210 0 0 31 0 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3089
+SLB.size=1
+clock=3091
+clock=3091
+SLB.size=1
+clock=3093
+clock=3093
+SLB.size=1
+clock=3095
+clock=3095
+SLB.size=1
+clock=3097
+clock=3097
+SLB.size=1
+clock=3099
+clock=3099
+SLB.size=1
+clock=3101
+clock=3101
+SLB.size=1
+clock=3103
+clock=3103
+SLB.size=0
+clock=3105
+clock=3105
+SLB.size=0
+clock=3107
+clock=3107
+SLB.size=0
+clock=3109
+clock=3109
+SLB.size=0
+clock=3111
+clock=3111
+pc=1200
+clock=3111
+993
+12
+ADDI
+13 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 2 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3111
+SLB.size=0
+clock=3113
+clock=3113
+SLB.size=0
+clock=3115
+clock=3115
+SLB.size=0
+clock=3117
+clock=3117
+SLB.size=0
+clock=3119
+clock=3119
+SLB.size=0
+clock=3121
+clock=3121
+SLB.size=0
+clock=3123
+clock=3123
+SLB.size=0
+clock=3125
+clock=3125
+pc=1204
+clock=3125
+a00593
+12
+ADDI
+b 0 a a
+0 1238 1ffa0 0 0 1210 0 0 31 2 0 1 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3125
+SLB.size=0
+clock=3127
+clock=3127
+SLB.size=0
+clock=3129
+clock=3129
+SLB.size=0
+clock=3131
+clock=3131
+SLB.size=0
+clock=3133
+clock=3133
+SLB.size=0
+clock=3135
+clock=3135
+SLB.size=0
+clock=3137
+clock=3137
+SLB.size=0
+clock=3139
+clock=3139
+pc=1208
+clock=3139
+48513
+12
+ADDI
+a 9 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 2 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3139
+SLB.size=0
+clock=3141
+clock=3141
+SLB.size=0
+clock=3143
+clock=3143
+SLB.size=0
+clock=3145
+clock=3145
+SLB.size=0
+clock=3147
+clock=3147
+SLB.size=0
+clock=3149
+clock=3149
+SLB.size=0
+clock=3151
+clock=3151
+SLB.size=0
+clock=3153
+clock=3153
+pc=120c
+clock=3153
+e79ff0ef
+1e
+JAL
+1 1f 19 fffffe78
+0 1238 1ffa0 0 0 1210 0 0 31 2 2 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3153
+SLB.size=0
+clock=3155
+clock=3155
+pc=1084
+clock=3155
+8293
+12
+ADDI
+5 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 31 2 2 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3155
+SLB.size=0
+clock=3157
+clock=3157
+pc=1088
+clock=3157
+5ca63
+21
+BLT
+14 b 0 14
+0 1238 1ffa0 0 0 1210 0 0 31 2 2 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3157
+SLB.size=0
+clock=3159
+clock=3159
+pc=108c
+clock=3159
+54c63
+21
+BLT
+18 a 0 18
+0 1238 1ffa0 0 0 1210 0 0 31 2 2 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3159
+SLB.size=0
+clock=3161
+clock=3161
+pc=1090
+clock=3161
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1210 1ffa0 0 0 1210 0 0 31 2 2 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3161
+SLB.size=0
+clock=3163
+clock=3163
+SLB.size=0
+clock=3165
+clock=3165
+SLB.size=0
+clock=3167
+clock=3167
+SLB.size=0
+clock=3169
+clock=3169
+SLB.size=0
+clock=3171
+clock=3171
+SLB.size=0
+clock=3173
+clock=3173
+SLB.size=0
+clock=3175
+clock=3175
+pc=1008
+clock=3175
+58613
+12
+ADDI
+c b 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3175
+SLB.size=0
+clock=3177
+clock=3177
+SLB.size=0
+clock=3179
+clock=3179
+SLB.size=0
+clock=3181
+clock=3181
+SLB.size=0
+clock=3183
+clock=3183
+SLB.size=0
+clock=3185
+clock=3185
+SLB.size=0
+clock=3187
+clock=3187
+SLB.size=0
+clock=3189
+clock=3189
+pc=100c
+clock=3189
+50593
+12
+ADDI
+b a 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3189
+SLB.size=0
+clock=3191
+clock=3191
+pc=1010
+clock=3191
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3191
+SLB.size=0
+clock=3193
+clock=3193
+pc=1014
+clock=3193
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3193
+SLB.size=0
+clock=3195
+clock=3195
+pc=1018
+clock=3195
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3195
+SLB.size=0
+clock=3197
+clock=3197
+pc=101c
+clock=3197
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 2 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3197
+SLB.size=0
+clock=3199
+clock=3199
+SLB.size=0
+clock=3201
+clock=3201
+SLB.size=0
+clock=3203
+clock=3203
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=3203
+SLB.size=0
+clock=3205
+clock=3205
+pc=1030
+clock=3205
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 2 ffffffff 2 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3205
+SLB.size=0
+clock=3207
+clock=3207
+pc=1034
+clock=3207
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1210 0 0 31 2 ffffffff 2 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3207
+SLB.size=0
+clock=3209
+clock=3209
+SLB.size=0
+clock=3211
+clock=3211
+SLB.size=0
+clock=3213
+clock=3213
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=3213
+SLB.size=0
+clock=3215
+clock=3215
+SLB.size=0
+clock=3217
+clock=3217
+SLB.size=0
+clock=3219
+clock=3219
+SLB.size=0
+clock=3221
+clock=3221
+SLB.size=0
+clock=3223
+clock=3223
+SLB.size=0
+clock=3225
+clock=3225
+SLB.size=0
+clock=3227
+clock=3227
+pc=1040
+clock=3227
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1210 0 0 31 2 0 2 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3227
+SLB.size=0
+clock=3229
+clock=3229
+pc=1044
+clock=3229
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1210 0 0 31 2 0 2 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3229
+SLB.size=0
+clock=3231
+clock=3231
+pc=1048
+clock=3231
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1210 0 0 31 2 0 2 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3231
+SLB.size=0
+clock=3233
+clock=3233
+pc=104c
+clock=3233
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 2 0 2 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3233
+SLB.size=0
+clock=3235
+clock=3235
+SLB.size=0
+clock=3237
+clock=3237
+SLB.size=0
+clock=3239
+clock=3239
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=3239
+SLB.size=0
+clock=3241
+clock=3241
+pc=1094
+clock=3241
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 2 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3241
+SLB.size=0
+clock=3243
+clock=3243
+pc=1098
+clock=3243
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1210 0 0 31 2 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3243
+SLB.size=0
+clock=3245
+clock=3245
+SLB.size=0
+clock=3247
+clock=3247
+SLB.size=0
+clock=3249
+clock=3249
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=3249
+SLB.size=0
+clock=3251
+clock=3251
+SLB.size=0
+clock=3253
+clock=3253
+SLB.size=0
+clock=3255
+clock=3255
+SLB.size=0
+clock=3257
+clock=3257
+SLB.size=0
+clock=3259
+clock=3259
+SLB.size=0
+clock=3261
+clock=3261
+SLB.size=0
+clock=3263
+clock=3263
+pc=1210
+clock=3263
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1210 0 0 31 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3263
+SLB.size=0
+clock=3265
+clock=3265
+SLB.size=0
+clock=3267
+clock=3267
+SLB.size=0
+clock=3269
+clock=3269
+SLB.size=0
+clock=3271
+clock=3271
+SLB.size=0
+clock=3273
+clock=3273
+SLB.size=0
+clock=3275
+clock=3275
+SLB.size=0
+clock=3277
+clock=3277
+pc=1214
+clock=3277
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3277
+SLB.size=0
+clock=3279
+clock=3279
+SLB.size=0
+clock=3281
+clock=3281
+SLB.size=0
+clock=3283
+clock=3283
+SLB.size=0
+clock=3285
+clock=3285
+SLB.size=0
+clock=3287
+clock=3287
+SLB.size=0
+clock=3289
+clock=3289
+SLB.size=0
+clock=3291
+clock=3291
+pc=1218
+clock=3291
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3291
+SLB.size=0
+clock=3293
+clock=3293
+SLB.size=0
+clock=3295
+clock=3295
+SLB.size=0
+clock=3297
+clock=3297
+SLB.size=0
+clock=3299
+clock=3299
+SLB.size=0
+clock=3301
+clock=3301
+SLB.size=0
+clock=3303
+clock=3303
+SLB.size=0
+clock=3305
+clock=3305
+pc=121c
+clock=3305
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3305
+SLB.size=0
+clock=3307
+clock=3307
+pc=1220
+clock=3307
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3307
+SLB.size=0
+clock=3309
+clock=3309
+pc=1224
+clock=3309
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3309
+SLB.size=0
+clock=3311
+clock=3311
+pc=1228
+clock=3311
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3311
+SLB.size=0
+clock=3313
+clock=3313
+pc=122c
+clock=3313
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3313
+SLB.size=0
+clock=3315
+clock=3315
+SLB.size=0
+clock=3317
+clock=3317
+SLB.size=1
+clock=3319
+clock=3319
+SLB.size=1
+clock=3321
+clock=3321
+SLB.size=1
+clock=3323
+clock=3323
+SLB.size=1
+clock=3325
+clock=3325
+SLB.size=1
+clock=3327
+clock=3327
+pc=1230
+clock=3327
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 1 0 0 0 0   reg
+clock=3327
+SLB.size=1
+clock=3329
+clock=3329
+SLB.size=1
+clock=3331
+clock=3331
+SLB.size=0
+clock=3333
+clock=3333
+SLB.size=0
+clock=3335
+clock=3335
+SLB.size=0
+clock=3337
+clock=3337
+SLB.size=0
+clock=3339
+clock=3339
+SLB.size=0
+clock=3341
+clock=3341
+pc=1234
+clock=3341
+dcdff0ef
+1e
+JAL
+1 1f d fffffdcc
+0 1094 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3341
+SLB.size=0
+clock=3343
+clock=3343
+SLB.size=0
+clock=3345
+clock=3345
+SLB.size=0
+clock=3347
+clock=3347
+SLB.size=0
+clock=3349
+clock=3349
+SLB.size=0
+clock=3351
+clock=3351
+SLB.size=0
+clock=3353
+clock=3353
+SLB.size=0
+clock=3355
+clock=3355
+pc=1000
+clock=3355
+6054063
+21
+BLT
+0 a 0 60
+0 1238 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3355
+SLB.size=0
+clock=3357
+clock=3357
+pc=1060
+clock=3357
+40a00533
+3
+SUB
+a 0 a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3357
+SLB.size=0
+clock=3359
+clock=3359
+SLB.size=0
+clock=3361
+clock=3361
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=3361
+SLB.size=0
+clock=3363
+clock=3363
+SLB.size=0
+clock=3365
+clock=3365
+SLB.size=0
+clock=3367
+clock=3367
+SLB.size=0
+clock=3369
+clock=3369
+SLB.size=0
+clock=3371
+clock=3371
+SLB.size=0
+clock=3373
+clock=3373
+SLB.size=0
+clock=3375
+clock=3375
+pc=1004
+clock=3375
+605c663
+21
+BLT
+c b 0 6c
+0 1238 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3375
+SLB.size=0
+clock=3377
+clock=3377
+pc=1008
+clock=3377
+58613
+12
+ADDI
+c b 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3377
+SLB.size=0
+clock=3379
+clock=3379
+pc=100c
+clock=3379
+50593
+12
+ADDI
+b a 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 2 2 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3379
+SLB.size=0
+clock=3381
+clock=3381
+SLB.size=0
+clock=3383
+clock=3383
+SLB.size=0
+clock=3385
+clock=3385
+SLB.size=0
+clock=3387
+clock=3387
+SLB.size=0
+clock=3389
+clock=3389
+SLB.size=0
+clock=3391
+clock=3391
+SLB.size=0
+clock=3393
+clock=3393
+pc=1010
+clock=3393
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 32 2 2 2 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3393
+SLB.size=0
+clock=3395
+clock=3395
+SLB.size=0
+clock=3397
+clock=3397
+SLB.size=0
+clock=3399
+clock=3399
+SLB.size=0
+clock=3401
+clock=3401
+SLB.size=0
+clock=3403
+clock=3403
+SLB.size=0
+clock=3405
+clock=3405
+SLB.size=0
+clock=3407
+clock=3407
+pc=1014
+clock=3407
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1238 1ffa0 0 0 1210 0 0 32 2 ffffffff 2 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3407
+SLB.size=0
+clock=3409
+clock=3409
+SLB.size=0
+clock=3411
+clock=3411
+SLB.size=0
+clock=3413
+clock=3413
+SLB.size=0
+clock=3415
+clock=3415
+SLB.size=0
+clock=3417
+clock=3417
+SLB.size=0
+clock=3419
+clock=3419
+SLB.size=0
+clock=3421
+clock=3421
+pc=1018
+clock=3421
+100693
+12
+ADDI
+d 0 1 1
+0 1238 1ffa0 0 0 1210 0 0 32 2 ffffffff 2 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3421
+SLB.size=0
+clock=3423
+clock=3423
+SLB.size=0
+clock=3425
+clock=3425
+SLB.size=0
+clock=3427
+clock=3427
+SLB.size=0
+clock=3429
+clock=3429
+SLB.size=0
+clock=3431
+clock=3431
+SLB.size=0
+clock=3433
+clock=3433
+SLB.size=0
+clock=3435
+clock=3435
+pc=101c
+clock=3435
+b67a63
+24
+BGEU
+14 c b 14
+0 1238 1ffa0 0 0 1210 0 0 32 2 ffffffff 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3435
+SLB.size=0
+clock=3437
+clock=3437
+SLB.size=0
+clock=3439
+clock=3439
+SLB.size=0
+clock=3441
+clock=3441
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=3441
+SLB.size=0
+clock=3443
+clock=3443
+SLB.size=0
+clock=3445
+clock=3445
+SLB.size=0
+clock=3447
+clock=3447
+SLB.size=0
+clock=3449
+clock=3449
+SLB.size=0
+clock=3451
+clock=3451
+SLB.size=0
+clock=3453
+clock=3453
+SLB.size=0
+clock=3455
+clock=3455
+pc=1030
+clock=3455
+513
+12
+ADDI
+a 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 2 ffffffff 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3455
+SLB.size=0
+clock=3457
+clock=3457
+SLB.size=0
+clock=3459
+clock=3459
+SLB.size=0
+clock=3461
+clock=3461
+SLB.size=0
+clock=3463
+clock=3463
+SLB.size=0
+clock=3465
+clock=3465
+SLB.size=0
+clock=3467
+clock=3467
+SLB.size=0
+clock=3469
+clock=3469
+pc=1034
+clock=3469
+c5e663
+23
+BLTU
+c b c c
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3469
+SLB.size=0
+clock=3471
+clock=3471
+SLB.size=0
+clock=3473
+clock=3473
+SLB.size=0
+clock=3475
+clock=3475
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=3475
+SLB.size=0
+clock=3477
+clock=3477
+pc=1040
+clock=3477
+16d693
+19
+SRLI
+d d 1 1
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3477
+SLB.size=0
+clock=3479
+clock=3479
+pc=1044
+clock=3479
+165613
+19
+SRLI
+c c 1 1
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3479
+SLB.size=0
+clock=3481
+clock=3481
+pc=1048
+clock=3481
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3481
+SLB.size=0
+clock=3483
+clock=3483
+pc=104c
+clock=3483
+8067
+c
+JALR
+0 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3483
+SLB.size=0
+clock=3485
+clock=3485
+SLB.size=0
+clock=3487
+clock=3487
+SLB.size=0
+clock=3489
+clock=3489
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=3489
+SLB.size=0
+clock=3491
+clock=3491
+pc=1238
+clock=3491
+50493
+12
+ADDI
+9 a 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3491
+SLB.size=0
+clock=3493
+clock=3493
+pc=123c
+clock=3493
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 1238 1ffa0 0 0 1210 0 0 32 2 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3493
+SLB.size=0
+clock=3495
+clock=3495
+SLB.size=0
+clock=3497
+clock=3497
+SLB.size=0
+clock=3499
+clock=3499
+SLB.size=0
+clock=3501
+clock=3501
+SLB.size=0
+clock=3503
+clock=3503
+SLB.size=0
+clock=3505
+clock=3505
+SLB.size=0
+clock=3507
+clock=3507
+pc=1240
+clock=3507
+b8c63
+1f
+BEQ
+18 17 0 18
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3507
+SLB.size=0
+clock=3509
+clock=3509
+SLB.size=0
+clock=3511
+clock=3511
+SLB.size=0
+clock=3513
+clock=3513
+ClearAll, ROB_pc=1240, ROB_value=1
+clock=3513
+SLB.size=0
+clock=3515
+clock=3515
+pc=1258
+clock=3515
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3515
+SLB.size=0
+clock=3517
+clock=3517
+pc=125c
+clock=3517
+c0006f
+1e
+JAL
+0 0 c c
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3517
+SLB.size=0
+clock=3519
+clock=3519
+pc=1268
+clock=3519
+8a8023
+1b
+SB
+0 15 8 0
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3519
+SLB.size=0
+clock=3521
+clock=3521
+pc=126c
+clock=3521
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3521
+SLB.size=0
+clock=3523
+clock=3523
+pc=1270
+clock=3523
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3523
+SLB.size=1
+clock=3525
+clock=3525
+pc=1274
+clock=3525
+4b0b13
+12
+ADDI
+16 16 4 4
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3525
+SLB.size=1
+clock=3527
+clock=3527
+pc=1278
+clock=3527
+f78b1ee3
+20
+BNE
+1d 16 18 ffffff7c
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3527
+SLB.size=1
+clock=3529
+Clock=3529
+2
+!!!!!!!!!!!! store data[30000]=32
+clock=3529
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb4 0 1ffc0 2d 0 2 0 0 0 0 clock=3529
+SLB.size=1
+clock=3531
+clock=3531
+SLB.size=1
+clock=3533
+clock=3533
+SLB.size=0
+clock=3535
+clock=3535
+SLB.size=0
+clock=3537
+clock=3537
+SLB.size=0
+clock=3539
+clock=3539
+SLB.size=0
+clock=3541
+clock=3541
+pc=127c
+clock=3541
+5c12083
+f
+LW
+1 2 1c 5c
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3541
+SLB.size=0
+clock=3543
+clock=3543
+ClearAll, ROB_pc=1278, ROB_value=1
+clock=3543
+SLB.size=0
+clock=3545
+clock=3545
+pc=11f4
+clock=3545
+b2483
+f
+LW
+9 16 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3545
+SLB.size=0
+clock=3547
+clock=3547
+pc=11f8
+clock=3547
+b93
+12
+ADDI
+17 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3547
+SLB.size=0
+clock=3549
+clock=3549
+pc=11fc
+clock=3549
+c04c063
+21
+BLT
+0 9 0 c0
+0 1238 1ffa0 0 0 1210 0 0 32 0 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3549
+SLB.size=1
+clock=3551
+clock=3551
+SLB.size=1
+clock=3553
+clock=3553
+SLB.size=1
+clock=3555
+clock=3555
+SLB.size=1
+clock=3557
+clock=3557
+SLB.size=1
+clock=3559
+clock=3559
+SLB.size=1
+clock=3561
+clock=3561
+SLB.size=1
+clock=3563
+clock=3563
+SLB.size=0
+clock=3565
+clock=3565
+SLB.size=0
+clock=3567
+clock=3567
+SLB.size=0
+clock=3569
+clock=3569
+SLB.size=0
+clock=3571
+clock=3571
+pc=1200
+clock=3571
+993
+12
+ADDI
+13 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 3 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3571
+SLB.size=0
+clock=3573
+clock=3573
+SLB.size=0
+clock=3575
+clock=3575
+SLB.size=0
+clock=3577
+clock=3577
+SLB.size=0
+clock=3579
+clock=3579
+SLB.size=0
+clock=3581
+clock=3581
+SLB.size=0
+clock=3583
+clock=3583
+SLB.size=0
+clock=3585
+clock=3585
+pc=1204
+clock=3585
+a00593
+12
+ADDI
+b 0 a a
+0 1238 1ffa0 0 0 1210 0 0 32 3 0 2 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3585
+SLB.size=0
+clock=3587
+clock=3587
+SLB.size=0
+clock=3589
+clock=3589
+SLB.size=0
+clock=3591
+clock=3591
+SLB.size=0
+clock=3593
+clock=3593
+SLB.size=0
+clock=3595
+clock=3595
+SLB.size=0
+clock=3597
+clock=3597
+SLB.size=0
+clock=3599
+clock=3599
+pc=1208
+clock=3599
+48513
+12
+ADDI
+a 9 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 3 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3599
+SLB.size=0
+clock=3601
+clock=3601
+SLB.size=0
+clock=3603
+clock=3603
+SLB.size=0
+clock=3605
+clock=3605
+SLB.size=0
+clock=3607
+clock=3607
+SLB.size=0
+clock=3609
+clock=3609
+SLB.size=0
+clock=3611
+clock=3611
+SLB.size=0
+clock=3613
+clock=3613
+pc=120c
+clock=3613
+e79ff0ef
+1e
+JAL
+1 1f 19 fffffe78
+0 1238 1ffa0 0 0 1210 0 0 32 3 3 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3613
+SLB.size=0
+clock=3615
+clock=3615
+pc=1084
+clock=3615
+8293
+12
+ADDI
+5 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 32 3 3 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3615
+SLB.size=0
+clock=3617
+clock=3617
+pc=1088
+clock=3617
+5ca63
+21
+BLT
+14 b 0 14
+0 1238 1ffa0 0 0 1210 0 0 32 3 3 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3617
+SLB.size=0
+clock=3619
+clock=3619
+pc=108c
+clock=3619
+54c63
+21
+BLT
+18 a 0 18
+0 1238 1ffa0 0 0 1210 0 0 32 3 3 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3619
+SLB.size=0
+clock=3621
+clock=3621
+pc=1090
+clock=3621
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1210 1ffa0 0 0 1210 0 0 32 3 3 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3621
+SLB.size=0
+clock=3623
+clock=3623
+SLB.size=0
+clock=3625
+clock=3625
+SLB.size=0
+clock=3627
+clock=3627
+SLB.size=0
+clock=3629
+clock=3629
+SLB.size=0
+clock=3631
+clock=3631
+SLB.size=0
+clock=3633
+clock=3633
+SLB.size=0
+clock=3635
+clock=3635
+pc=1008
+clock=3635
+58613
+12
+ADDI
+c b 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3635
+SLB.size=0
+clock=3637
+clock=3637
+SLB.size=0
+clock=3639
+clock=3639
+SLB.size=0
+clock=3641
+clock=3641
+SLB.size=0
+clock=3643
+clock=3643
+SLB.size=0
+clock=3645
+clock=3645
+SLB.size=0
+clock=3647
+clock=3647
+SLB.size=0
+clock=3649
+clock=3649
+pc=100c
+clock=3649
+50593
+12
+ADDI
+b a 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3649
+SLB.size=0
+clock=3651
+clock=3651
+pc=1010
+clock=3651
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3651
+SLB.size=0
+clock=3653
+clock=3653
+pc=1014
+clock=3653
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3653
+SLB.size=0
+clock=3655
+clock=3655
+pc=1018
+clock=3655
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3655
+SLB.size=0
+clock=3657
+clock=3657
+pc=101c
+clock=3657
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 3 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3657
+SLB.size=0
+clock=3659
+clock=3659
+SLB.size=0
+clock=3661
+clock=3661
+SLB.size=0
+clock=3663
+clock=3663
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=3663
+SLB.size=0
+clock=3665
+clock=3665
+pc=1030
+clock=3665
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 3 ffffffff 3 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3665
+SLB.size=0
+clock=3667
+clock=3667
+pc=1034
+clock=3667
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1210 0 0 32 3 ffffffff 3 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3667
+SLB.size=0
+clock=3669
+clock=3669
+SLB.size=0
+clock=3671
+clock=3671
+SLB.size=0
+clock=3673
+clock=3673
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=3673
+SLB.size=0
+clock=3675
+clock=3675
+SLB.size=0
+clock=3677
+clock=3677
+SLB.size=0
+clock=3679
+clock=3679
+SLB.size=0
+clock=3681
+clock=3681
+SLB.size=0
+clock=3683
+clock=3683
+SLB.size=0
+clock=3685
+clock=3685
+SLB.size=0
+clock=3687
+clock=3687
+pc=1040
+clock=3687
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1210 0 0 32 3 0 3 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3687
+SLB.size=0
+clock=3689
+clock=3689
+pc=1044
+clock=3689
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1210 0 0 32 3 0 3 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3689
+SLB.size=0
+clock=3691
+clock=3691
+pc=1048
+clock=3691
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1210 0 0 32 3 0 3 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3691
+SLB.size=0
+clock=3693
+clock=3693
+pc=104c
+clock=3693
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 3 0 3 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3693
+SLB.size=0
+clock=3695
+clock=3695
+SLB.size=0
+clock=3697
+clock=3697
+SLB.size=0
+clock=3699
+clock=3699
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=3699
+SLB.size=0
+clock=3701
+clock=3701
+pc=1094
+clock=3701
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 3 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3701
+SLB.size=0
+clock=3703
+clock=3703
+pc=1098
+clock=3703
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1210 0 0 32 3 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3703
+SLB.size=0
+clock=3705
+clock=3705
+SLB.size=0
+clock=3707
+clock=3707
+SLB.size=0
+clock=3709
+clock=3709
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=3709
+SLB.size=0
+clock=3711
+clock=3711
+SLB.size=0
+clock=3713
+clock=3713
+SLB.size=0
+clock=3715
+clock=3715
+SLB.size=0
+clock=3717
+clock=3717
+SLB.size=0
+clock=3719
+clock=3719
+SLB.size=0
+clock=3721
+clock=3721
+SLB.size=0
+clock=3723
+clock=3723
+pc=1210
+clock=3723
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1210 0 0 32 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3723
+SLB.size=0
+clock=3725
+clock=3725
+SLB.size=0
+clock=3727
+clock=3727
+SLB.size=0
+clock=3729
+clock=3729
+SLB.size=0
+clock=3731
+clock=3731
+SLB.size=0
+clock=3733
+clock=3733
+SLB.size=0
+clock=3735
+clock=3735
+SLB.size=0
+clock=3737
+clock=3737
+pc=1214
+clock=3737
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3737
+SLB.size=0
+clock=3739
+clock=3739
+SLB.size=0
+clock=3741
+clock=3741
+SLB.size=0
+clock=3743
+clock=3743
+SLB.size=0
+clock=3745
+clock=3745
+SLB.size=0
+clock=3747
+clock=3747
+SLB.size=0
+clock=3749
+clock=3749
+SLB.size=0
+clock=3751
+clock=3751
+pc=1218
+clock=3751
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3751
+SLB.size=0
+clock=3753
+clock=3753
+SLB.size=0
+clock=3755
+clock=3755
+SLB.size=0
+clock=3757
+clock=3757
+SLB.size=0
+clock=3759
+clock=3759
+SLB.size=0
+clock=3761
+clock=3761
+SLB.size=0
+clock=3763
+clock=3763
+SLB.size=0
+clock=3765
+clock=3765
+pc=121c
+clock=3765
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3765
+SLB.size=0
+clock=3767
+clock=3767
+pc=1220
+clock=3767
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3767
+SLB.size=0
+clock=3769
+clock=3769
+pc=1224
+clock=3769
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3769
+SLB.size=0
+clock=3771
+clock=3771
+pc=1228
+clock=3771
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3771
+SLB.size=0
+clock=3773
+clock=3773
+pc=122c
+clock=3773
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3773
+SLB.size=0
+clock=3775
+clock=3775
+SLB.size=0
+clock=3777
+clock=3777
+SLB.size=1
+clock=3779
+clock=3779
+SLB.size=1
+clock=3781
+clock=3781
+SLB.size=1
+clock=3783
+clock=3783
+SLB.size=1
+clock=3785
+clock=3785
+SLB.size=1
+clock=3787
+clock=3787
+pc=1230
+clock=3787
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 2 0 0 0 0   reg
+clock=3787
+SLB.size=1
+clock=3789
+clock=3789
+SLB.size=1
+clock=3791
+clock=3791
+SLB.size=0
+clock=3793
+clock=3793
+SLB.size=0
+clock=3795
+clock=3795
+SLB.size=0
+clock=3797
+clock=3797
+SLB.size=0
+clock=3799
+clock=3799
+SLB.size=0
+clock=3801
+clock=3801
+pc=1234
+clock=3801
+dcdff0ef
+1e
+JAL
+1 1f d fffffdcc
+0 1094 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3801
+SLB.size=0
+clock=3803
+clock=3803
+SLB.size=0
+clock=3805
+clock=3805
+SLB.size=0
+clock=3807
+clock=3807
+SLB.size=0
+clock=3809
+clock=3809
+SLB.size=0
+clock=3811
+clock=3811
+SLB.size=0
+clock=3813
+clock=3813
+SLB.size=0
+clock=3815
+clock=3815
+pc=1000
+clock=3815
+6054063
+21
+BLT
+0 a 0 60
+0 1238 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3815
+SLB.size=0
+clock=3817
+clock=3817
+pc=1060
+clock=3817
+40a00533
+3
+SUB
+a 0 a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3817
+SLB.size=0
+clock=3819
+clock=3819
+SLB.size=0
+clock=3821
+clock=3821
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=3821
+SLB.size=0
+clock=3823
+clock=3823
+SLB.size=0
+clock=3825
+clock=3825
+SLB.size=0
+clock=3827
+clock=3827
+SLB.size=0
+clock=3829
+clock=3829
+SLB.size=0
+clock=3831
+clock=3831
+SLB.size=0
+clock=3833
+clock=3833
+SLB.size=0
+clock=3835
+clock=3835
+pc=1004
+clock=3835
+605c663
+21
+BLT
+c b 0 6c
+0 1238 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3835
+SLB.size=0
+clock=3837
+clock=3837
+pc=1008
+clock=3837
+58613
+12
+ADDI
+c b 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3837
+SLB.size=0
+clock=3839
+clock=3839
+pc=100c
+clock=3839
+50593
+12
+ADDI
+b a 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 3 3 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3839
+SLB.size=0
+clock=3841
+clock=3841
+SLB.size=0
+clock=3843
+clock=3843
+SLB.size=0
+clock=3845
+clock=3845
+SLB.size=0
+clock=3847
+clock=3847
+SLB.size=0
+clock=3849
+clock=3849
+SLB.size=0
+clock=3851
+clock=3851
+SLB.size=0
+clock=3853
+clock=3853
+pc=1010
+clock=3853
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 33 3 3 3 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3853
+SLB.size=0
+clock=3855
+clock=3855
+SLB.size=0
+clock=3857
+clock=3857
+SLB.size=0
+clock=3859
+clock=3859
+SLB.size=0
+clock=3861
+clock=3861
+SLB.size=0
+clock=3863
+clock=3863
+SLB.size=0
+clock=3865
+clock=3865
+SLB.size=0
+clock=3867
+clock=3867
+pc=1014
+clock=3867
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1238 1ffa0 0 0 1210 0 0 33 3 ffffffff 3 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3867
+SLB.size=0
+clock=3869
+clock=3869
+SLB.size=0
+clock=3871
+clock=3871
+SLB.size=0
+clock=3873
+clock=3873
+SLB.size=0
+clock=3875
+clock=3875
+SLB.size=0
+clock=3877
+clock=3877
+SLB.size=0
+clock=3879
+clock=3879
+SLB.size=0
+clock=3881
+clock=3881
+pc=1018
+clock=3881
+100693
+12
+ADDI
+d 0 1 1
+0 1238 1ffa0 0 0 1210 0 0 33 3 ffffffff 3 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3881
+SLB.size=0
+clock=3883
+clock=3883
+SLB.size=0
+clock=3885
+clock=3885
+SLB.size=0
+clock=3887
+clock=3887
+SLB.size=0
+clock=3889
+clock=3889
+SLB.size=0
+clock=3891
+clock=3891
+SLB.size=0
+clock=3893
+clock=3893
+SLB.size=0
+clock=3895
+clock=3895
+pc=101c
+clock=3895
+b67a63
+24
+BGEU
+14 c b 14
+0 1238 1ffa0 0 0 1210 0 0 33 3 ffffffff 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3895
+SLB.size=0
+clock=3897
+clock=3897
+SLB.size=0
+clock=3899
+clock=3899
+SLB.size=0
+clock=3901
+clock=3901
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=3901
+SLB.size=0
+clock=3903
+clock=3903
+SLB.size=0
+clock=3905
+clock=3905
+SLB.size=0
+clock=3907
+clock=3907
+SLB.size=0
+clock=3909
+clock=3909
+SLB.size=0
+clock=3911
+clock=3911
+SLB.size=0
+clock=3913
+clock=3913
+SLB.size=0
+clock=3915
+clock=3915
+pc=1030
+clock=3915
+513
+12
+ADDI
+a 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 3 ffffffff 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3915
+SLB.size=0
+clock=3917
+clock=3917
+SLB.size=0
+clock=3919
+clock=3919
+SLB.size=0
+clock=3921
+clock=3921
+SLB.size=0
+clock=3923
+clock=3923
+SLB.size=0
+clock=3925
+clock=3925
+SLB.size=0
+clock=3927
+clock=3927
+SLB.size=0
+clock=3929
+clock=3929
+pc=1034
+clock=3929
+c5e663
+23
+BLTU
+c b c c
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3929
+SLB.size=0
+clock=3931
+clock=3931
+SLB.size=0
+clock=3933
+clock=3933
+SLB.size=0
+clock=3935
+clock=3935
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=3935
+SLB.size=0
+clock=3937
+clock=3937
+pc=1040
+clock=3937
+16d693
+19
+SRLI
+d d 1 1
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3937
+SLB.size=0
+clock=3939
+clock=3939
+pc=1044
+clock=3939
+165613
+19
+SRLI
+c c 1 1
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3939
+SLB.size=0
+clock=3941
+clock=3941
+pc=1048
+clock=3941
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3941
+SLB.size=0
+clock=3943
+clock=3943
+pc=104c
+clock=3943
+8067
+c
+JALR
+0 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3943
+SLB.size=0
+clock=3945
+clock=3945
+SLB.size=0
+clock=3947
+clock=3947
+SLB.size=0
+clock=3949
+clock=3949
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=3949
+SLB.size=0
+clock=3951
+clock=3951
+pc=1238
+clock=3951
+50493
+12
+ADDI
+9 a 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3951
+SLB.size=0
+clock=3953
+clock=3953
+pc=123c
+clock=3953
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 1238 1ffa0 0 0 1210 0 0 33 3 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3953
+SLB.size=0
+clock=3955
+clock=3955
+SLB.size=0
+clock=3957
+clock=3957
+SLB.size=0
+clock=3959
+clock=3959
+SLB.size=0
+clock=3961
+clock=3961
+SLB.size=0
+clock=3963
+clock=3963
+SLB.size=0
+clock=3965
+clock=3965
+SLB.size=0
+clock=3967
+clock=3967
+pc=1240
+clock=3967
+b8c63
+1f
+BEQ
+18 17 0 18
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3967
+SLB.size=0
+clock=3969
+clock=3969
+SLB.size=0
+clock=3971
+clock=3971
+SLB.size=0
+clock=3973
+clock=3973
+ClearAll, ROB_pc=1240, ROB_value=1
+clock=3973
+SLB.size=0
+clock=3975
+clock=3975
+pc=1258
+clock=3975
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3975
+SLB.size=0
+clock=3977
+clock=3977
+pc=125c
+clock=3977
+c0006f
+1e
+JAL
+0 0 c c
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3977
+SLB.size=0
+clock=3979
+clock=3979
+pc=1268
+clock=3979
+8a8023
+1b
+SB
+0 15 8 0
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3979
+SLB.size=0
+clock=3981
+clock=3981
+pc=126c
+clock=3981
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3981
+SLB.size=0
+clock=3983
+clock=3983
+pc=1270
+clock=3983
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3983
+SLB.size=1
+clock=3985
+clock=3985
+pc=1274
+clock=3985
+4b0b13
+12
+ADDI
+16 16 4 4
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3985
+SLB.size=1
+clock=3987
+clock=3987
+pc=1278
+clock=3987
+f78b1ee3
+20
+BNE
+1d 16 18 ffffff7c
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3987
+SLB.size=1
+clock=3989
+Clock=3989
+3
+!!!!!!!!!!!! store data[30000]=33
+clock=3989
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0 clock=3989
+pc=127c
+clock=3989
+5c12083
+f
+LW
+1 2 1c 5c
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffb8 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=3989
+SLB.size=1
+clock=3991
+clock=3991
+SLB.size=1
+clock=3993
+clock=3993
+SLB.size=1
+clock=3995
+clock=3995
+SLB.size=1
+clock=3997
+clock=3997
+SLB.size=1
+clock=3999
+clock=3999
+SLB.size=1
+clock=4001
+clock=4001
+SLB.size=1
+clock=4003
+clock=4003
+pc=1280
+clock=4003
+5812403
+f
+LW
+8 2 18 58
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4003
+ClearAll, ROB_pc=1278, ROB_value=1
+clock=4003
+SLB.size=1
+clock=4005
+clock=4005
+pc=11f4
+clock=4005
+b2483
+f
+LW
+9 16 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4005
+SLB.size=0
+clock=4007
+clock=4007
+pc=11f8
+clock=4007
+b93
+12
+ADDI
+17 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4007
+SLB.size=0
+clock=4009
+clock=4009
+pc=11fc
+clock=4009
+c04c063
+21
+BLT
+0 9 0 c0
+0 1238 1ffa0 0 0 1210 0 0 33 0 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4009
+SLB.size=1
+clock=4011
+clock=4011
+SLB.size=1
+clock=4013
+clock=4013
+SLB.size=1
+clock=4015
+clock=4015
+SLB.size=1
+clock=4017
+clock=4017
+SLB.size=1
+clock=4019
+clock=4019
+SLB.size=1
+clock=4021
+clock=4021
+SLB.size=1
+clock=4023
+clock=4023
+SLB.size=0
+clock=4025
+clock=4025
+SLB.size=0
+clock=4027
+clock=4027
+SLB.size=0
+clock=4029
+clock=4029
+SLB.size=0
+clock=4031
+clock=4031
+pc=1200
+clock=4031
+993
+12
+ADDI
+13 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 4 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4031
+SLB.size=0
+clock=4033
+clock=4033
+SLB.size=0
+clock=4035
+clock=4035
+SLB.size=0
+clock=4037
+clock=4037
+SLB.size=0
+clock=4039
+clock=4039
+SLB.size=0
+clock=4041
+clock=4041
+SLB.size=0
+clock=4043
+clock=4043
+SLB.size=0
+clock=4045
+clock=4045
+pc=1204
+clock=4045
+a00593
+12
+ADDI
+b 0 a a
+0 1238 1ffa0 0 0 1210 0 0 33 4 0 3 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4045
+SLB.size=0
+clock=4047
+clock=4047
+SLB.size=0
+clock=4049
+clock=4049
+SLB.size=0
+clock=4051
+clock=4051
+SLB.size=0
+clock=4053
+clock=4053
+SLB.size=0
+clock=4055
+clock=4055
+SLB.size=0
+clock=4057
+clock=4057
+SLB.size=0
+clock=4059
+clock=4059
+pc=1208
+clock=4059
+48513
+12
+ADDI
+a 9 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 4 0 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4059
+SLB.size=0
+clock=4061
+clock=4061
+SLB.size=0
+clock=4063
+clock=4063
+SLB.size=0
+clock=4065
+clock=4065
+SLB.size=0
+clock=4067
+clock=4067
+SLB.size=0
+clock=4069
+clock=4069
+SLB.size=0
+clock=4071
+clock=4071
+SLB.size=0
+clock=4073
+clock=4073
+pc=120c
+clock=4073
+e79ff0ef
+1e
+JAL
+1 1f 19 fffffe78
+0 1238 1ffa0 0 0 1210 0 0 33 4 4 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4073
+SLB.size=0
+clock=4075
+clock=4075
+pc=1084
+clock=4075
+8293
+12
+ADDI
+5 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 33 4 4 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4075
+SLB.size=0
+clock=4077
+clock=4077
+pc=1088
+clock=4077
+5ca63
+21
+BLT
+14 b 0 14
+0 1238 1ffa0 0 0 1210 0 0 33 4 4 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4077
+SLB.size=0
+clock=4079
+clock=4079
+pc=108c
+clock=4079
+54c63
+21
+BLT
+18 a 0 18
+0 1238 1ffa0 0 0 1210 0 0 33 4 4 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4079
+SLB.size=0
+clock=4081
+clock=4081
+pc=1090
+clock=4081
+f79ff0ef
+1e
+JAL
+1 1f 19 ffffff78
+0 1210 1ffa0 0 0 1210 0 0 33 4 4 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4081
+SLB.size=0
+clock=4083
+clock=4083
+SLB.size=0
+clock=4085
+clock=4085
+SLB.size=0
+clock=4087
+clock=4087
+SLB.size=0
+clock=4089
+clock=4089
+SLB.size=0
+clock=4091
+clock=4091
+SLB.size=0
+clock=4093
+clock=4093
+SLB.size=0
+clock=4095
+clock=4095
+pc=1008
+clock=4095
+58613
+12
+ADDI
+c b 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 a 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4095
+SLB.size=0
+clock=4097
+clock=4097
+SLB.size=0
+clock=4099
+clock=4099
+SLB.size=0
+clock=4101
+clock=4101
+SLB.size=0
+clock=4103
+clock=4103
+SLB.size=0
+clock=4105
+clock=4105
+SLB.size=0
+clock=4107
+clock=4107
+SLB.size=0
+clock=4109
+clock=4109
+pc=100c
+clock=4109
+50593
+12
+ADDI
+b a 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4109
+SLB.size=0
+clock=4111
+clock=4111
+pc=1010
+clock=4111
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4111
+SLB.size=0
+clock=4113
+clock=4113
+pc=1014
+clock=4113
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4113
+SLB.size=0
+clock=4115
+clock=4115
+pc=1018
+clock=4115
+100693
+12
+ADDI
+d 0 1 1
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 a a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4115
+SLB.size=0
+clock=4117
+clock=4117
+pc=101c
+clock=4117
+b67a63
+24
+BGEU
+14 c b 14
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 4 a 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4117
+SLB.size=0
+clock=4119
+clock=4119
+SLB.size=0
+clock=4121
+clock=4121
+SLB.size=0
+clock=4123
+clock=4123
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=4123
+SLB.size=0
+clock=4125
+clock=4125
+pc=1030
+clock=4125
+513
+12
+ADDI
+a 0 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 4 ffffffff 4 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4125
+SLB.size=0
+clock=4127
+clock=4127
+pc=1034
+clock=4127
+c5e663
+23
+BLTU
+c b c c
+0 1094 1ffa0 0 0 1210 0 0 33 4 ffffffff 4 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4127
+SLB.size=0
+clock=4129
+clock=4129
+SLB.size=0
+clock=4131
+clock=4131
+SLB.size=0
+clock=4133
+clock=4133
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=4133
+SLB.size=0
+clock=4135
+clock=4135
+SLB.size=0
+clock=4137
+clock=4137
+SLB.size=0
+clock=4139
+clock=4139
+SLB.size=0
+clock=4141
+clock=4141
+SLB.size=0
+clock=4143
+clock=4143
+SLB.size=0
+clock=4145
+clock=4145
+SLB.size=0
+clock=4147
+clock=4147
+pc=1040
+clock=4147
+16d693
+19
+SRLI
+d d 1 1
+0 1094 1ffa0 0 0 1210 0 0 33 4 0 4 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4147
+SLB.size=0
+clock=4149
+clock=4149
+pc=1044
+clock=4149
+165613
+19
+SRLI
+c c 1 1
+0 1094 1ffa0 0 0 1210 0 0 33 4 0 4 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4149
+SLB.size=0
+clock=4151
+clock=4151
+pc=1048
+clock=4151
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1094 1ffa0 0 0 1210 0 0 33 4 0 4 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4151
+SLB.size=0
+clock=4153
+clock=4153
+pc=104c
+clock=4153
+8067
+c
+JALR
+0 1 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 4 0 4 a 1 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4153
+SLB.size=0
+clock=4155
+clock=4155
+SLB.size=0
+clock=4157
+clock=4157
+SLB.size=0
+clock=4159
+clock=4159
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=4159
+SLB.size=0
+clock=4161
+clock=4161
+pc=1094
+clock=4161
+58513
+12
+ADDI
+a b 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 4 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4161
+SLB.size=0
+clock=4163
+clock=4163
+pc=1098
+clock=4163
+28067
+c
+JALR
+0 5 0 0
+0 1094 1ffa0 0 0 1210 0 0 33 4 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4163
+SLB.size=0
+clock=4165
+clock=4165
+SLB.size=0
+clock=4167
+clock=4167
+SLB.size=0
+clock=4169
+clock=4169
+ClearAll, ROB_pc=1098, ROB_value=109c
+clock=4169
+SLB.size=0
+clock=4171
+clock=4171
+SLB.size=0
+clock=4173
+clock=4173
+SLB.size=0
+clock=4175
+clock=4175
+SLB.size=0
+clock=4177
+clock=4177
+SLB.size=0
+clock=4179
+clock=4179
+SLB.size=0
+clock=4181
+clock=4181
+SLB.size=0
+clock=4183
+clock=4183
+pc=1210
+clock=4183
+3050413
+12
+ADDI
+8 a 10 30
+0 1094 1ffa0 0 0 1210 0 0 33 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4183
+SLB.size=0
+clock=4185
+clock=4185
+SLB.size=0
+clock=4187
+clock=4187
+SLB.size=0
+clock=4189
+clock=4189
+SLB.size=0
+clock=4191
+clock=4191
+SLB.size=0
+clock=4193
+clock=4193
+SLB.size=0
+clock=4195
+clock=4195
+SLB.size=0
+clock=4197
+clock=4197
+pc=1214
+clock=4197
+98d13
+12
+ADDI
+1a 13 0 0
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4197
+SLB.size=0
+clock=4199
+clock=4199
+SLB.size=0
+clock=4201
+clock=4201
+SLB.size=0
+clock=4203
+clock=4203
+SLB.size=0
+clock=4205
+clock=4205
+SLB.size=0
+clock=4207
+clock=4207
+SLB.size=0
+clock=4209
+clock=4209
+SLB.size=0
+clock=4211
+clock=4211
+pc=1218
+clock=4211
+198993
+12
+ADDI
+13 13 1 1
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 0 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4211
+SLB.size=0
+clock=4213
+clock=4213
+SLB.size=0
+clock=4215
+clock=4215
+SLB.size=0
+clock=4217
+clock=4217
+SLB.size=0
+clock=4219
+clock=4219
+SLB.size=0
+clock=4221
+clock=4221
+SLB.size=0
+clock=4223
+clock=4223
+SLB.size=0
+clock=4225
+clock=4225
+pc=121c
+clock=4225
+13907b3
+2
+ADD
+f 12 13 b09194a0
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4225
+SLB.size=0
+clock=4227
+clock=4227
+pc=1220
+clock=4227
+ff47413
+17
+ANDI
+8 8 1f ff
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4227
+SLB.size=0
+clock=4229
+clock=4229
+pc=1224
+clock=4229
+48513
+12
+ADDI
+a 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4229
+SLB.size=0
+clock=4231
+clock=4231
+pc=1228
+clock=4231
+a00593
+12
+ADDI
+b 0 a a
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4231
+SLB.size=0
+clock=4233
+clock=4233
+pc=122c
+clock=4233
+fe878fa3
+1b
+SB
+1f f 8 ffffffff
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4233
+SLB.size=0
+clock=4235
+clock=4235
+SLB.size=0
+clock=4237
+clock=4237
+SLB.size=1
+clock=4239
+clock=4239
+SLB.size=1
+clock=4241
+clock=4241
+SLB.size=1
+clock=4243
+clock=4243
+SLB.size=1
+clock=4245
+clock=4245
+SLB.size=1
+clock=4247
+clock=4247
+pc=1230
+clock=4247
+48d93
+12
+ADDI
+1b 9 0 0
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 3 0 0 0 0   reg
+clock=4247
+SLB.size=1
+clock=4249
+clock=4249
+SLB.size=1
+clock=4251
+clock=4251
+SLB.size=0
+clock=4253
+clock=4253
+SLB.size=0
+clock=4255
+clock=4255
+SLB.size=0
+clock=4257
+clock=4257
+SLB.size=0
+clock=4259
+clock=4259
+SLB.size=0
+clock=4261
+clock=4261
+pc=1234
+clock=4261
+dcdff0ef
+1e
+JAL
+1 1f d fffffdcc
+0 1094 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4261
+SLB.size=0
+clock=4263
+clock=4263
+SLB.size=0
+clock=4265
+clock=4265
+SLB.size=0
+clock=4267
+clock=4267
+SLB.size=0
+clock=4269
+clock=4269
+SLB.size=0
+clock=4271
+clock=4271
+SLB.size=0
+clock=4273
+clock=4273
+SLB.size=0
+clock=4275
+clock=4275
+pc=1000
+clock=4275
+6054063
+21
+BLT
+0 a 0 60
+0 1238 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4275
+SLB.size=0
+clock=4277
+clock=4277
+pc=1060
+clock=4277
+40a00533
+3
+SUB
+a 0 a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4277
+SLB.size=0
+clock=4279
+clock=4279
+SLB.size=0
+clock=4281
+clock=4281
+ClearAll, ROB_pc=1000, ROB_value=0
+clock=4281
+SLB.size=0
+clock=4283
+clock=4283
+SLB.size=0
+clock=4285
+clock=4285
+SLB.size=0
+clock=4287
+clock=4287
+SLB.size=0
+clock=4289
+clock=4289
+SLB.size=0
+clock=4291
+clock=4291
+SLB.size=0
+clock=4293
+clock=4293
+SLB.size=0
+clock=4295
+clock=4295
+pc=1004
+clock=4295
+605c663
+21
+BLT
+c b 0 6c
+0 1238 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4295
+SLB.size=0
+clock=4297
+clock=4297
+pc=1008
+clock=4297
+58613
+12
+ADDI
+c b 0 0
+0 1238 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4297
+SLB.size=0
+clock=4299
+clock=4299
+pc=100c
+clock=4299
+50593
+12
+ADDI
+b a 0 0
+0 1238 1ffa0 0 0 1210 0 0 34 4 4 a 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4299
+SLB.size=0
+clock=4301
+clock=4301
+SLB.size=0
+clock=4303
+clock=4303
+SLB.size=0
+clock=4305
+clock=4305
+SLB.size=0
+clock=4307
+clock=4307
+SLB.size=0
+clock=4309
+clock=4309
+SLB.size=0
+clock=4311
+clock=4311
+SLB.size=0
+clock=4313
+clock=4313
+pc=1010
+clock=4313
+fff00513
+12
+ADDI
+a 0 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 34 4 4 4 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4313
+SLB.size=0
+clock=4315
+clock=4315
+SLB.size=0
+clock=4317
+clock=4317
+SLB.size=0
+clock=4319
+clock=4319
+SLB.size=0
+clock=4321
+clock=4321
+SLB.size=0
+clock=4323
+clock=4323
+SLB.size=0
+clock=4325
+clock=4325
+SLB.size=0
+clock=4327
+clock=4327
+pc=1014
+clock=4327
+2060c63
+1f
+BEQ
+18 c 0 38
+0 1238 1ffa0 0 0 1210 0 0 34 4 ffffffff 4 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4327
+SLB.size=0
+clock=4329
+clock=4329
+SLB.size=0
+clock=4331
+clock=4331
+SLB.size=0
+clock=4333
+clock=4333
+SLB.size=0
+clock=4335
+clock=4335
+SLB.size=0
+clock=4337
+clock=4337
+SLB.size=0
+clock=4339
+clock=4339
+SLB.size=0
+clock=4341
+clock=4341
+pc=1018
+clock=4341
+100693
+12
+ADDI
+d 0 1 1
+0 1238 1ffa0 0 0 1210 0 0 34 4 ffffffff 4 a 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4341
+SLB.size=0
+clock=4343
+clock=4343
+SLB.size=0
+clock=4345
+clock=4345
+SLB.size=0
+clock=4347
+clock=4347
+SLB.size=0
+clock=4349
+clock=4349
+SLB.size=0
+clock=4351
+clock=4351
+SLB.size=0
+clock=4353
+clock=4353
+SLB.size=0
+clock=4355
+clock=4355
+pc=101c
+clock=4355
+b67a63
+24
+BGEU
+14 c b 14
+0 1238 1ffa0 0 0 1210 0 0 34 4 ffffffff 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4355
+SLB.size=0
+clock=4357
+clock=4357
+SLB.size=0
+clock=4359
+clock=4359
+SLB.size=0
+clock=4361
+clock=4361
+ClearAll, ROB_pc=101c, ROB_value=1
+clock=4361
+SLB.size=0
+clock=4363
+clock=4363
+SLB.size=0
+clock=4365
+clock=4365
+SLB.size=0
+clock=4367
+clock=4367
+SLB.size=0
+clock=4369
+clock=4369
+SLB.size=0
+clock=4371
+clock=4371
+SLB.size=0
+clock=4373
+clock=4373
+SLB.size=0
+clock=4375
+clock=4375
+pc=1030
+clock=4375
+513
+12
+ADDI
+a 0 0 0
+0 1238 1ffa0 0 0 1210 0 0 34 4 ffffffff 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4375
+SLB.size=0
+clock=4377
+clock=4377
+SLB.size=0
+clock=4379
+clock=4379
+SLB.size=0
+clock=4381
+clock=4381
+SLB.size=0
+clock=4383
+clock=4383
+SLB.size=0
+clock=4385
+clock=4385
+SLB.size=0
+clock=4387
+clock=4387
+SLB.size=0
+clock=4389
+clock=4389
+pc=1034
+clock=4389
+c5e663
+23
+BLTU
+c b c c
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4389
+SLB.size=0
+clock=4391
+clock=4391
+SLB.size=0
+clock=4393
+clock=4393
+SLB.size=0
+clock=4395
+clock=4395
+ClearAll, ROB_pc=1034, ROB_value=1
+clock=4395
+SLB.size=0
+clock=4397
+clock=4397
+pc=1040
+clock=4397
+16d693
+19
+SRLI
+d d 1 1
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4397
+SLB.size=0
+clock=4399
+clock=4399
+pc=1044
+clock=4399
+165613
+19
+SRLI
+c c 1 1
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4399
+SLB.size=0
+clock=4401
+clock=4401
+pc=1048
+clock=4401
+fe0696e3
+20
+BNE
+d d 0 ffffffec
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4401
+SLB.size=0
+clock=4403
+clock=4403
+pc=104c
+clock=4403
+8067
+c
+JALR
+0 1 0 0
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 a 1 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4403
+SLB.size=0
+clock=4405
+clock=4405
+SLB.size=0
+clock=4407
+clock=4407
+SLB.size=0
+clock=4409
+clock=4409
+ClearAll, ROB_pc=104c, ROB_value=1050
+clock=4409
+SLB.size=0
+clock=4411
+clock=4411
+pc=1238
+clock=4411
+50493
+12
+ADDI
+9 a 0 0
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4411
+SLB.size=0
+clock=4413
+clock=4413
+pc=123c
+clock=4413
+fdba44e3
+21
+BLT
+9 14 1b ffffffc8
+0 1238 1ffa0 0 0 1210 0 0 34 4 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4413
+SLB.size=0
+clock=4415
+clock=4415
+SLB.size=0
+clock=4417
+clock=4417
+SLB.size=0
+clock=4419
+clock=4419
+SLB.size=0
+clock=4421
+clock=4421
+SLB.size=0
+clock=4423
+clock=4423
+SLB.size=0
+clock=4425
+clock=4425
+SLB.size=0
+clock=4427
+clock=4427
+pc=1240
+clock=4427
+b8c63
+1f
+BEQ
+18 17 0 18
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4427
+SLB.size=0
+clock=4429
+clock=4429
+SLB.size=0
+clock=4431
+clock=4431
+SLB.size=0
+clock=4433
+clock=4433
+ClearAll, ROB_pc=1240, ROB_value=1
+clock=4433
+SLB.size=0
+clock=4435
+clock=4435
+pc=1258
+clock=4435
+1a907b3
+2
+ADD
+f 12 1a b09194a0
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4435
+SLB.size=0
+clock=4437
+clock=4437
+pc=125c
+clock=4437
+c0006f
+1e
+JAL
+0 0 c c
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4437
+SLB.size=0
+clock=4439
+clock=4439
+pc=1268
+clock=4439
+8a8023
+1b
+SB
+0 15 8 0
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4439
+SLB.size=0
+clock=4441
+clock=4441
+pc=126c
+clock=4441
+fff78713
+12
+ADDI
+e f 1f ffffffff
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa5 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4441
+SLB.size=0
+clock=4443
+clock=4443
+pc=1270
+clock=4443
+fef918e3
+20
+BNE
+11 12 f fffffff0
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4443
+SLB.size=1
+clock=4445
+clock=4445
+pc=1274
+clock=4445
+4b0b13
+12
+ADDI
+16 16 4 4
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4445
+SLB.size=1
+clock=4447
+clock=4447
+pc=1278
+clock=4447
+f78b1ee3
+20
+BNE
+1d 16 18 ffffff7c
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4447
+SLB.size=1
+clock=4449
+Clock=4449
+4
+!!!!!!!!!!!! store data[30000]=34
+clock=4449
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0 clock=4449
+pc=127c
+clock=4449
+5c12083
+f
+LW
+1 2 1c 5c
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4449
+SLB.size=1
+clock=4451
+clock=4451
+pc=1280
+clock=4451
+5812403
+f
+LW
+8 2 18 58
+0 1238 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffbc 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4451
+SLB.size=1
+clock=4453
+clock=4453
+SLB.size=1
+clock=4455
+clock=4455
+SLB.size=2
+clock=4457
+clock=4457
+SLB.size=2
+clock=4459
+clock=4459
+SLB.size=2
+clock=4461
+clock=4461
+SLB.size=2
+clock=4463
+clock=4463
+SLB.size=2
+clock=4465
+clock=4465
+SLB.size=2
+clock=4467
+clock=4467
+SLB.size=1
+clock=4469
+clock=4469
+SLB.size=1
+clock=4471
+clock=4471
+SLB.size=1
+clock=4473
+clock=4473
+SLB.size=1
+clock=4475
+clock=4475
+pc=1284
+clock=4475
+5412483
+f
+LW
+9 2 14 54
+0 8 1ffa0 0 0 1210 0 0 34 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4475
+SLB.size=1
+clock=4477
+clock=4477
+SLB.size=1
+clock=4479
+clock=4479
+SLB.size=2
+clock=4481
+clock=4481
+SLB.size=2
+clock=4483
+clock=4483
+SLB.size=2
+clock=4485
+clock=4485
+SLB.size=2
+clock=4487
+clock=4487
+SLB.size=1
+clock=4489
+clock=4489
+SLB.size=1
+clock=4491
+clock=4491
+SLB.size=1
+clock=4493
+clock=4493
+SLB.size=1
+clock=4495
+clock=4495
+pc=1288
+clock=4495
+5012903
+f
+LW
+12 2 10 50
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4495
+SLB.size=1
+clock=4497
+clock=4497
+SLB.size=1
+clock=4499
+clock=4499
+SLB.size=2
+clock=4501
+clock=4501
+SLB.size=2
+clock=4503
+clock=4503
+SLB.size=2
+clock=4505
+clock=4505
+SLB.size=2
+clock=4507
+clock=4507
+SLB.size=1
+clock=4509
+clock=4509
+SLB.size=1
+clock=4511
+clock=4511
+SLB.size=1
+clock=4513
+clock=4513
+SLB.size=1
+clock=4515
+clock=4515
+pc=128c
+clock=4515
+4c12983
+f
+LW
+13 2 c 4c
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 1ffa4 1 9 30000 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4515
+SLB.size=1
+clock=4517
+clock=4517
+SLB.size=1
+clock=4519
+clock=4519
+SLB.size=2
+clock=4521
+clock=4521
+SLB.size=2
+clock=4523
+clock=4523
+SLB.size=2
+clock=4525
+clock=4525
+SLB.size=2
+clock=4527
+clock=4527
+SLB.size=1
+clock=4529
+clock=4529
+SLB.size=1
+clock=4531
+clock=4531
+SLB.size=1
+clock=4533
+clock=4533
+SLB.size=1
+clock=4535
+clock=4535
+pc=1290
+clock=4535
+4812a03
+f
+LW
+14 2 8 48
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 1 9 30000 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4535
+SLB.size=1
+clock=4537
+clock=4537
+SLB.size=1
+clock=4539
+clock=4539
+SLB.size=2
+clock=4541
+clock=4541
+SLB.size=2
+clock=4543
+clock=4543
+SLB.size=2
+clock=4545
+clock=4545
+SLB.size=2
+clock=4547
+clock=4547
+SLB.size=1
+clock=4549
+clock=4549
+SLB.size=1
+clock=4551
+clock=4551
+SLB.size=1
+clock=4553
+clock=4553
+SLB.size=1
+clock=4555
+clock=4555
+pc=1294
+clock=4555
+4412a83
+f
+LW
+15 2 4 44
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 9 30000 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4555
+SLB.size=1
+clock=4557
+clock=4557
+SLB.size=1
+clock=4559
+clock=4559
+SLB.size=2
+clock=4561
+clock=4561
+SLB.size=2
+clock=4563
+clock=4563
+SLB.size=2
+clock=4565
+clock=4565
+SLB.size=2
+clock=4567
+clock=4567
+SLB.size=1
+clock=4569
+clock=4569
+SLB.size=1
+clock=4571
+clock=4571
+SLB.size=1
+clock=4573
+clock=4573
+SLB.size=1
+clock=4575
+clock=4575
+pc=1298
+clock=4575
+4012b03
+f
+LW
+16 2 0 40
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 30000 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4575
+SLB.size=1
+clock=4577
+clock=4577
+SLB.size=1
+clock=4579
+clock=4579
+SLB.size=2
+clock=4581
+clock=4581
+SLB.size=2
+clock=4583
+clock=4583
+SLB.size=2
+clock=4585
+clock=4585
+SLB.size=2
+clock=4587
+clock=4587
+SLB.size=1
+clock=4589
+clock=4589
+SLB.size=1
+clock=4591
+clock=4591
+SLB.size=1
+clock=4593
+clock=4593
+SLB.size=1
+clock=4595
+clock=4595
+pc=129c
+clock=4595
+3c12b83
+f
+LW
+17 2 1c 3c
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 1ffc0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4595
+SLB.size=1
+clock=4597
+clock=4597
+SLB.size=1
+clock=4599
+clock=4599
+SLB.size=2
+clock=4601
+clock=4601
+SLB.size=2
+clock=4603
+clock=4603
+SLB.size=2
+clock=4605
+clock=4605
+SLB.size=2
+clock=4607
+clock=4607
+SLB.size=1
+clock=4609
+clock=4609
+SLB.size=1
+clock=4611
+clock=4611
+SLB.size=1
+clock=4613
+clock=4613
+SLB.size=1
+clock=4615
+clock=4615
+pc=12a0
+clock=4615
+3812c03
+f
+LW
+18 2 18 38
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4615
+SLB.size=1
+clock=4617
+clock=4617
+SLB.size=1
+clock=4619
+clock=4619
+SLB.size=2
+clock=4621
+clock=4621
+SLB.size=2
+clock=4623
+clock=4623
+SLB.size=2
+clock=4625
+clock=4625
+SLB.size=2
+clock=4627
+clock=4627
+SLB.size=1
+clock=4629
+clock=4629
+SLB.size=1
+clock=4631
+clock=4631
+SLB.size=1
+clock=4633
+clock=4633
+SLB.size=1
+clock=4635
+clock=4635
+pc=12a4
+clock=4635
+3412c83
+f
+LW
+19 2 14 34
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 1ffc0 2d 0 4 0 0 0 0   reg
+clock=4635
+SLB.size=1
+clock=4637
+clock=4637
+SLB.size=1
+clock=4639
+clock=4639
+SLB.size=2
+clock=4641
+clock=4641
+SLB.size=2
+clock=4643
+clock=4643
+SLB.size=2
+clock=4645
+clock=4645
+SLB.size=2
+clock=4647
+clock=4647
+SLB.size=1
+clock=4649
+clock=4649
+SLB.size=1
+clock=4651
+clock=4651
+SLB.size=1
+clock=4653
+clock=4653
+SLB.size=1
+clock=4655
+clock=4655
+pc=12a8
+clock=4655
+3012d03
+f
+LW
+1a 2 10 30
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 0 2d 0 4 0 0 0 0   reg
+clock=4655
+SLB.size=1
+clock=4657
+clock=4657
+SLB.size=1
+clock=4659
+clock=4659
+SLB.size=2
+clock=4661
+clock=4661
+SLB.size=2
+clock=4663
+clock=4663
+SLB.size=2
+clock=4665
+clock=4665
+SLB.size=2
+clock=4667
+clock=4667
+SLB.size=1
+clock=4669
+clock=4669
+SLB.size=1
+clock=4671
+clock=4671
+SLB.size=1
+clock=4673
+clock=4673
+SLB.size=1
+clock=4675
+clock=4675
+pc=12ac
+clock=4675
+2c12d83
+f
+LW
+1b 2 c 2c
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0   reg
+clock=4675
+SLB.size=1
+clock=4677
+clock=4677
+SLB.size=1
+clock=4679
+clock=4679
+SLB.size=2
+clock=4681
+clock=4681
+SLB.size=2
+clock=4683
+clock=4683
+SLB.size=2
+clock=4685
+clock=4685
+SLB.size=2
+clock=4687
+clock=4687
+SLB.size=1
+clock=4689
+clock=4689
+SLB.size=1
+clock=4691
+clock=4691
+SLB.size=1
+clock=4693
+clock=4693
+SLB.size=1
+clock=4695
+clock=4695
+pc=12b0
+clock=4695
+513
+12
+ADDI
+a 0 0 0
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0   reg
+clock=4695
+SLB.size=1
+clock=4697
+clock=4697
+SLB.size=1
+clock=4699
+clock=4699
+SLB.size=1
+clock=4701
+clock=4701
+SLB.size=1
+clock=4703
+clock=4703
+SLB.size=1
+clock=4705
+clock=4705
+SLB.size=1
+clock=4707
+clock=4707
+SLB.size=0
+clock=4709
+clock=4709
+SLB.size=0
+clock=4711
+clock=4711
+SLB.size=0
+clock=4713
+clock=4713
+SLB.size=0
+clock=4715
+clock=4715
+pc=12b4
+clock=4715
+6010113
+12
+ADDI
+2 2 0 60
+0 8 1ffa0 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=4715
+SLB.size=0
+clock=4717
+clock=4717
+SLB.size=0
+clock=4719
+clock=4719
+SLB.size=0
+clock=4721
+clock=4721
+SLB.size=0
+clock=4723
+clock=4723
+SLB.size=0
+clock=4725
+clock=4725
+SLB.size=0
+clock=4727
+clock=4727
+SLB.size=0
+clock=4729
+clock=4729
+pc=12b8
+clock=4729
+8067
+c
+JALR
+0 1 0 0
+0 8 20000 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+clock=4729
+SLB.size=0
+clock=4731
+clock=4731
+SLB.size=0
+clock=4733
+clock=4733
+SLB.size=0
+clock=4735
+clock=4735
+ClearAll, ROB_pc=12b8, ROB_value=12bc
+clock=4735
+SLB.size=0
+clock=4737
+clock=4737
+SLB.size=0
+clock=4739
+clock=4739
+SLB.size=0
+clock=4741
+clock=4741
+SLB.size=0
+clock=4743
+clock=4743
+SLB.size=0
+clock=4745
+clock=4745
+SLB.size=0
+clock=4747
+clock=4747
+SLB.size=0
+clock=4749
+clock=4749
+pc=8
+0 8 20000 0 0 1210 0 0 0 0 0 4 5 0 1ffa3 1ffa4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   reg
+END
+clock=4749
+SLB.size=0
+0
+clock=4749
