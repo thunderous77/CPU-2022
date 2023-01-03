@@ -25,6 +25,7 @@ module Fetcher(
     input wire [`ICACHE_INST_BLOCK_SIZE-1:0] inst_block_from_memctrl,
     output reg [`ADDR_TYPE] pc_to_memctrl,
     output reg enable_sign_to_memctrl,
+    output reg rollback_sign_to_memctrl,
 
     // from rob
     input wire rollback_sign_from_rob,
@@ -74,6 +75,7 @@ module Fetcher(
             inst_to_cmd <= `NULL;
             finish_sign_to_cmd <= `FALSE;
             enable_sign_to_memctrl <= `FALSE;
+            rollback_sign_to_memctrl <= `FALSE;
             // status initialize
             status <= IDLE;
         end
@@ -84,6 +86,7 @@ module Fetcher(
             pc <= pc_from_rob;
             status <= IDLE;
             enable_sign_to_memctrl <= `FALSE;
+            rollback_sign_to_memctrl <= `TRUE;
         end
         else begin
             if (hit && full_sign == `FALSE) begin
@@ -97,6 +100,7 @@ module Fetcher(
             else begin
                 finish_sign_to_cmd <= `FALSE;
                 enable_sign_to_memctrl <= `FALSE;
+                rollback_sign_to_memctrl <= `FALSE;
 
                 if (status == IDLE && hit == `FALSE) begin
                     enable_sign_to_memctrl <= `TRUE;
@@ -115,5 +119,7 @@ module Fetcher(
             end
         end
     end
+
+    
 
 endmodule

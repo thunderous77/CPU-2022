@@ -23,8 +23,8 @@ by thunderous
   > load 时需要先给 ram 传参，等一个 cycle 再非阻塞赋值（compulsory）
   
   > store 传出最后一组数据后也需要等一个cycle让ram存储
-  >
-  > 
+  
+* rollback 时除 store 之外全部清空
 
 ## RS
 

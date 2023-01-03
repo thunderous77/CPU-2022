@@ -60,6 +60,7 @@ module cpu(
     wire [`ADDR_TYPE] pc_from_fch_to_memctrl;
     wire [`ICACHE_INST_BLOCK_SIZE-1:0] inst_block_from_memctrl_to_fch;
     wire enable_sign_from_fch_to_memctrl;
+    wire rollback_sign_from_fch_to_memctrl;
     wire finish_sign_from_memctrl_to_fch;
 
     // Memctrl & LS_EX
@@ -110,6 +111,7 @@ module cpu(
     wire [`DATA_TYPE] V2_from_rob_to_cmd;
     wire enable_sign_from_cmd_to_rob;
     wire is_jump_inst_from_cmd_to_rob;
+    wire is_store_inst_from_cmd_to_rob;
     wire predicted_jump_sign_from_cmd_to_rob;
     wire [`REG_POS_TYPE] rd_from_cmd_to_rob;
     wire [`ADDR_TYPE] pc_from_cmd_to_rob;
@@ -197,6 +199,7 @@ module cpu(
         .load_store_sign_to_ram(mem_wr),
         .pc_from_fch(pc_from_fch_to_memctrl),
         .enable_sign_from_fch(enable_sign_from_fch_to_memctrl),
+        .rollback_sign_from_fch(rollback_sign_from_fch_to_memctrl),
         .finish_sign_to_fch(finish_sign_from_memctrl_to_fch),
         .inst_block_to_fch(inst_block_from_memctrl_to_fch),
         .store_data_from_ls_ex(store_data_from_ls_ex_to_memctrl),
@@ -220,6 +223,7 @@ module cpu(
         .V2_to_cmd(V2_from_rob_to_cmd),
         .enable_sign_from_cmd(enable_sign_from_cmd_to_rob),
         .is_jump_inst_from_cmd(is_jump_inst_from_cmd_to_rob),
+        .is_store_inst_from_cmd(is_store_inst_from_cmd_to_rob),
         .predicted_jump_sign_from_cmd(predicted_jump_sign_from_cmd_to_rob),
         .rd_from_cmd(rd_from_cmd_to_rob),
         .pc_from_cmd(pc_from_cmd_to_rob),
@@ -294,6 +298,7 @@ module cpu(
         .inst_block_from_memctrl(inst_block_from_memctrl_to_fch),
         .pc_to_memctrl(pc_from_fch_to_memctrl),
         .enable_sign_to_memctrl(enable_sign_from_fch_to_memctrl),
+        .rollback_sign_to_memctrl(rollback_sign_from_fch_to_memctrl),
         .rollback_sign_from_rob(rollback_sign_from_rob),
         .pc_from_rob(rollback_pc_from_rob_to_fch),
         .full_sign(full_sign_to_fch)
@@ -319,6 +324,7 @@ module cpu(
         .enable_sign_to_rob(enable_sign_from_cmd_to_rob),
         .rd_to_rob(rd_from_cmd_to_rob),
         .is_jump_inst_to_rob(is_jump_inst_from_cmd_to_rob),
+        .is_store_inst_to_rob(is_store_inst_from_cmd_to_rob),
         .predicted_jump_sign_to_rob(predicted_jump_sign_from_cmd_to_rob),
         .pc_to_rob(pc_from_cmd_to_rob),
         .rollback_pc_to_rob(rollback_pc_from_cmd_to_rob),

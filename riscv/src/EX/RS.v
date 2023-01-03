@@ -62,6 +62,10 @@ module RS (
     wire [`DATA_TYPE] real_V1 = (valid_sign_from_rs_ex && Q1_from_cmd == rob_id_from_rs_ex) ? data_from_rs_ex : ((valid_sign_from_ls_ex && Q1_from_cmd == rob_id_from_ls_ex) ? data_from_ls_ex : V1_from_cmd);
     wire [`DATA_TYPE] real_V2 = (valid_sign_from_rs_ex && Q2_from_cmd == rob_id_from_rs_ex) ? data_from_rs_ex : ((valid_sign_from_ls_ex && Q2_from_cmd == rob_id_from_ls_ex) ? data_from_ls_ex : V2_from_cmd);
 
+    // debug
+    integer q1 [`RS_SIZE-1:0];
+    wire Q1_0 [`ROB_ID_TYPE];
+
     assign full_sign_to_if = (free_station == `INVALID_RS);
     assign free_station = ~busy[0] ? 0 : (~busy[1] ? 1 : (~busy[2] ? 2 : (~busy[3] ? 3 :(~busy[4] ? 4 : (~busy[5] ? 5 : (~busy[6] ? 6 : (~busy[7] ? 7 : (~busy[8] ? 8 :
                          (~busy[9] ? 9 : (~busy[10] ? 10 : (~busy[11] ? 11 : (~busy[11] ? 11 : (~busy[12] ? 12 : (~busy[13] ? 13 : (~busy[14] ? 14 : (~busy[15] ? 15 : `INVALID_RS))))))))))))))));
@@ -105,11 +109,11 @@ module RS (
                 for (integer i = 0; i < `RS_SIZE; i = i + 1) begin
                     if (Q1[i] == rob_id_from_rs_ex) begin
                         V1[i] <= data_from_rs_ex;
-                        Q1[i] <= `INVALID_RS;
+                        Q1[i] <= `INVALID_ROB;
                     end
                     if (Q2[i] == rob_id_from_rs_ex) begin
                         V2[i] <= data_from_rs_ex;
-                        Q2[i] <= `INVALID_RS;
+                        Q2[i] <= `INVALID_ROB;
                     end
                 end
             end
@@ -118,11 +122,11 @@ module RS (
                 for (integer i = 0; i < `RS_SIZE; i = i + 1) begin
                     if (Q1[i] == rob_id_from_ls_ex) begin
                         V1[i] <= data_from_ls_ex;
-                        Q1[i] <= `INVALID_RS;
+                        Q1[i] <= `INVALID_ROB;
                     end
                     if (Q2[i] == rob_id_from_ls_ex) begin
                         V2[i] <= data_from_ls_ex;
-                        Q2[i] <= `INVALID_RS;
+                        Q2[i] <= `INVALID_ROB;
                     end
                 end
             end

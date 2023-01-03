@@ -7,6 +7,7 @@ module Decoder(
     input wire [`INST_TYPE] inst,
     output reg is_jump_inst,
     output reg is_ls_inst,
+    output reg is_store_inst,
     output reg [`OPNUM_TYPE] opnum,
     output reg [`REG_POS_TYPE] rd,
     output reg [`REG_POS_TYPE] rs1,
@@ -23,6 +24,7 @@ module Decoder(
         imm = `NULL;
         is_jump_inst = `FALSE;
         is_ls_inst = `FALSE;
+        is_store_inst = `FALSE;
 
         case (inst[`OPCODE_RANGE])
         `OPCODE_ARITH: begin // R-Type
@@ -86,6 +88,7 @@ module Decoder(
 
         `OPCODE_S: begin // S-Type
             is_ls_inst = `TRUE;
+            is_store_inst = `TRUE;
             rd = `ZERO_REG; // no rd
             imm = {{21{inst[31]}}, inst[30:25], inst[`RD_RANGE]};
             case (inst[`FUNC3_RANGE])

@@ -16,11 +16,11 @@ module MemCtrl(
     // from & to fetcher
     input wire [`ADDR_TYPE] pc_from_fch,
     input wire enable_sign_from_fch,
+    input wire rollback_sign_from_fch,
     output reg finish_sign_to_fch,
     output reg [`ICACHE_INST_BLOCK_SIZE-1:0] inst_block_to_fch,
 
     // from & to LS_EX
-    // TODO
     input wire [`DATA_TYPE] store_data_from_ls_ex,
     input wire [`ADDR_TYPE] addr_from_ls_ex,
     input wire enable_sign_from_ls_ex,
@@ -48,6 +48,14 @@ module MemCtrl(
     reg[`ADDR_TYPE] buffered_addr;
     reg[`ADDR_TYPE] buffered_store_data;
 
+    always @(*) begin
+        if (rollback_sign_from_fch) begin
+            if (status == FETCH || status == LOAD) status <= IDLE;
+            inst_fetch_is_buffered <= `FALSE;
+            if (load_store_is_buffered && buffered_load_store_sign == `RAM_LOAD) load_store_is_buffered <= `FALSE;
+        end
+    end
+
 
     always @(posedge clk) begin
         if (rst) begin
@@ -70,7 +78,7 @@ module MemCtrl(
 
             // conflict -> buffer
             if (status != IDLE || (enable_sign_from_fch && enable_sign_from_ls_ex)) begin
-                // instruction fetch is of higher priority than load/store
+                // instruction fetch is of lower priority than load/store
                 if (enable_sign_from_fch == `FALSE && enable_sign_from_ls_ex == `TRUE) begin
                     load_store_is_buffered <= `TRUE;
                     buffered_load_store_sign <= load_store_sign_from_ls_ex;

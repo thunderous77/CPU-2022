@@ -32,8 +32,8 @@ module Register (
 
     wire commit_data_valid_sign = (enable_sign_from_cmd && rd_from_rob == rd_from_cmd) ? `FALSE : (Q[rd_from_rob] == Q_from_rob ? `TRUE : `FALSE);
 
-    assign Q1_to_cmd = (rd_from_rob == rs1_from_cmd && commit_data_valid_sign) ? `INVALID_ROB : (rd_from_cmd == rs1_from_cmd ? rd_rob_id_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs1_from_cmd]));
-    assign Q2_to_cmd = (rd_from_rob == rs2_from_cmd && commit_data_valid_sign) ? `INVALID_ROB : (rd_from_cmd == rs2_from_cmd ? rd_rob_id_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs2_from_cmd]));
+    assign Q1_to_cmd = (rd_from_rob == rs1_from_cmd && commit_data_valid_sign) ? `INVALID_ROB : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs1_from_cmd]);
+    assign Q2_to_cmd = (rd_from_rob == rs2_from_cmd && commit_data_valid_sign) ? `INVALID_ROB : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs2_from_cmd]);
     assign V1_to_cmd = (rd_from_rob == rs1_from_cmd) ? V_from_rob : V[rs1_from_cmd];
     assign V2_to_cmd = (rd_from_rob == rs2_from_cmd) ? V_from_rob : V[rs2_from_cmd];
 

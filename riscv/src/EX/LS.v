@@ -64,7 +64,7 @@ module LS (
 
     wire [`ADDR_TYPE] head_addr = V1[head] + imm[head];
 
-    reg ls_element_cnt;
+    reg [3:0] ls_element_cnt;
     wire insert_cnt = (enable_sign_from_cmd ? 1 : 0);
     wire head_ready = busy[head] && full_sign_from_ls_ex == `FALSE && Q1[head] == `INVALID_ROB && Q2[head] == `INVALID_ROB;
     wire head_is_load = opnum[head] <= `OPNUM_LHU;
@@ -142,11 +142,12 @@ module LS (
             enable_sign_to_ls_ex <= `FALSE;
             ls_element_cnt <= ls_element_cnt - commit_cnt + insert_cnt;
 
+            // $display(opnum[head]);
             if (head_ready) begin
                 if (opnum[head] <= `OPNUM_LHU) begin
                     if (head_addr != `RAM_IO_ADDR || commit[head]) begin
-                        busy[head] = `FALSE;
-                        commit[head] = `FALSE;
+                        busy[head] <= `FALSE;
+                        commit[head] <= `FALSE;
                         rob_id_to_ls_ex <= rob_id[head];
                         rob_id[head] <= `INVALID_ROB;
                         enable_sign_to_ls_ex <= `TRUE;
@@ -157,8 +158,8 @@ module LS (
                 end
                 // store
                 else if (commit[head]) begin
-                    busy[head] = `FALSE;
-                    commit[head] = `FALSE;
+                    busy[head] <= `FALSE;
+                    commit[head] <= `FALSE;
                     rob_id_to_ls_ex <= rob_id[head];
                     rob_id[head] <= `INVALID_ROB;
                     enable_sign_to_ls_ex <= `TRUE;
@@ -172,7 +173,7 @@ module LS (
             // update commit sign
             if (commit_sign_from_rob) begin
                 for (integer i = 0; i < `LS_SIZE; i = i + 1) begin
-                    if (busy[i] && rob_id[i] == commit_rob_id_from_rob && !commit[head]) commit[head] <= `TRUE;
+                    if (busy[i] && rob_id[i] == commit_rob_id_from_rob && !commit[i]) commit[i] <= `TRUE;
                 end
             end 
             
