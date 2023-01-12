@@ -108,7 +108,8 @@ module Commander(
     assign rd_rob_id_to_reg = rob_id_from_rob;
     assign rob_id_to_rs = rob_id_from_rob;
     assign rob_id_to_ls = rob_id_from_rob;
-    // assign rd_to_reg = rd_from_dcd;
+
+    // stall for a cycle
 
     always @(posedge clk) begin
         if (rst || opnum_from_dcd == `OPNUM_NULL || finish_flag_from_fch == `FALSE || rollback_sign_from_rob) begin
@@ -190,5 +191,89 @@ module Commander(
             end
         end
     end
+
+    // immediately
+
+    // always @(*) begin
+    //     if (rst || opnum_from_dcd == `OPNUM_NULL || finish_flag_from_fch == `FALSE || rollback_sign_from_rob) begin
+    //         enable_sign_to_reg = `FALSE;
+    //         enable_sign_to_rs = `FALSE;
+    //         enable_sign_to_ls = `FALSE;
+    //         enable_sign_to_rob = `FALSE;
+    //     end
+    //     else if (~rdy) begin
+    //     end
+    //     else begin
+    //         enable_sign_to_reg = `FALSE;
+    //         enable_sign_to_rs = `FALSE;
+    //         enable_sign_to_ls = `FALSE;
+    //         enable_sign_to_rob = `FALSE;
+
+    //         // // to ROB
+    //         // rd_to_rob = rd_from_dcd;
+    //         // is_jump_inst_to_rob = is_jump_inst_from_dcd;
+    //         // is_store_inst_to_rob = is_store_inst_from_dcd;
+    //         // predicted_jump_sign_to_rob = predicted_jump_sign_from_fch;
+    //         // pc_to_rob = pc_from_fch;
+    //         // rollback_pc_to_rob = rollback_pc_from_fch;
+
+    //         // // to register
+    //         // rd_to_reg = rd_from_dcd;
+
+    //         // // to LS
+    //         // opnum_to_ls = opnum_from_dcd;
+    //         // imm_to_ls = imm_from_dcd;
+    //         // Q1_to_ls = data_forward_Q1;
+    //         // Q2_to_ls = data_forward_Q2;
+    //         // V1_to_ls = data_forward_V1;
+    //         // V2_to_ls = data_forward_V2;
+
+    //         // // to RS
+    //         // opnum_to_rs = opnum_from_dcd;
+    //         // pc_to_rs = pc_from_fch;
+    //         // imm_to_rs = imm_from_dcd;
+    //         // Q1_to_rs = data_forward_Q1;
+    //         // Q2_to_rs = data_forward_Q2;
+    //         // V1_to_rs = data_forward_V1;
+    //         // V2_to_rs = data_forward_V2;
+            
+    //         if (finish_flag_from_fch) begin
+    //             // to ROB
+    //             enable_sign_to_rob = `TRUE;
+    //             rd_to_rob = rd_from_dcd;
+    //             is_jump_inst_to_rob = is_jump_inst_from_dcd;
+    //             is_store_inst_to_rob = is_store_inst_from_dcd;
+    //             predicted_jump_sign_to_rob = predicted_jump_sign_from_fch;
+    //             pc_to_rob = pc_from_fch;
+    //             rollback_pc_to_rob = rollback_pc_from_fch;
+
+    //             // to register
+    //             enable_sign_to_reg = `TRUE;
+    //             rd_to_reg = rd_from_dcd;
+
+    //             if (is_ls_inst_from_dcd) begin
+    //                 // to LS
+    //                 enable_sign_to_ls = `TRUE;
+    //                 opnum_to_ls = opnum_from_dcd;
+    //                 imm_to_ls = imm_from_dcd;
+    //                 Q1_to_ls = data_forward_Q1;
+    //                 Q2_to_ls = data_forward_Q2;
+    //                 V1_to_ls = data_forward_V1;
+    //                 V2_to_ls = data_forward_V2;
+    //             end
+    //             else begin
+    //                 // to RS
+    //                 enable_sign_to_rs = `TRUE;
+    //                 opnum_to_rs = opnum_from_dcd;
+    //                 pc_to_rs = pc_from_fch;
+    //                 imm_to_rs = imm_from_dcd;
+    //                 Q1_to_rs = data_forward_Q1;
+    //                 Q2_to_rs = data_forward_Q2;
+    //                 V1_to_rs = data_forward_V1;
+    //                 V2_to_rs = data_forward_V2;
+    //             end
+    //         end
+    //     end
+    // end
 
 endmodule

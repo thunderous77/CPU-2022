@@ -26,6 +26,8 @@ by thunderous
   
 * rollback 时除 store 之外全部清空
 
+* rollback 时储存数据一个周期后再修改，但是利用 shadow 立刻传递这个信息
+
 ## RS
 
 

@@ -36,8 +36,8 @@ module Register (
 
     // wire commit_data_valid_sign = (enable_sign_from_cmd && rd_from_rob == rd_from_cmd) ? `FALSE :  (Q[rd_from_rob] == Q_from_rob);
 
-    assign Q1_to_cmd = (shadow_rd_from_rob == rs1_from_cmd && shadow_commit_data_valid_sign) ? `INVALID_ROB : (shadow_rd_from_cmd == rs1_from_cmd ? shadow_Q_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs1_from_cmd]));
-    assign Q2_to_cmd = (shadow_rd_from_rob == rs2_from_cmd && shadow_commit_data_valid_sign) ? `INVALID_ROB : (shadow_rd_from_cmd == rs2_from_cmd ? shadow_Q_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs2_from_cmd]));
+    assign Q1_to_cmd = (shadow_rd_from_rob == rs1_from_cmd && Q[rd_from_rob] == Q_from_rob) ? `INVALID_ROB : (shadow_rd_from_cmd == rs1_from_cmd ? shadow_Q_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs1_from_cmd]));
+    assign Q2_to_cmd = (shadow_rd_from_rob == rs2_from_cmd && Q[rd_from_rob] == Q_from_rob) ? `INVALID_ROB : (shadow_rd_from_cmd == rs2_from_cmd ? shadow_Q_from_cmd : (rollback_sign_from_rob ? `INVALID_ROB : Q[rs2_from_cmd]));
     assign V1_to_cmd = (shadow_rd_from_rob == rs1_from_cmd && rs1_from_cmd != `ZERO_REG) ? shadow_V_from_rob : V[rs1_from_cmd];
     assign V2_to_cmd = (shadow_rd_from_rob == rs2_from_cmd && rs2_from_cmd != `ZERO_REG) ? shadow_V_from_rob : V[rs2_from_cmd];
 
