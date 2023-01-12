@@ -1,6 +1,4 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
-
-// `include "riscv\src\defines.v"
+`include "../defines.v"
 
 module ROB(
     input wire clk,
@@ -40,7 +38,9 @@ module ROB(
     output reg [`ADDR_TYPE] jump_target_pc_to_pdt,
 
     // to LS
+    input wire [`ROB_ID_TYPE] io_rob_id_from_ls,
     output reg [`ROB_ID_TYPE] commit_rob_id_to_ls,
+    output wire [`ROB_ID_TYPE] head_io_rob_id_to_ls,
 
     // from rs_ex
     input wire [`ROB_ID_TYPE] rob_id_from_rs_ex,
@@ -63,24 +63,27 @@ module ROB(
     wire [`ROB_POS_TYPE] next_head = (head == `ROB_SIZE - 1) ? 0 : head + 1,
                          next_tail = (tail == `ROB_SIZE - 1) ? 0 : tail + 1;
     
-    reg [`ROB_SIZE-1:0] busy, ready, predicted_jump_sign, is_jump_inst, is_store_inst, jump_sign;
+    reg [`ROB_SIZE-1:0] busy, ready, is_io_inst, predicted_jump_sign, is_jump_inst, is_store_inst, jump_sign;
     reg [`ADDR_TYPE] pc [`ROB_SIZE-1:0];
     reg [`ADDR_TYPE] jump_target_pc [`ROB_SIZE-1:0];
     reg [`ADDR_TYPE] rollback_pc [`ROB_SIZE-1:0];
     reg [`REG_POS_TYPE] rd [`ROB_SIZE-1:0];
     reg [`DATA_TYPE] data [`ROB_SIZE-1:0];
 
-    // 
     reg [`ROB_SIZE-1:0] rob_element_cnt;
     wire is_add_rob = enable_sign_from_cmd ? 1 : 0;
     wire is_commit_rob = (busy[head] && (ready[head] || is_store_inst[head])) ? 1 : 0;
 
     assign full_sign_to_fch = (rob_element_cnt >= `ROB_SIZE - 5);
+
     assign Q1_ready_sign_to_cmd = (Q1_from_cmd == `INVALID_ROB) ? `FALSE : ready[Q1_from_cmd - 1];
     assign Q2_ready_sign_to_cmd = (Q2_from_cmd == `INVALID_ROB) ? `FALSE : ready[Q2_from_cmd - 1];
     assign V1_to_cmd = (Q1_from_cmd == `INVALID_ROB) ? `NULL : data[Q1_from_cmd - 1];
     assign V2_to_cmd = (Q2_from_cmd == `INVALID_ROB) ? `NULL : data[Q2_from_cmd - 1];
+    
     assign rob_id_to_cmd = tail + 1;
+
+    assign head_io_rob_id_to_ls = (busy[head] && is_io_inst[head]) ? head + 1 : `INVALID_ROB;
 
     // test predictor
     integer jump_cnt = 0, wrong_predict_cnt = 0;
@@ -94,6 +97,7 @@ module ROB(
                 busy[i] <= `FALSE;
                 ready[i] <= `FALSE;
                 predicted_jump_sign[i] <= `FALSE;
+                is_io_inst[i] <= `FALSE;
                 is_jump_inst[i] <= `FALSE;
                 is_store_inst[i] <= `FALSE;
                 jump_sign[i] <= `FALSE;
@@ -116,9 +120,7 @@ module ROB(
             rob_element_cnt <= rob_element_cnt + is_add_rob - is_commit_rob;
 
             if (busy[head] && (ready[head] || is_store_inst[head])) begin
-                // commit to register
-                // cannot rewrite the ZERO_REG
-                
+                // commit to register                
                 commit_sign <= `TRUE;
                 rd_to_reg <= rd[head];
                 Q_to_reg <= head + 1;
@@ -138,7 +140,7 @@ module ROB(
                 // move head to next_head
                 busy[head] <= `FALSE;
                 ready[head] <= `FALSE;
-                is_jump_inst[head] <= `FALSE;
+                is_io_inst[head] <= `FALSE;                is_jump_inst[head] <= `FALSE;
                 is_store_inst[head] <= `FALSE;
                 predicted_jump_sign[head] <= `FALSE;
                 head <= next_head;
@@ -156,6 +158,9 @@ module ROB(
                 jump_sign[rob_id_from_rs_ex - 1] <= jump_sign_from_rs_ex;
             end
 
+            // commit immediately
+            if (io_rob_id_from_ls != `INVALID_ROB && busy[io_rob_id_from_ls - 1]) is_io_inst[io_rob_id_from_ls - 1] <= `TRUE;
+
             // add
             if (enable_sign_from_cmd) begin
                 busy[tail] <= `TRUE;
@@ -166,6 +171,7 @@ module ROB(
                 jump_target_pc[tail] <= `NULL;
                 rollback_pc[tail] <= rollback_pc_from_cmd;
                 ready[tail] <= `FALSE;
+                is_io_inst[tail] <= `FALSE;
                 is_jump_inst[tail] <= is_jump_inst_from_cmd;
                 is_store_inst[tail] <= is_store_inst_from_cmd;
                 jump_sign[tail] <= `FALSE;

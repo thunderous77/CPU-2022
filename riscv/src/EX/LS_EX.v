@@ -1,4 +1,4 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+`include "defines.v"
 
 // `include "riscv\src\defines.v"
 
@@ -39,6 +39,12 @@ module LS_EX (
     assign full_sign_to_ls = (status != STATUS_IDLE || enable_sign_from_ls);
     assign rob_id = rob_id_from_ls;
 
+    // debug
+    // integer outfile;
+    // initial begin
+    //     outfile = $fopen("ls_ex.out");
+    // end
+
     always @(posedge clk) begin
         if (rst) begin
             enable_sign_to_memctrl <= `FALSE;
@@ -53,14 +59,17 @@ module LS_EX (
                 if (rollback_sign_from_rob && status != STATUS_STORE) status = STATUS_IDLE;
                 else begin
                     if (finish_sign_from_memctrl) begin
-                        valid_sign <= `TRUE;
-                        case (status)
-                            STATUS_LB: data <= {{25{load_data_from_memctrl[7]}},load_data_from_memctrl[6:0]};
-                            STATUS_LH: data <= {{17{load_data_from_memctrl[15]}},load_data_from_memctrl[14:0]};
-                            STATUS_LW: data <= load_data_from_memctrl;
-                            STATUS_LBU: data <= {24'b0,load_data_from_memctrl[7:0]};
-                            STATUS_LHU: data <= {16'b0,load_data_from_memctrl[15:0]};
-                        endcase
+                        if (status != STATUS_STORE) begin
+                            valid_sign <= `TRUE;
+                            case (status)
+                                STATUS_LB: data <= {{25{load_data_from_memctrl[7]}},load_data_from_memctrl[6:0]};
+                                STATUS_LH: data <= {{17{load_data_from_memctrl[15]}},load_data_from_memctrl[14:0]};
+                                STATUS_LW: data <= load_data_from_memctrl;
+                                STATUS_LBU: data <= {24'b0,load_data_from_memctrl[7:0]};
+                                STATUS_LHU: data <= {16'b0,load_data_from_memctrl[15:0]};
+                            endcase
+                            // $fdisplay(outfile, "time = %d, opnum = %d,load_value = %d, mem_addr = %d", $time, opnum_from_ls, load_data_from_memctrl, addr_from_ls);
+                        end
                         status <= STATUS_IDLE;
                     end
                 end
@@ -95,14 +104,14 @@ module LS_EX (
                         `OPNUM_LBU: begin
                             addr_to_memctrl <= addr_from_ls;
                             load_store_sign_to_memctrl <= `RAM_LOAD;
-                            size_to_memctrl <= 1;
+                            size_to_memctrl <= 2;
                             status <= STATUS_LBU;
                         end
 
                         `OPNUM_LHU: begin
                             addr_to_memctrl <= addr_from_ls;
                             load_store_sign_to_memctrl <= `RAM_LOAD;
-                            size_to_memctrl <= 2;
+                            size_to_memctrl <= 4;
                             status <= STATUS_LHU;
                         end
 
@@ -130,6 +139,7 @@ module LS_EX (
                             status <= STATUS_STORE;
                         end
                     endcase
+                    // if (opnum_from_ls>=`OPNUM_SB) $fdisplay(outfile, "opnum = %d, store_value = %d, mem_addr = %d", opnum_from_ls, store_data_from_ls, addr_from_ls);
                 end
             end
         end

@@ -1,8 +1,8 @@
 // riscv top module file
 // modification allowed for debugging purposes
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/Mem/ram.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/cpu.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/hci.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/Mem/ram.v"
+// `include "cpu.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/hci.v"
 
 module riscv_top
 #(

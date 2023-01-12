@@ -3,31 +3,33 @@
 
 // run on wsl
 
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/Mem/MemCtrl.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/Fetcher.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/Predictor.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/Register.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/ROB.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/ID/Commander.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/LS_EX.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/LS.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/RS_EX.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/RS.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/Mem/MemCtrl.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/Fetcher.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/Predictor.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/Register.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/IF/ROB.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/ID/Commander.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/LS_EX.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/LS.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/RS_EX.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/EX/RS.v"
 
 // use for local verilog compiler
 
+// `include "defines.v"
+
 // `include "riscv\src\cpu.v"
-// `include "riscv\src\Mem\MemCtrl.v"
-// `include "riscv\src\IF\Fetcher.v"
-// `include "riscv\src\IF\Predictor.v"
-// `include "riscv\src\IF\Register.v"
-// `include "riscv\src\IF\ROB.v"
-// `include "riscv\src\ID\Commander.v"
-// `include "riscv\src\EX\LS_EX.v"
-// `include "riscv\src\EX\LS.v"
-// `include "riscv\src\EX\RS_EX.v"
-// `include "riscv\src\EX\RS.v"
+//`include "Mem/MemCtrl.v"
+//`include "IF/Fetcher.v"
+//`include "IF/Predictor.v"
+//`include "IF/Register.v"
+//`include "IF/ROB.v"
+//`include "ID/Commander.v"
+//`include "EX/LS_EX.v"
+//`include "EX/LS.v"
+//`include "EX/RS_EX.v"
+//`include "EX/RS.v"
 
 module cpu(
     input wire clk_in,            // system clock signal
@@ -43,7 +45,6 @@ module cpu(
 
     output wire[31:0] dbgreg_dout        // cpu register output (debugging demo)
 );
-
     // implementation goes here
 
     // Specifications:
@@ -119,9 +120,8 @@ module cpu(
     wire [`ROB_ID_TYPE] rob_id_from_rob_to_cmd;
 
     // ROB & LS
-    wire valid_sign_from_ls_to_rob;
-    wire [`ROB_ID_TYPE] rob_id_from_ls_to_rob;
-    wire [`DATA_TYPE] data_from_ls_to_rob;
+    wire [`ROB_ID_TYPE] head_io_rob_id_from_rob_to_ls;
+    wire [`ROB_ID_TYPE] io_rob_id_from_ls_to_rob;
     wire [`ROB_ID_TYPE] commit_rob_id_from_rob_to_ls;
 
     // Commander & Register
@@ -146,7 +146,7 @@ module cpu(
     wire [`DATA_TYPE] imm_from_cmd_to_rs;
     wire [`ROB_ID_TYPE] rob_id_from_cmd_to_rs;
 
-    // Commander & LSB
+    // Commander & LS
     wire enable_sign_from_cmd_to_ls;
     wire [`OPNUM_TYPE] opnum_from_cmd_to_ls;
     wire [`DATA_TYPE] V1_from_cmd_to_ls;
@@ -193,6 +193,7 @@ module cpu(
         .clk(clk_in),
         .rst(rst_in),
         .rdy(rdy_in),
+        .uart_full_sign_from_ram(io_buffer_full),
         .data_from_ram(mem_din),
         .data_to_ram(mem_dout),
         .addr_to_ram(mem_a),
@@ -238,6 +239,8 @@ module cpu(
         .jump_sign_to_pdt(jump_sign_from_rob_to_pdt),
         .jump_target_pc_to_pdt(jump_target_pc_from_rob_to_pdt),
         .commit_rob_id_to_ls(commit_rob_id_from_rob_to_ls),
+        .io_rob_id_from_ls(io_rob_id_from_ls_to_rob),
+        .head_io_rob_id_to_ls(head_io_rob_id_from_rob_to_ls),
         .rob_id_from_rs_ex(rob_id_from_rs_ex),
         .valid_sign_from_rs_ex(valid_sign_from_rs_ex),
         .data_from_rs_ex(data_from_rs_ex),
@@ -420,6 +423,8 @@ module cpu(
         .rollback_sign_from_rob(rollback_sign_from_rob),
         .commit_sign_from_rob(commit_sign_from_rob),
         .commit_rob_id_from_rob(commit_rob_id_from_rob_to_ls),
+        .head_io_rob_id_from_rob(head_io_rob_id_from_rob_to_ls),
+        .io_rob_id_to_rob(io_rob_id_from_ls_to_rob),
         .rob_id_from_rs_ex(rob_id_from_rs_ex),
         .data_from_rs_ex(data_from_rs_ex),
         .valid_sign_from_rs_ex(valid_sign_from_rs_ex),

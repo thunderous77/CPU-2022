@@ -56,3 +56,9 @@ by thunderous
 ![img](https://img-blog.csdnimg.cn/20210514222917648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4OTE1MzU0,size_16,color_FFFFFF,t_70)
 
 [RISC-V指令集](https://blog.csdn.net/qq_38915354/article/details/115696721)
+
+## Register
+
+* 当 ROB 提交寄存器与 rd 对应寄存器相同时，数据是 invalid 的，但是不一定不能用。特殊情况如下：
+
+  > rs1 = rd = rob 时，例如指令 X 对寄存器 A 执行加 1，同时 ROB commit 的指令 Y 也是修改寄存器 A，此时如果询问 Q1 应返回 INVALID_ROB，因为实际上指令 X 的初值已经修改好了

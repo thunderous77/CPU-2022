@@ -25,9 +25,9 @@
 *  (serial) port.
 ***************************************************************************************************/
 
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart_baud_clk.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart_rx.v"
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart_tx.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart_baud_clk.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart_rx.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/common/uart/uart_tx.v"
 
 
 module uart

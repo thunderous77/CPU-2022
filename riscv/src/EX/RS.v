@@ -1,4 +1,4 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+`include "../defines.v"
 
 // `include "riscv\src\defines.v"
 
@@ -61,10 +61,6 @@ module RS (
     wire [`ROB_ID_TYPE] real_Q2 = (valid_sign_from_rs_ex && Q2_from_cmd == rob_id_from_rs_ex) ? `INVALID_ROB : ((valid_sign_from_ls_ex && Q2_from_cmd == rob_id_from_ls_ex) ? `INVALID_ROB : Q2_from_cmd);
     wire [`DATA_TYPE] real_V1 = (valid_sign_from_rs_ex && Q1_from_cmd == rob_id_from_rs_ex) ? data_from_rs_ex : ((valid_sign_from_ls_ex && Q1_from_cmd == rob_id_from_ls_ex) ? data_from_ls_ex : V1_from_cmd);
     wire [`DATA_TYPE] real_V2 = (valid_sign_from_rs_ex && Q2_from_cmd == rob_id_from_rs_ex) ? data_from_rs_ex : ((valid_sign_from_ls_ex && Q2_from_cmd == rob_id_from_ls_ex) ? data_from_ls_ex : V2_from_cmd);
-
-    // debug
-    integer q1 [`RS_SIZE-1:0];
-    wire Q1_0 [`ROB_ID_TYPE];
 
     assign full_sign_to_if = (free_station == `INVALID_RS);
     assign free_station = ~busy[0] ? 0 : (~busy[1] ? 1 : (~busy[2] ? 2 : (~busy[3] ? 3 :(~busy[4] ? 4 : (~busy[5] ? 5 : (~busy[6] ? 6 : (~busy[7] ? 7 : (~busy[8] ? 8 :

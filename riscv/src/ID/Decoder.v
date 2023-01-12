@@ -1,6 +1,6 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+// `include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
 
-// `include "riscv\src\defines.v"
+`include "defines.v"
 
 module Decoder(
     // from & to cmd

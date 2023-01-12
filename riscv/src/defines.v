@@ -36,6 +36,7 @@
 // Fetcher
 `define INST_SIZE 32'h4
 `define PC_TAG_AND_INDEX_RANGE 31:4
+`define MEM_BLOCK_BIT 32'h16
 
 // Register
 `define ZERO_REG 5'h0

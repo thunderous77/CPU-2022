@@ -1,4 +1,4 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+`include "defines.v"
 
 // `include "riscv\src\defines.v"
 

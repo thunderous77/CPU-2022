@@ -1,4 +1,4 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+`include "../defines.v"
 
 // `include "riscv\src\defines.v"
 
@@ -8,6 +8,7 @@ module MemCtrl(
     input wire rdy,
 
     // from & to ram
+    input wire uart_full_sign_from_ram,
     input wire [`MEMDATA_TYPE] data_from_ram,
     output reg [`MEMDATA_TYPE] data_to_ram,
     output reg [`ADDR_TYPE] addr_to_ram,
@@ -48,11 +49,23 @@ module MemCtrl(
     reg[`ADDR_TYPE] buffered_addr;
     reg[`ADDR_TYPE] buffered_store_data;
 
+    reg uart_write_is_io,uart_write_lock;
+
+    reg enable_shadow_status, enable_shadow_if_is_buffered, enable_shadow_ls_is_buffered;
+
+    wire [`STATUS_TYPE] real_status =(enable_shadow_status) ? IDLE : status;
+    wire real_if_is_buffered = (enable_shadow_if_is_buffered) ? `FALSE : inst_fetch_is_buffered;
+    wire real_ls_is_buffered = (enable_shadow_ls_is_buffered) ? `FALSE : load_store_is_buffered;
+
     always @(*) begin
+        enable_shadow_status = `FALSE;
+        enable_shadow_if_is_buffered = `FALSE;
+        enable_shadow_ls_is_buffered = `FALSE;
+
         if (rollback_sign_from_fch) begin
-            if (status == FETCH || status == LOAD) status <= IDLE;
-            inst_fetch_is_buffered <= `FALSE;
-            if (load_store_is_buffered && buffered_load_store_sign == `RAM_LOAD) load_store_is_buffered <= `FALSE;
+            if (status == FETCH || status == LOAD) enable_shadow_status = `TRUE;
+            enable_shadow_if_is_buffered = `TRUE;
+            if (load_store_is_buffered && buffered_load_store_sign == `RAM_LOAD) enable_shadow_ls_is_buffered = `TRUE;
         end
     end
 
@@ -67,6 +80,8 @@ module MemCtrl(
             load_data_to_ls_ex <= `NULL;
             inst_fetch_is_buffered <= `FALSE;
             load_store_is_buffered <= `FALSE;
+            uart_write_is_io <= `FALSE;
+            uart_write_lock <= `FALSE;
         end
         else if (!rdy) begin
         end
@@ -76,8 +91,12 @@ module MemCtrl(
             addr_to_ram <= `NULL;
             load_store_sign_to_ram <= `RAM_LOAD;
 
+            if (enable_shadow_status) status <= IDLE;
+            if (enable_shadow_if_is_buffered) inst_fetch_is_buffered <= `FALSE;
+            if (enable_shadow_ls_is_buffered) load_store_is_buffered <= `FALSE;
+
             // conflict -> buffer
-            if (status != IDLE || (enable_sign_from_fch && enable_sign_from_ls_ex)) begin
+            if (real_status != IDLE || (enable_sign_from_fch && enable_sign_from_ls_ex)) begin
                 // instruction fetch is of lower priority than load/store
                 if (enable_sign_from_fch == `FALSE && enable_sign_from_ls_ex == `TRUE) begin
                     load_store_is_buffered <= `TRUE;
@@ -92,7 +111,7 @@ module MemCtrl(
                 end
             end
 
-            if (status == IDLE) begin
+            if (real_status == IDLE) begin
                 // initialize
                 finish_sign_to_fch <= `FALSE;
                 finish_sign_to_ls_ex <= `FALSE;
@@ -108,6 +127,8 @@ module MemCtrl(
                         addr_to_ram <= `NULL;
                         load_store_sign_to_ram <= `RAM_LOAD;
                         status <= STORE;
+                        uart_write_is_io <= (addr_from_ls_ex == `RAM_IO_ADDR);
+                        uart_write_lock <= `FALSE;
                     end
                     else if (load_store_sign_from_ls_ex == `RAM_LOAD) begin
                         ram_current_access <= `NULL;
@@ -118,11 +139,11 @@ module MemCtrl(
                         status <= LOAD;
                     end
                 end
-                else if (load_store_is_buffered) begin
+                else if (real_ls_is_buffered) begin
                     if (buffered_load_store_sign == `RAM_STORE) begin
                         ram_current_access <= `NULL;
                         ram_access_end <= buffered_size;
-                        ram_access_pc <= buffered_pc;
+                        ram_access_pc <= buffered_addr;
                         store_data <= buffered_store_data;
                         addr_to_ram <= `NULL;
                         load_store_sign_to_ram <= buffered_load_store_sign;
@@ -132,7 +153,7 @@ module MemCtrl(
                         ram_current_access <= `NULL;
                         ram_access_end <= buffered_size;
                         ram_access_pc <= buffered_addr + `RAM_PC_BIT;
-                        addr_to_ram <= `NULL;
+                        addr_to_ram <= buffered_addr;
                         load_store_sign_to_ram <= buffered_load_store_sign;
                         status <= LOAD;
                     end
@@ -146,7 +167,7 @@ module MemCtrl(
                     load_store_sign_to_ram <= `RAM_LOAD;
                     status <= FETCH;
                 end
-                else if (inst_fetch_is_buffered) begin
+                else if (real_if_is_buffered) begin
                     ram_current_access <= `NULL;
                     ram_access_end <= `ICACHE_INST_BLOCK_SIZE / 8;
                     addr_to_ram <= buffered_pc;
@@ -156,8 +177,8 @@ module MemCtrl(
                     inst_fetch_is_buffered <= `FALSE;
                 end 
             end
-            else begin
-                if (status == FETCH) begin
+            else if (!(uart_full_sign_from_ram && real_status == STORE)) begin
+                if (real_status == FETCH) begin
                     // fetch
                     addr_to_ram <= ram_access_pc;
                     load_store_sign_to_ram <= `RAM_LOAD;
@@ -192,15 +213,15 @@ module MemCtrl(
                         ram_current_access <= ram_current_access+`RAM_PC_BIT;
                     end
                 end
-                else if (status == LOAD) begin
+                else if (real_status == LOAD) begin
                     // load
                     addr_to_ram <= ram_access_pc;
                     load_store_sign_to_ram <= `RAM_LOAD;
                     case (ram_current_access)
-                        32'd1: load_data_to_ls_ex[7:0] <= data_from_ram;
-                        32'd2: load_data_to_ls_ex[15:8] <= data_from_ram;
-                        32'd3: load_data_to_ls_ex[23:16] <= data_from_ram;
-                        32'd4: load_data_to_ls_ex[31:24] <= data_from_ram;
+                        32'h1: load_data_to_ls_ex[7:0] <= data_from_ram;
+                        32'h2: load_data_to_ls_ex[15:8] <= data_from_ram;
+                        32'h3: load_data_to_ls_ex[23:16] <= data_from_ram;
+                        32'h4: load_data_to_ls_ex[31:24] <= data_from_ram;
                     endcase
                     ram_access_pc <= (ram_current_access >= ram_access_end-`RAM_PC_BIT) ? `NULL :ram_access_pc+`RAM_PC_BIT;
                     // stop
@@ -208,36 +229,38 @@ module MemCtrl(
                         finish_sign_to_ls_ex <= `TRUE;
                         status <= IDLE;
                         ram_access_pc <= `NULL;
-                        ram_current_access <= `NULL;
+                        ram_current_access <= 0;
                     end
                     else begin
                         ram_current_access <= ram_current_access+`RAM_PC_BIT;
                     end
                 end
-                else if (status == STORE) begin
-                    // store
-                    addr_to_ram <= ram_access_pc;
-                    load_store_sign_to_ram <= `RAM_STORE;
-                    // exit when ram_current_access == size -> wait the last data to store in ram
-                    case (ram_current_access)
-                        32'd0: data_to_ram <= store_data_from_ls_ex[7:0];
-                        32'd1: data_to_ram <= store_data_from_ls_ex[15:8];
-                        32'd2: data_to_ram <= store_data_from_ls_ex[23:16];
-                        32'd3: data_to_ram <= store_data_from_ls_ex[31:24];
-                    endcase
-                    ram_access_pc <= (ram_current_access >= ram_access_end-`RAM_PC_BIT) ? `NULL :ram_access_pc+`RAM_PC_BIT;
-                    // stop
-                    if (ram_current_access == ram_access_end) begin
-                        finish_sign_to_ls_ex <= `TRUE;
-                        status <= IDLE;
-                        ram_access_pc <= `NULL;
-                        ram_current_access <= `NULL;
-                        addr_to_ram <= `NULL;
-                        load_store_sign_to_ram <= `RAM_LOAD;
+                else if (real_status == STORE) begin
+                    if (~uart_write_is_io || ~uart_write_lock) begin
+                        uart_write_lock <= `TRUE;
+                        // store
+                        addr_to_ram <= ram_access_pc;
+                        load_store_sign_to_ram <= `RAM_STORE;
+                        // exit when ram_current_access == size -> wait the last data to store in ram
+                        case (ram_current_access)
+                            32'h0: data_to_ram <= store_data_from_ls_ex[7:0];
+                            32'h1: data_to_ram <= store_data_from_ls_ex[15:8];
+                            32'h2: data_to_ram <= store_data_from_ls_ex[23:16];
+                            32'h3: data_to_ram <= store_data_from_ls_ex[31:24];
+                        endcase
+                        ram_access_pc <= (ram_current_access >= ram_access_end-`RAM_PC_BIT) ? `NULL :ram_access_pc+`RAM_PC_BIT;
+                        // stop
+                        if (ram_current_access == ram_access_end) begin
+                            finish_sign_to_ls_ex <= `TRUE;
+                            status <= IDLE;
+                            ram_access_pc <= `NULL;
+                            ram_current_access <= `NULL;
+                            addr_to_ram <= `NULL;
+                            load_store_sign_to_ram <= `RAM_LOAD;
+                        end
+                        else ram_current_access <= ram_current_access+`RAM_PC_BIT;
                     end
-                    else begin
-                        ram_current_access <= ram_current_access+`RAM_PC_BIT;
-                    end
+                    else uart_write_lock <= `FALSE;
                 end
             end
         end

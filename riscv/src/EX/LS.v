@@ -1,4 +1,4 @@
-`include "/mnt/d/Sam/program/CPU-2022/riscv/src/defines.v"
+`include "../defines.v"
 
 // `include "riscv\src\defines.v"
 
@@ -21,6 +21,8 @@ module LS (
     input wire rollback_sign_from_rob,
     input wire commit_sign_from_rob,
     input wire [`ROB_ID_TYPE] commit_rob_id_from_rob,
+    input wire [`ROB_ID_TYPE] head_io_rob_id_from_rob,
+    output wire [`ROB_ID_TYPE] io_rob_id_to_rob,
 
     // from RS_EX
     input wire [`ROB_ID_TYPE] rob_id_from_rs_ex,
@@ -42,7 +44,7 @@ module LS (
     output wire full_sign_to_fch
 );
 
-    reg [`LS_ID_TYPE] head, tail;
+    reg [`LS_ID_TYPE] head, tail,store_tail;
     wire [`LS_ID_TYPE] next_head = (head == `LS_SIZE - 1) ? 0 : head + 1;
     wire [`LS_ID_TYPE] next_tail = (tail == `LS_SIZE - 1) ? 0 : tail + 1;
 
@@ -68,7 +70,7 @@ module LS (
     wire insert_cnt = (enable_sign_from_cmd ? 1 : 0);
     wire head_ready = busy[head] && full_sign_from_ls_ex == `FALSE && Q1[head] == `INVALID_ROB && Q2[head] == `INVALID_ROB;
     wire head_is_load = opnum[head] <= `OPNUM_LHU;
-    wire commit_cnt = (head_ready && commit[head]) ? 1 : 0;
+    wire commit_cnt = (head_ready && ((opnum[head] <= `OPNUM_LHU && (head_addr != `RAM_IO_ADDR || head_io_rob_id_from_rob == rob_id[head])) || commit[head])) ? 1 : 0;
 
     // calculate
     wire [`ROB_ID_TYPE] real_Q1 = (valid_sign_from_rs_ex && Q1_from_cmd == rob_id_from_rs_ex) ? `INVALID_ROB : ((valid_sign_from_ls_ex && Q1_from_cmd == rob_id_from_ls_ex) ? `INVALID_ROB : Q1_from_cmd);
@@ -78,51 +80,54 @@ module LS (
 
     assign full_sign_to_fch = (ls_element_cnt >= `LS_SIZE - 5);
 
-    always @(*) begin
-        if (rollback_sign_from_rob) begin
-            rollback_tail = head;
-            for (tmp = head; tmp != tail; tmp = next_tmp) begin
-                if (opnum[tmp] > `OPNUM_LHU && commit[tmp]) begin
-                    // copy the store instruction
-                    busy[rollback_tail] = busy[tmp];
-                    commit[rollback_tail] = commit[tmp];
-                    opnum[rollback_tail] = opnum[tmp];
-                    Q1[rollback_tail] = Q1[tmp];
-                    Q2[rollback_tail] = Q2[tmp];
-                    V1[rollback_tail] = V1[tmp];
-                    V2[rollback_tail] = V2[tmp];
-                    imm[rollback_tail] = imm[tmp];
-                    rob_id[rollback_tail] = rob_id[tmp];
+    assign io_rob_id_to_rob = (head_addr == `RAM_IO_ADDR) ? rob_id[head] : `INVALID_ROB;
 
-                    // move the rollback_tail
-                    rollback_tail = next_tail;
-                end 
-            end
+    // always @(*) begin
+    //     if (rollback_sign_from_rob) begin
+    //         rollback_tail = head;
+    //         for (tmp = head; tmp != tail; tmp = next_tmp) begin
+    //             if (opnum[tmp] > `OPNUM_LHU && commit[tmp]) begin
+    //                 // copy the store instruction
+    //                 busy[rollback_tail] = busy[tmp];
+    //                 commit[rollback_tail] = commit[tmp];
+    //                 opnum[rollback_tail] = opnum[tmp];
+    //                 Q1[rollback_tail] = Q1[tmp];
+    //                 Q2[rollback_tail] = Q2[tmp];
+    //                 V1[rollback_tail] = V1[tmp];
+    //                 V2[rollback_tail] = V2[tmp];
+    //                 imm[rollback_tail] = imm[tmp];
+    //                 rob_id[rollback_tail] = rob_id[tmp];
 
-            for (tmp = rollback_tail; tmp != tail; tmp = next_tmp) begin
-                // clear
-                busy[tmp] = `FALSE;
-                commit[tmp] = `FALSE;
-                opnum[tmp] = `OPNUM_NULL;
-                imm[tmp] = `NULL;
-                V1[tmp] = `NULL;
-                V2[tmp] = `NULL;
-                Q1[tmp] = `INVALID_ROB;
-                Q2[tmp] = `INVALID_ROB;
-                rob_id[tmp] = `INVALID_ROB;
-            end
+    //                 // move the rollback_tail
+    //                 rollback_tail = next_tail;
+    //             end 
+    //         end
+
+    //         for (tmp = rollback_tail; tmp != tail; tmp = next_tmp) begin
+    //             // clear
+    //             busy[tmp] = `FALSE;
+    //             commit[tmp] = `FALSE;
+    //             opnum[tmp] = `OPNUM_NULL;
+    //             imm[tmp] = `NULL;
+    //             V1[tmp] = `NULL;
+    //             V2[tmp] = `NULL;
+    //             Q1[tmp] = `INVALID_ROB;
+    //             Q2[tmp] = `INVALID_ROB;
+    //             rob_id[tmp] = `INVALID_ROB;
+    //         end
             
-            // modify the tail & ls_element_cnt
-            tail = rollback_tail;
-            ls_element_cnt = ((tail >= head) ? tail - head + 1 : `LS_SIZE + tail - head + 1);
-        end    
-    end
+    //         // modify the tail & ls_element_cnt
+    //         tail = rollback_tail;
+    //         ls_element_cnt = ((tail >= head) ? tail - head + 1 : `LS_SIZE + tail - head + 1);
+    //     end    
+    // end
 
     always @(posedge clk) begin
-        if (rst) begin
+        if (rst || (rollback_sign_from_rob && store_tail == `INVALID_LS)) begin
             ls_element_cnt <= `NULL;
             head <= `ZERO_LS;
             tail <= `ZERO_LS;
+            store_tail <= `INVALID_LS;
             for (integer i = 0; i < `LS_SIZE; i = i + 1) begin
                 busy[i] <= `FALSE;
                 commit[i] <= `FALSE;
@@ -138,6 +143,13 @@ module LS (
         end
         else if (~rdy) begin
         end
+        else if (rollback_sign_from_rob) begin
+            tail <= (store_tail == `LS_SIZE - 1) ? 0 : store_tail + 1;
+            ls_element_cnt <= ((store_tail > head) ? store_tail - head + 1 : `LS_SIZE - head + store_tail + 1);
+            for (integer i = 0; i < `LS_SIZE; i = i + 1) begin
+                if (~commit[i] || opnum[i] <= `OPNUM_LHU) busy[i] <= `FALSE;
+            end
+        end
         else begin
             enable_sign_to_ls_ex <= `FALSE;
             ls_element_cnt <= ls_element_cnt - commit_cnt + insert_cnt;
@@ -145,7 +157,7 @@ module LS (
             // $display(opnum[head]);
             if (head_ready) begin
                 if (opnum[head] <= `OPNUM_LHU) begin
-                    if (head_addr != `RAM_IO_ADDR || commit[head]) begin
+                    if (head_addr != `RAM_IO_ADDR || head_io_rob_id_from_rob == rob_id[head]) begin
                         busy[head] <= `FALSE;
                         commit[head] <= `FALSE;
                         rob_id_to_ls_ex <= rob_id[head];
@@ -167,13 +179,17 @@ module LS (
                     addr_to_ls_ex <= head_addr;
                     head <= next_head;
                     store_data_to_ls_ex <= V2[head];
+                    if (store_tail == head) store_tail <= `INVALID_LS;
                 end
             end
 
             // update commit sign
             if (commit_sign_from_rob) begin
                 for (integer i = 0; i < `LS_SIZE; i = i + 1) begin
-                    if (busy[i] && rob_id[i] == commit_rob_id_from_rob && !commit[i]) commit[i] <= `TRUE;
+                    if (busy[i] && rob_id[i] == commit_rob_id_from_rob && !commit[i]) begin
+                        commit[i] <= `TRUE;
+                        if (opnum[i] >= `OPNUM_SB) store_tail <= i;
+                    end
                 end
             end 
             
