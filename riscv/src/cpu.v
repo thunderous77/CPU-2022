@@ -19,17 +19,16 @@
 
 // `include "defines.v"
 
-// `include "riscv\src\cpu.v"
-//`include "Mem/MemCtrl.v"
-//`include "IF/Fetcher.v"
-//`include "IF/Predictor.v"
-//`include "IF/Register.v"
-//`include "IF/ROB.v"
-//`include "ID/Commander.v"
-//`include "EX/LS_EX.v"
-//`include "EX/LS.v"
-//`include "EX/RS_EX.v"
-//`include "EX/RS.v"
+`include "Mem/MemCtrl.v"
+`include "IF/Fetcher.v"
+`include "IF/Predictor.v"
+`include "IF/Register.v"
+`include "IF/ROB.v"
+`include "ID/Commander.v"
+`include "EX/LS_EX.v"
+`include "EX/LS.v"
+`include "EX/RS_EX.v"
+`include "EX/RS.v"
 
 module cpu(
     input wire clk_in,            // system clock signal
